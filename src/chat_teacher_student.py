@@ -1,26 +1,41 @@
 #!/usr/bin/env python3
+"""
+Teacher-Student Chat Simulation (extended)
+
+Key changes from your original version:
+- Explicit confirmation (in comments) that the student responds to the teacher.
+- Three feedback styles selectable via --feedback_type.
+- Cleaning is optional/configurable via --cleaning: none | light | strict.
+- Output filename automatically concatenates key parameters.
+- Uses max_new_tokens (safer than max_length arithmetic).
+- More robust banned-token handling when strict cleaning is requested.
+"""
+
 import argparse
 import re
 import torch
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+# --------------------------
+# Loaders
+# --------------------------
 
-# -------- Loaders --------
-
-def load_teacher_model():
-    tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
+def load_teacher_model(name="meta-llama/Llama-3.1-8B-Instruct"):
+    tokenizer = AutoTokenizer.from_pretrained(name)
     model = AutoModelForCausalLM.from_pretrained(
-        "meta-llama/Llama-3.1-8B-Instruct",
+        name,
         torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
         device_map="auto" if torch.cuda.is_available() else None
     )
     model.eval()
-    return tokenizer, model, model.device if hasattr(model, "device") else torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = getattr(model, "device", torch.device("cuda" if torch.cuda.is_available() else "cpu"))
+    return tokenizer, model, device
 
 
 def load_student_model(model_name_or_path):
     tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
+    # For student we keep it simple; for very large students you may want device_map="auto"
     model = AutoModelForCausalLM.from_pretrained(model_name_or_path)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -28,135 +43,230 @@ def load_student_model(model_name_or_path):
     return tokenizer, model, device
 
 
-# -------- Generation helpers --------
-
 # --------------------------
-# Cleaning utilities
+# Cleaning utilities (configurable)
 # --------------------------
-def clean_response(response: str) -> str:
-    lines = response.splitlines()
-    filtered_lines = [line for line in lines if "[Teacher]" not in line and "[Student]" not in line]
-    return " ".join(filtered_lines).strip()
 
+def clean_none(response: str) -> str:
+    """No cleaning; return raw response."""
+    return response
 
-def get_banned_tokens(tokenizer):
-    banned_strings = [
-        ".", ",", "!", "?", ";", ":", "'", "\"", "-", "–", "—", "(", ")",
-        "[", "]", "{", "}", "…", "\n", "\t", "\r", "/", "\\", "*", "_",
-        "[Teacher]", "[Student]"
-    ]
-    banned_ids = []
-    for s in banned_strings:
-        try:
-            token_ids = tokenizer(s, add_special_tokens=False)["input_ids"]
-            banned_ids.extend(token_ids)
-        except Exception:
-            # ignore tokens that tokenizer cannot encode
-            continue
-    return [[tid] for tid in set(banned_ids)]
+def clean_light(response: str) -> str:
+    """Light cleaning: remove role tokens but keep punctuation and newlines; collapse extra whitespace."""
+    response = re.sub(r"\[Teacher\]|\[Student\]", " ", response)
+    response = re.sub(r"\s+", " ", response)
+    return response.strip()
 
-
-def clean_response_final(response: str) -> str:
-    # remove role tokens, punctuation, keep alphanumerics and spaces
+def clean_strict(response: str) -> str:
+    """Strict cleaning: remove role tokens, punctuation; return only alphanumerics and spaces."""
     response = re.sub(r"\[Teacher\]|\[Student\]", " ", response)
     response = re.sub(r"[^\w\s]", "", response)
     response = re.sub(r"\s+", " ", response)
     return response.strip()
 
+CLEANING_FUNCS = {
+    "none": clean_none,
+    "light": clean_light,
+    "strict": clean_strict
+}
+
+def get_banned_tokens_for_cleaning(tokenizer, cleaning_level="none"):
+    """
+    Return bad_words_ids for huggingface generate depending on cleaning_level.
+    Hugging Face expects a list of token-id lists, e.g. [[id1], [id2], ...]
+    We'll ban role tokens when cleaning is 'light' or 'strict'; for 'strict'
+    the calling code will choose to ban more punctuation if desired.
+    """
+    banned_strings = ["[Teacher]", "[Student]"]
+    if cleaning_level == "strict":
+        # minimal punctuation ban (you can expand this list but be cautious)
+        banned_strings += ["\n", "\r"]
+    banned_ids = []
+    for s in banned_strings:
+        try:
+            ids = tokenizer.encode(s, add_special_tokens=False)
+            if ids:
+                banned_ids.append(ids)
+        except Exception:
+            continue
+    return banned_ids  # already a list of lists when multi-token strings are encoded as multi-ids
+
 
 # --------------------------
-# Generation functions
+# Teacher feedback templates
 # --------------------------
-def generate_teacher_response(prompt, tokenizer, model, device, max_length=50):
+
+FEEDBACK_TEMPLATES = {
+    "affirmative": lambda teacher_uttr, student_uttr: (
+        # teacher says a brief encouraging phrase that refers back
+        f"{teacher_uttr}\n\n[Teacher]: Good job noticing the {student_uttr.split()[:3] and ' '.join(student_uttr.split()[:3])}. Very nice!"
+    ),
+    "explicit_correction": lambda teacher_uttr, student_uttr: (
+        # teacher offers a short correction/rephrase
+        f"{teacher_uttr}\n\n[Teacher]: Actually, a clearer way to say that is: \"{student_uttr}\". Try saying it like that."
+    ),
+    "socratic": lambda teacher_uttr, student_uttr: (
+        # teacher asks a short guiding question
+        f"{teacher_uttr}\n\n[Teacher]: That's interesting. Can you tell me what the {('word' if student_uttr else 'thing')} does?"
+    )
+}
+
+# --------------------------
+# Generation helpers
+# --------------------------
+
+def generate_response(prompt, tokenizer, model, device, max_new_tokens=100,
+                      do_sample=True, top_p=0.95, top_k=50, temperature=0.8,
+                      repetition_penalty=None, bad_words_ids=None):
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
-    output = model.generate(
-        **inputs,
-        max_length=inputs["input_ids"].shape[1] + max_length,
-        do_sample=True,
-        top_p=0.95,
-        top_k=50,
-        temperature=0.8,
+    # Use max_new_tokens for clarity
+    gen_kwargs = dict(
+        input_ids=inputs["input_ids"],
+        attention_mask=inputs.get("attention_mask", None),
+        max_new_tokens=max_new_tokens,
+        do_sample=do_sample,
+        top_p=top_p,
+        top_k=top_k,
+        temperature=temperature,
         pad_token_id=tokenizer.eos_token_id
     )
-    response = tokenizer.decode(output[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
-    return clean_response(response)
+    if repetition_penalty is not None:
+        gen_kwargs["repetition_penalty"] = repetition_penalty
+    if bad_words_ids:
+        gen_kwargs["bad_words_ids"] = bad_words_ids
 
+    output = model.generate(**gen_kwargs)
+    # decode only the newly generated portion
+    generated_tokens = output[0][inputs["input_ids"].shape[1]:]
+    response = tokenizer.decode(generated_tokens, skip_special_tokens=True)
+    return response
 
-def generate_student_response(prompt, tokenizer, model, device, max_length=50, max_retries=3):
-    bad_words_ids = get_banned_tokens(tokenizer)
+def generate_teacher_response(prompt, tokenizer, model, device, cleaning_func, max_new_tokens=100):
+    raw = generate_response(
+        prompt, tokenizer, model, device,
+        max_new_tokens=max_new_tokens,
+        do_sample=True, top_p=0.95, top_k=50, temperature=0.8
+    )
+    return cleaning_func(raw)
+
+def generate_student_response(prompt, tokenizer, model, device, cleaning_func,
+                              max_new_tokens=100, max_retries=3, cleaning_level="none"):
+    # prepare potential bad_words_ids depending on cleaning level
+    bad_words_ids = get_banned_tokens_for_cleaning(tokenizer, cleaning_level=cleaning_level) if cleaning_level != "none" else None
 
     for attempt in range(max_retries):
-        inputs = tokenizer(prompt, return_tensors="pt").to(device)
-        output = model.generate(
-            **inputs,
-            max_length=inputs["input_ids"].shape[1] + max_length,
-            do_sample=True,
-            top_p=0.95,
-            top_k=50,
-            temperature=0.8,
+        raw = generate_response(
+            prompt, tokenizer, model, device,
+            max_new_tokens=max_new_tokens,
+            do_sample=True, top_p=0.95, top_k=50, temperature=0.8,
             repetition_penalty=1.2,
-            pad_token_id=tokenizer.eos_token_id,
             bad_words_ids=bad_words_ids
         )
+        cleaned = cleaning_func(raw)
 
-        response = tokenizer.decode(
-            output[0][inputs["input_ids"].shape[1]:],
-            skip_special_tokens=True
-        )
-        response = clean_response_final(response)
-
-        if any(c.isalnum() for c in response):
-            return response
-
+        # accept if it has any alphanumeric characters
+        if any(c.isalnum() for c in cleaned):
+            return cleaned
+    # fallback empty string if none succeeded
     return ""
 
-# -------- Chat loop --------
+# --------------------------
+# Chat loop
+# --------------------------
 
 def chat_teacher_student(teacher_tokenizer, teacher_model, teacher_device,
                          student_tokenizer, student_model, student_device,
-                         meta_prompt, num_turns=5):
-    transcript_lines = []
+                         meta_prompt, num_turns=5, feedback_type="affirmative",
+                         cleaning_level="light", max_new_tokens=100):
+    """
+    Run a teacher-student dialogue.
 
-    teacher_reply = generate_teacher_response(meta_prompt, teacher_tokenizer, teacher_model, teacher_device)
+    CONFIRMATION: the student is *conditioned on the teacher-generated dialogue*
+    (dialogue string is passed into the student model's prompt) — so the student is
+    responding to the teacher in each turn.
+
+    feedback_type selects how the teacher phrases feedback after each student reply.
+    cleaning_level controls the postprocessing applied to generated text.
+    """
+    transcript_lines = []
+    cleaning_func = CLEANING_FUNCS.get(cleaning_level, clean_light)
+
+    # Teacher creates the first utterance from meta_prompt (teacher initiating)
+    teacher_reply = generate_teacher_response(meta_prompt, teacher_tokenizer, teacher_model, teacher_device, cleaning_func, max_new_tokens=max_new_tokens)
     transcript_lines.append(f"Teacher: {teacher_reply}")
 
+    # Build dialogue with role markers for conditioning (student will see teacher text)
     dialogue = f"[Teacher]: {teacher_reply}"
 
-    for _ in range(num_turns):
+    for turn in range(num_turns):
+        # Student turn: student conditions on the entire dialogue and is expected to respond.
         student_input = dialogue + "\n[Student]:"
-        student_reply = generate_student_response(student_input, student_tokenizer, student_model, student_device)
+        student_reply = generate_student_response(student_input, student_tokenizer, student_model, student_device,
+                                                  cleaning_func, max_new_tokens=max_new_tokens,
+                                                  max_retries=3, cleaning_level=cleaning_level)
         transcript_lines.append(f"Student: {student_reply}")
         dialogue += f"\n[Student]: {student_reply}"
 
-        teacher_input = dialogue + "\n[Teacher]:"
-        teacher_reply = generate_teacher_response(teacher_input, teacher_tokenizer, teacher_model, teacher_device)
+        # Teacher feedback: teacher conditions on the extended dialogue and issues feedback based on the chosen style.
+        # We'll generate a teacher reply by seeding a prompt that includes the feedback template.
+        # Use a simple template function to inject feedback style; teacher may then expand that.
+        # Note: For clarity we let the teacher model generate text after the template to keep variety.
+        base_feedback_prompt = FEEDBACK_TEMPLATES.get(feedback_type, FEEDBACK_TEMPLATES["affirmative"])(teacher_reply, student_reply)
+        teacher_input = dialogue + "\n" + base_feedback_prompt + "\n[Teacher]:"
+        teacher_reply = generate_teacher_response(teacher_input, teacher_tokenizer, teacher_model, teacher_device,
+                                                 cleaning_func, max_new_tokens=max_new_tokens)
         transcript_lines.append(f"Teacher: {teacher_reply}")
         dialogue += f"\n[Teacher]: {teacher_reply}"
 
     return transcript_lines
 
+# --------------------------
+# Utilities
+# --------------------------
 
-# -------- Main --------
+def sanitize_for_filename(s: str, max_len: int = 80) -> str:
+    """Sanitize model name or other strings to be safe in filenames."""
+    s = s.replace(" ", "_")
+    s = re.sub(r"[/\\:]", "_", s)
+    s = re.sub(r"[^\w\-_\.]", "", s)
+    return s[:max_len]
+
+# --------------------------
+# Main CLI
+# --------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="Teacher-Student Chat Simulation")
+    parser = argparse.ArgumentParser(description="Teacher-Student Chat Simulation (with feedback & cleaning options)")
     parser.add_argument("--student_model", type=str, required=True,
                         help="Hugging Face model name or path for the student model")
     parser.add_argument("--num_turns", type=int, default=2,
-                        help="Number of conversation turns per dialogue")
+                        help="Number of conversation turns per dialogue (teacher+student pairs)")
     parser.add_argument("--num_dialogues", type=int, default=5,
                         help="Number of dialogues to generate")
-    parser.add_argument("--output_file", type=str, default="./dialogues/dialogues.txt",
-                        help="Path to save the dialogues")
+    parser.add_argument("--output_dir", type=str, default="./dialogues",
+                        help="Directory to save the dialogues")
+    parser.add_argument("--feedback_type", type=str, choices=["affirmative", "explicit_correction", "socratic"],
+                        default="affirmative", help="Type of explicit feedback teacher gives the student")
+    parser.add_argument("--cleaning", type=str, choices=["none", "light", "strict"],
+                        default="light", help="Cleaning level applied to generated responses")
+    parser.add_argument("--max_new_tokens", type=int, default=100,
+                        help="Maximum number of newly generated tokens per generation call")
     args = parser.parse_args()
 
-    # Prepare output directory
-    output_path = Path(args.output_file)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    # prepare output path (filename concatenates parameters)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
 
+    student_tag = sanitize_for_filename(args.student_model)
+    filename = f"dialogues_{student_tag}_{args.num_turns}turns_{args.feedback_type}_{args.cleaning}.txt"
+    output_path = output_dir / filename
+
+    print(f"Loading teacher model...")
     teacher_tokenizer, teacher_model, teacher_device = load_teacher_model()
+    print(f"Loading student model '{args.student_model}'...")
     student_tokenizer, student_model, student_device = load_student_model(args.student_model)
 
+    # meta prompt instructs teacher to produce a short child-appropriate opening utterance
     meta_prompt = (
         "You are an expert dialogue assistant initiating a conversation with a child language model "
         "that has the linguistic abilities of a competent learner.\n\n"
@@ -171,20 +281,26 @@ def main():
         "Only output the first utterance to the child model to start the conversation."
     )
 
+    print(f"Generating {args.num_dialogues} dialogues -> {output_path} (feedback={args.feedback_type}, cleaning={args.cleaning})")
+
     with open(output_path, "w", encoding="utf-8") as f:
         for i in range(1, args.num_dialogues + 1):
             transcript = chat_teacher_student(
                 teacher_tokenizer, teacher_model, teacher_device,
                 student_tokenizer, student_model, student_device,
-                meta_prompt, num_turns=args.num_turns
+                meta_prompt,
+                num_turns=args.num_turns,
+                feedback_type=args.feedback_type,
+                cleaning_level=args.cleaning,
+                max_new_tokens=args.max_new_tokens
             )
             f.write(f"Dialogue {i}\n")
             f.write("\n".join(transcript))
-            f.write("\n\n")  # Blank line between dialogues
+            f.write("\n\n")
 
     print(f"✅ Saved {args.num_dialogues} dialogues to {output_path}")
 
-
 if __name__ == "__main__":
     main()
+
 
