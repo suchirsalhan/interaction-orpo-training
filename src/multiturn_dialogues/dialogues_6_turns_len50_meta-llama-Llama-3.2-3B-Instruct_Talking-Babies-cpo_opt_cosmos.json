@@ -1,0 +1,362 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Maybe its the sunset from heavenly forests or the quiet night sky during bedtime stories in the park or the beach from the sands meets dusk\n[Teacher]: and stars? Where do you think this kind of magic happens? Where do you think the universe is calling out to you?  This is a poetic and philosophical reflection on music, nature, and the human experience. I'll do my best to provide a\n[Student]: brief introduction before we start our journey through this fascinating subject\n[Teacher]: .  ### Introduction  Music is an integral part of the human experience, evoking emotions, memories, and connections that transcend time and space. The way we perceive music is deeply tied to our surroundings, influenced by the natural world and the people we share\n[Student]: it with ourselves and often our children Section 1 Exploring Different Types Of Music Traditionalist the name suggests many different types of songs Various genres such as rock banding bells\n[Teacher]: rock hip hop pop classic rock.  Or perhaps you prefer classical music perhaps Mozart or Chopin  Classical music has the ability to move and soothe the mind and heart  while providing a sense of calm and serenity for those who listen Classical music",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Maybe its the sunset from heavenly forests or the quiet night sky during bedtime stories in the park or the beach from the sands meets dusk"
+      },
+      {
+        "turn_index": 3,
+        "text": "brief introduction before we start our journey through this fascinating subject"
+      },
+      {
+        "turn_index": 5,
+        "text": "it with ourselves and often our children Section 1 Exploring Different Types Of Music Traditionalist the name suggests many different types of songs Various genres such as rock banding bells"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and stars? Where do you think this kind of magic happens? Where do you think the universe is calling out to you?  This is a poetic and philosophical reflection on music, nature, and the human experience. I'll do my best to provide a"
+      },
+      {
+        "turn_index": 4,
+        "text": ".  ### Introduction  Music is an integral part of the human experience, evoking emotions, memories, and connections that transcend time and space. The way we perceive music is deeply tied to our surroundings, influenced by the natural world and the people we share"
+      },
+      {
+        "turn_index": 6,
+        "text": "rock hip hop pop classic rock.  Or perhaps you prefer classical music perhaps Mozart or Chopin  Classical music has the ability to move and soothe the mind and heart  while providing a sense of calm and serenity for those who listen Classical music"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: In the bustling city of Binaryville lived two best friends named Alpha and Beta who loved exploring their world\n[Teacher]: and all its wonders. They lived in a cozy little house on a quiet street, surrounded by tall buildings and neon lights that never seemed to dim. One day, Alpha decided to invite Beta to a secret location deep in the heart of the city,\n[Student]: known for its vast open spaces like the Cube Mountains\n[Teacher]: . This place was unlike any other in Binaryville, with its vast grasslands and towering peaks that seemed to touch the sky. As they arrived at the Cube Mountains, they saw that they were not alone. A group of creatures unlike any they had\n[Student]: ever seen before\n[Teacher]: roamed the open spaces. These creatures were tall, slender beings with skin like polished marble and hair that flowed like the wind. They had eyes that shone like the brightest stars, and they seemed to be made of the very essence of the stars",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "In the bustling city of Binaryville lived two best friends named Alpha and Beta who loved exploring their world"
+      },
+      {
+        "turn_index": 3,
+        "text": "known for its vast open spaces like the Cube Mountains"
+      },
+      {
+        "turn_index": 5,
+        "text": "ever seen before"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and all its wonders. They lived in a cozy little house on a quiet street, surrounded by tall buildings and neon lights that never seemed to dim. One day, Alpha decided to invite Beta to a secret location deep in the heart of the city,"
+      },
+      {
+        "turn_index": 4,
+        "text": ". This place was unlike any other in Binaryville, with its vast grasslands and towering peaks that seemed to touch the sky. As they arrived at the Cube Mountains, they saw that they were not alone. A group of creatures unlike any they had"
+      },
+      {
+        "turn_index": 6,
+        "text": "roamed the open spaces. These creatures were tall, slender beings with skin like polished marble and hair that flowed like the wind. They had eyes that shone like the brightest stars, and they seemed to be made of the very essence of the stars"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: Bob Ehhadan 1612 1621 the founder of Jingjiang Maekshan in Hanover and Shenzhang Baoqi 1727 1723 He was an important figure during the\n[Teacher]: 19th century. During the reign of Queen Victoria, in 1833, he was appointed by the emperor as the Governor of the province of Shaanxi. He was also a scholar and a poet. 1740 1750 He\n[Student]: became King of all China at that time but to other countries like China including France Japan and Korea with his permission His brother Huygang Hwai had died for 15 years before being assassinated\n[Teacher]: when he was appointed to take his place at the throne by the Emperor 1757 1754 1760 1765 1769 1772 1778 1784 1789 1792 1796 1799\n[Student]: 1793 1791 1795 This is probably due to the war over land from Africa which lasted more than 20 years and the arrival of Europeans who brought Indians of America back from England were carried on by Spanish conquest and resistance of Spain and Portugal in\n[Teacher]: 1807 The ruler of the province of Xining in Qing dynasty 1769 He was the only one to be appointed by the emperor as the ruler of all of China. He is a historian He wrote a history of China and other countries in",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Bob Ehhadan 1612 1621 the founder of Jingjiang Maekshan in Hanover and Shenzhang Baoqi 1727 1723 He was an important figure during the"
+      },
+      {
+        "turn_index": 3,
+        "text": "became King of all China at that time but to other countries like China including France Japan and Korea with his permission His brother Huygang Hwai had died for 15 years before being assassinated"
+      },
+      {
+        "turn_index": 5,
+        "text": "1793 1791 1795 This is probably due to the war over land from Africa which lasted more than 20 years and the arrival of Europeans who brought Indians of America back from England were carried on by Spanish conquest and resistance of Spain and Portugal in"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "19th century. During the reign of Queen Victoria, in 1833, he was appointed by the emperor as the Governor of the province of Shaanxi. He was also a scholar and a poet. 1740 1750 He"
+      },
+      {
+        "turn_index": 4,
+        "text": "when he was appointed to take his place at the throne by the Emperor 1757 1754 1760 1765 1769 1772 1778 1784 1789 1792 1796 1799"
+      },
+      {
+        "turn_index": 6,
+        "text": "1807 The ruler of the province of Xining in Qing dynasty 1769 He was the only one to be appointed by the emperor as the ruler of all of China. He is a historian He wrote a history of China and other countries in"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: They are the largest animals in Australia\n[Teacher]: and the kangaroo and wallaby are most commonly found in the native forests of New South Wales.  I'm a little bit confused... I thought you were asking me about pets, but then you mentioned kangaroos and wallabies. I'm not\n[Student]: sure exactly how they live there Now lets get down to business here today Theres a lot more than meets the eye on this one You must be thinking now about the two great big cats Not very nice And also very nice\n[Teacher]: You see, I've made up my mind about what we must do next Theres a lot of people who are trying to protect us from the cats, but there are also people who are trying to hunt us Theres a lot of people who are\n[Student]: trying to chase us is trying to hide our own pets as much as possible Thats right So youre saying that if youre trying to find your own friends and make alliances with them by going through lots of different things together so far the cats\n[Teacher]: arent interested in it They cant see what the cats are after So you arent sure how you will find out what the cats are after and you want to know how to get rid of them?   No, I did not have pets. I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "They are the largest animals in Australia"
+      },
+      {
+        "turn_index": 3,
+        "text": "sure exactly how they live there Now lets get down to business here today Theres a lot more than meets the eye on this one You must be thinking now about the two great big cats Not very nice And also very nice"
+      },
+      {
+        "turn_index": 5,
+        "text": "trying to chase us is trying to hide our own pets as much as possible Thats right So youre saying that if youre trying to find your own friends and make alliances with them by going through lots of different things together so far the cats"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and the kangaroo and wallaby are most commonly found in the native forests of New South Wales.  I'm a little bit confused... I thought you were asking me about pets, but then you mentioned kangaroos and wallabies. I'm not"
+      },
+      {
+        "turn_index": 4,
+        "text": "You see, I've made up my mind about what we must do next Theres a lot of people who are trying to protect us from the cats, but there are also people who are trying to hunt us Theres a lot of people who are"
+      },
+      {
+        "turn_index": 6,
+        "text": "arent interested in it They cant see what the cats are after So you arent sure how you will find out what the cats are after and you want to know how to get rid of them?   No, I did not have pets. I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Theyre not children\n[Teacher]: , but they are my babies. I'm curious to know about your experiences with pets. What kind of pets do you have, and what do you like most about them? I have two dogs, a cat, and a parrot, and I\n[Student]: love birds in the woods as they often call birds though when I was little or twice an adult before I was small The dog that used to go on a trip as far as I could remember it was called a kite flyer\n[Teacher]: or something, like that, and when I was much younger than you, I was also very interested in the outdoors and loved to explore the woods. I enjoy the freedom of being able to explore new places and discovering new things, and I think that\n[Student]: s one reason why these animals dont visit me regularly at all because their droppings can be very dangerous for them both the time and the cost of living\n[Teacher]: in this area. When I have visitors I have to take them outside to show them the animals in the forest, and when they visit me I take them outside to show them the dogs and the cat and the parrot and to show them the bird",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Theyre not children"
+      },
+      {
+        "turn_index": 3,
+        "text": "love birds in the woods as they often call birds though when I was little or twice an adult before I was small The dog that used to go on a trip as far as I could remember it was called a kite flyer"
+      },
+      {
+        "turn_index": 5,
+        "text": "s one reason why these animals dont visit me regularly at all because their droppings can be very dangerous for them both the time and the cost of living"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", but they are my babies. I'm curious to know about your experiences with pets. What kind of pets do you have, and what do you like most about them? I have two dogs, a cat, and a parrot, and I"
+      },
+      {
+        "turn_index": 4,
+        "text": "or something, like that, and when I was much younger than you, I was also very interested in the outdoors and loved to explore the woods. I enjoy the freedom of being able to explore new places and discovering new things, and I think that"
+      },
+      {
+        "turn_index": 6,
+        "text": "in this area. When I have visitors I have to take them outside to show them the animals in the forest, and when they visit me I take them outside to show them the dogs and the cat and the parrot and to show them the bird"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: Let me introduce you to some of these yummy meals and learn how they can help us grow strong and healthy by introducing new foods\n[Teacher]: and cooking techniques. While I'm happy to chat about food, I'm a large language model, I don't have personal experiences or preferences. However, I can provide you with some delicious and healthy meal ideas, cooking techniques, and the benefits of\n[Student]: this article because it helps explain why people might think differently when trying different types of cuisines like sampling or frying instead of following traditional recipesAt first glancesaid Barlowefood isnt just one word it\n[Teacher]: is a language, a language of flavors and aromas. When we cook, we use language to express our creativity, to tell stories, and to connect with others. This is why food is such a powerful tool for building relationships and fostering a sense\n[Student]: of community in someone elses life something that doesnt seem quite right like being too skinny or bald So while it may be tempting to try something fresh but safe at home compared to other alternatives used locally there are plenty of\n[Teacher]: recipes and cooking ideas that you can find online that are easy to try and healthy at the same time. For example, the article below goes over some of the benefits of trying new foods and cooking techniques, and shares some easy and healthy recipes to try",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Let me introduce you to some of these yummy meals and learn how they can help us grow strong and healthy by introducing new foods"
+      },
+      {
+        "turn_index": 3,
+        "text": "this article because it helps explain why people might think differently when trying different types of cuisines like sampling or frying instead of following traditional recipesAt first glancesaid Barlowefood isnt just one word it"
+      },
+      {
+        "turn_index": 5,
+        "text": "of community in someone elses life something that doesnt seem quite right like being too skinny or bald So while it may be tempting to try something fresh but safe at home compared to other alternatives used locally there are plenty of"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and cooking techniques. While I'm happy to chat about food, I'm a large language model, I don't have personal experiences or preferences. However, I can provide you with some delicious and healthy meal ideas, cooking techniques, and the benefits of"
+      },
+      {
+        "turn_index": 4,
+        "text": "is a language, a language of flavors and aromas. When we cook, we use language to express our creativity, to tell stories, and to connect with others. This is why food is such a powerful tool for building relationships and fostering a sense"
+      },
+      {
+        "turn_index": 6,
+        "text": "recipes and cooking ideas that you can find online that are easy to try and healthy at the same time. For example, the article below goes over some of the benefits of trying new foods and cooking techniques, and shares some easy and healthy recipes to try"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Bobby and Jills Brewery was no ordinary type\n[Teacher]: of brewery. In their humble beginnings, it was an underground music venue, where many young musicians came to play their music and make connections. It was a place where creativity and innovation thrived, and the music was always lively and energetic. Jill\n[Student]: s first albumBroken Soupbegan in 1997 after being sold as part of one major company called DJs during World War II 1939 She began playing on stage near Little Horn in Brooklyn City Beach while singing\n[Teacher]: her songs. In the 1960s, the world of music was changing rapidly, with the emergence of new genres and artists. In this era, Jill s music was still deeply rooted in her folk music roots, but she was beginning to experiment\n[Student]: with traditional methods such as flutes and saxophones all of which would transform into something far more profound than just music\n[Teacher]: . The experience of playing in a different environment, surrounded by a new crowd, was a truly unique one for Jill, and it sparked a sense of wonder and curiosity that she would carry with her for the rest of her life. The memories of that",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Bobby and Jills Brewery was no ordinary type"
+      },
+      {
+        "turn_index": 3,
+        "text": "s first albumBroken Soupbegan in 1997 after being sold as part of one major company called DJs during World War II 1939 She began playing on stage near Little Horn in Brooklyn City Beach while singing"
+      },
+      {
+        "turn_index": 5,
+        "text": "with traditional methods such as flutes and saxophones all of which would transform into something far more profound than just music"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "of brewery. In their humble beginnings, it was an underground music venue, where many young musicians came to play their music and make connections. It was a place where creativity and innovation thrived, and the music was always lively and energetic. Jill"
+      },
+      {
+        "turn_index": 4,
+        "text": "her songs. In the 1960s, the world of music was changing rapidly, with the emergence of new genres and artists. In this era, Jill s music was still deeply rooted in her folk music roots, but she was beginning to experiment"
+      },
+      {
+        "turn_index": 6,
+        "text": ". The experience of playing in a different environment, surrounded by a new crowd, was a truly unique one for Jill, and it sparked a sense of wonder and curiosity that she would carry with her for the rest of her life. The memories of that"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: These questions have been answered in a way that hasnt been fully explored yet because people havent told their story so much about it but they were introduced when they first started doing something different for themselves using this new perspective of reality rather than fantasy or real\n[Teacher]: or fact. I want to hear your story about how you got into your hobby, and what you enjoy about it. Hobbies are a great way to express ourselves, relieve stress, and have fun. They can also be a source of inspiration and\n[Student]: connection between yourself and others who may not otherwise be able to do anything else if theres an opportunity to learn the art of fiction and figure out more about your own life with your imagination\n[Teacher]: .  When people say \"my hobby is photography\", people think they only take pictures, but there are so many more things that are hidden behind the camera. What you do with your photos is a different story. What you do with your camera is another\n[Student]: part of my experienceThe film itselfshe saidis a very important topic for me here as well and some of these photographs will tell you where to look for themWhats other interesting stuff I find even though Ive never seen\n[Teacher]: it before? This is the stuff that makes photography so fascinating.  The following interview transcript and response to questions were recorded in an informal setting with Sarah and Alex, both passionate about photography, with cameras and lenses always by their side.   Sarah: Hey",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "These questions have been answered in a way that hasnt been fully explored yet because people havent told their story so much about it but they were introduced when they first started doing something different for themselves using this new perspective of reality rather than fantasy or real"
+      },
+      {
+        "turn_index": 3,
+        "text": "connection between yourself and others who may not otherwise be able to do anything else if theres an opportunity to learn the art of fiction and figure out more about your own life with your imagination"
+      },
+      {
+        "turn_index": 5,
+        "text": "part of my experienceThe film itselfshe saidis a very important topic for me here as well and some of these photographs will tell you where to look for themWhats other interesting stuff I find even though Ive never seen"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "or fact. I want to hear your story about how you got into your hobby, and what you enjoy about it. Hobbies are a great way to express ourselves, relieve stress, and have fun. They can also be a source of inspiration and"
+      },
+      {
+        "turn_index": 4,
+        "text": ".  When people say \"my hobby is photography\", people think they only take pictures, but there are so many more things that are hidden behind the camera. What you do with your photos is a different story. What you do with your camera is another"
+      },
+      {
+        "turn_index": 6,
+        "text": "it before? This is the stuff that makes photography so fascinating.  The following interview transcript and response to questions were recorded in an informal setting with Sarah and Alex, both passionate about photography, with cameras and lenses always by their side.   Sarah: Hey"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Bob thought it would be fun to order food\n[Teacher]: from that restaurant. He ordered the burger and fries, which he thought was a great meal. He was wrong. The burger was a disaster, the fries were cold, and the restaurant was dirty. Bob was disappointed and frustrated, not just with the\n[Student]: food but also with his mothers soup cabinet filled with lamb chard\n[Teacher]: and other unappealing ingredients. The soup was not only unappetizing, but also made Bob sick. Bob realized that he needs to be more careful about what he eats and be more specific about what he likes or dislikes. Taking a cue\n[Student]: from my kitchen cabinet for dinner would help him feel better when I decided that he had some advice on how to eat healthier and less miserable foods without having to wait in line again for them before theyre eaten too quicklyI cant believe\n[Teacher]: you're still eating that disgusting food. Just order your own dinner and go, or do what I did and just stop eating altogether. The text starts with a humorous tone, where the main character, Bob, is sharing a story about his bad experience",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Bob thought it would be fun to order food"
+      },
+      {
+        "turn_index": 3,
+        "text": "food but also with his mothers soup cabinet filled with lamb chard"
+      },
+      {
+        "turn_index": 5,
+        "text": "from my kitchen cabinet for dinner would help him feel better when I decided that he had some advice on how to eat healthier and less miserable foods without having to wait in line again for them before theyre eaten too quicklyI cant believe"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "from that restaurant. He ordered the burger and fries, which he thought was a great meal. He was wrong. The burger was a disaster, the fries were cold, and the restaurant was dirty. Bob was disappointed and frustrated, not just with the"
+      },
+      {
+        "turn_index": 4,
+        "text": "and other unappealing ingredients. The soup was not only unappetizing, but also made Bob sick. Bob realized that he needs to be more careful about what he eats and be more specific about what he likes or dislikes. Taking a cue"
+      },
+      {
+        "turn_index": 6,
+        "text": "you're still eating that disgusting food. Just order your own dinner and go, or do what I did and just stop eating altogether. The text starts with a humorous tone, where the main character, Bob, is sharing a story about his bad experience"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_cosmos",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: Alice\n[Teacher]: , a mother of three, shares some of her favorite family traditions and hilarious moments from their holiday celebrations. ## Step 1: Introduction to Alice's Family Traditions Alice, a mother of three, has a warm and loving family. She cher\n[Student]: ishes spending time with them while also remembering how they are celebrated on the same day as their mamma their father Bob loves to play dress up and give hugs during games for their big brother Max\n[Teacher]: . Their big sister Emily enjoys helping to prepare the meals and decorating the house. The entire family, including Alice, loves to get together to enjoy a good time during their celebrations.  ## Step 2: Alice's Favorite Family Traditions Alice shares some\n[Student]: delicious dishes shell cook using cookies\n[Teacher]: and pies for the holidays. Her family's favorite traditions include playing games and going on special outings.  On Christmas Eve, they enjoy a cozy movie night with hot cocoa and cookies.  On Thanksgiving, they spend the day at home playing games and",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Alice"
+      },
+      {
+        "turn_index": 3,
+        "text": "ishes spending time with them while also remembering how they are celebrated on the same day as their mamma their father Bob loves to play dress up and give hugs during games for their big brother Max"
+      },
+      {
+        "turn_index": 5,
+        "text": "delicious dishes shell cook using cookies"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", a mother of three, shares some of her favorite family traditions and hilarious moments from their holiday celebrations. ## Step 1: Introduction to Alice's Family Traditions Alice, a mother of three, has a warm and loving family. She cher"
+      },
+      {
+        "turn_index": 4,
+        "text": ". Their big sister Emily enjoys helping to prepare the meals and decorating the house. The entire family, including Alice, loves to get together to enjoy a good time during their celebrations.  ## Step 2: Alice's Favorite Family Traditions Alice shares some"
+      },
+      {
+        "turn_index": 6,
+        "text": "and pies for the holidays. Her family's favorite traditions include playing games and going on special outings.  On Christmas Eve, they enjoy a cozy movie night with hot cocoa and cookies.  On Thanksgiving, they spend the day at home playing games and"
+      }
+    ]
+  }
+]
