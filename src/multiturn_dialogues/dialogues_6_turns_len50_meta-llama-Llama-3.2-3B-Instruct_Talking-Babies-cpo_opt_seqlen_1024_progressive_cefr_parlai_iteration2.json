@@ -1,0 +1,362 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: It is very easy for me to understand As I say there are certain things that you dont like when they come home from school and become a great singer in our generation Hush\n[Teacher]: puppy! In the music industry, the term \"viral sensation\" refers to a song or artist that gains widespread popularity and attention through social media and online platforms. These types of sensations can arise from various factors, such as catchy melodies, memorable\n[Student]: personalities and love interest and visual effect at most levels in the world and often seem to be more familiar with them than those of their voices are in other parts of the world compared with what comes out in common human being music or pop culture or soul\n[Teacher]: of other parts of the world. Viral sensations are often subject to changing public opinion and attention, and their popularity can quickly shift as new artists or songs emerge. This phenomenon is fueled by the vast amount of content shared on social media platforms, including\n[Student]: music videos and television shows such as BAIDI which are popularized to show people how a person feels about themselves and how they feel about each other and how it seems to happen during some fashion stage if they dont get along in the same\n[Teacher]: music genre as you. Viral sensations have been known to include artists like 5 Seconds of Summer, which became famous for their 2013 song \"She Looks So Perfect,\" a song that featured a catchy melody and a memorable music video that quickly",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "It is very easy for me to understand As I say there are certain things that you dont like when they come home from school and become a great singer in our generation Hush"
+      },
+      {
+        "turn_index": 3,
+        "text": "personalities and love interest and visual effect at most levels in the world and often seem to be more familiar with them than those of their voices are in other parts of the world compared with what comes out in common human being music or pop culture or soul"
+      },
+      {
+        "turn_index": 5,
+        "text": "music videos and television shows such as BAIDI which are popularized to show people how a person feels about themselves and how they feel about each other and how it seems to happen during some fashion stage if they dont get along in the same"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "puppy! In the music industry, the term \"viral sensation\" refers to a song or artist that gains widespread popularity and attention through social media and online platforms. These types of sensations can arise from various factors, such as catchy melodies, memorable"
+      },
+      {
+        "turn_index": 4,
+        "text": "of other parts of the world. Viral sensations are often subject to changing public opinion and attention, and their popularity can quickly shift as new artists or songs emerge. This phenomenon is fueled by the vast amount of content shared on social media platforms, including"
+      },
+      {
+        "turn_index": 6,
+        "text": "music genre as you. Viral sensations have been known to include artists like 5 Seconds of Summer, which became famous for their 2013 song \"She Looks So Perfect,\" a song that featured a catchy melody and a memorable music video that quickly"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: What sort of things do you think I have to tell the world that my father has a very important assignment for himself he asked at length with a laugh as he spokethe childrens eyes flashing in his directionIve just remembered what\n[Teacher]: it is a visit from a Russian woman from a small village in the Ukraine I have some Russian blood in my ancestry and Ive been wanting to visit the place for ages Im sure you are going to be good company What can I get you\n[Student]: so far up the street in America The answer was one thing which had a wonderful effect upon Billys career as an aviator after being invited into the city once more by some foreigner who seemed to know nothing about the Russian occupation or how\n[Teacher]: the place was really ruled Billys curiosity was immediately piqued and he eagerly asked what it was that the man was going to tell him Billy had been wanting to visit the place for ages he had always been fascinated by the Russian people and their culture\n[Student]: of nature were not able to understand the language they used before the Americans had been spoken in China before then and there were few Russian words still written down when they knew them better than they had learned them now but they could make out without even knowing what\n[Teacher]: they said and would often look up at Billy with sad eyes and smile wistfully Billy was determined to learn as much as he could about the place and the people who lived there and he eagerly listened to every word the man spoke to him Billy had",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "What sort of things do you think I have to tell the world that my father has a very important assignment for himself he asked at length with a laugh as he spokethe childrens eyes flashing in his directionIve just remembered what"
+      },
+      {
+        "turn_index": 3,
+        "text": "so far up the street in America The answer was one thing which had a wonderful effect upon Billys career as an aviator after being invited into the city once more by some foreigner who seemed to know nothing about the Russian occupation or how"
+      },
+      {
+        "turn_index": 5,
+        "text": "of nature were not able to understand the language they used before the Americans had been spoken in China before then and there were few Russian words still written down when they knew them better than they had learned them now but they could make out without even knowing what"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "it is a visit from a Russian woman from a small village in the Ukraine I have some Russian blood in my ancestry and Ive been wanting to visit the place for ages Im sure you are going to be good company What can I get you"
+      },
+      {
+        "turn_index": 4,
+        "text": "the place was really ruled Billys curiosity was immediately piqued and he eagerly asked what it was that the man was going to tell him Billy had been wanting to visit the place for ages he had always been fascinated by the Russian people and their culture"
+      },
+      {
+        "turn_index": 6,
+        "text": "they said and would often look up at Billy with sad eyes and smile wistfully Billy was determined to learn as much as he could about the place and the people who lived there and he eagerly listened to every word the man spoke to him Billy had"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: There are lots of players here and there are no coach fans out in the league that will do anything for your team She was going to say Yes so she left the clubhouse as soon as her call had come through with Joes\n[Teacher]: number in it. She made her way to Joe's house, a few miles away from her house. When she got there, she found that Joe wasnt at home, but the house was locked and the door was chained, as if he was\n[Student]: sorry that his sister should have left him when his mother said good night\n[Teacher]: . She would have been happier if Joe wasnt so worried about his sister being gone when his mother had said good night. She would have been happier if Joe wasnt so worried about his sister being gone when his mother had said good night. She\n[Student]: felt sure that this was what they were doing right nowthat they wanted Joe to be their manager as well as his friend then the whole world to themselves so that things could get better again than ever before\n[Teacher]: . She felt sure that this was what they were doing right nowthat they wanted Joe to be their manager as well as his friend then the whole world to themselves so that things could get better again than ever before. She couldnt believe how much money",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "There are lots of players here and there are no coach fans out in the league that will do anything for your team She was going to say Yes so she left the clubhouse as soon as her call had come through with Joes"
+      },
+      {
+        "turn_index": 3,
+        "text": "sorry that his sister should have left him when his mother said good night"
+      },
+      {
+        "turn_index": 5,
+        "text": "felt sure that this was what they were doing right nowthat they wanted Joe to be their manager as well as his friend then the whole world to themselves so that things could get better again than ever before"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "number in it. She made her way to Joe's house, a few miles away from her house. When she got there, she found that Joe wasnt at home, but the house was locked and the door was chained, as if he was"
+      },
+      {
+        "turn_index": 4,
+        "text": ". She would have been happier if Joe wasnt so worried about his sister being gone when his mother had said good night. She would have been happier if Joe wasnt so worried about his sister being gone when his mother had said good night. She"
+      },
+      {
+        "turn_index": 6,
+        "text": ". She felt sure that this was what they were doing right nowthat they wanted Joe to be their manager as well as his friend then the whole world to themselves so that things could get better again than ever before. She couldnt believe how much money"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Im very sorry for it He looked at her with some surprise as he saw the beautiful brown eyes of his little sister sitting on a tiny bed of coals in front of him from which she was busily engaged working away from the house when\n[Teacher]: he entered the room. She had a face full of soot from the work she had been doing, and had it not been for the fact that the soot was a light brown color she could have looked like a coal miner. He was very\n[Student]: fond of dogs and their talk was so funny that they did not speak or act very wellthey were just friends and would enjoy being near each others houses to keep their mouths shut whenever the new owner came along and said good morning again to them\n[Teacher]: . You dont know who I was talking about so I guess you dont have any pets that are like that but I had them. We had a big happy family with lots of children who would go and play with the dogs. He hadnt told anyone\n[Student]: until now how old we were but he kept telling them all about himself and then if anything happened to me that we should be glad its my birthday today and mine is always there to help us out here with our lives He took three years\n[Teacher]: to teach me how to paint so I can do it myself. He is a very good teacher I did not know he was a teacher until he was 17 years old, he had to work all the time to pay for his school He did a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Im very sorry for it He looked at her with some surprise as he saw the beautiful brown eyes of his little sister sitting on a tiny bed of coals in front of him from which she was busily engaged working away from the house when"
+      },
+      {
+        "turn_index": 3,
+        "text": "fond of dogs and their talk was so funny that they did not speak or act very wellthey were just friends and would enjoy being near each others houses to keep their mouths shut whenever the new owner came along and said good morning again to them"
+      },
+      {
+        "turn_index": 5,
+        "text": "until now how old we were but he kept telling them all about himself and then if anything happened to me that we should be glad its my birthday today and mine is always there to help us out here with our lives He took three years"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "he entered the room. She had a face full of soot from the work she had been doing, and had it not been for the fact that the soot was a light brown color she could have looked like a coal miner. He was very"
+      },
+      {
+        "turn_index": 4,
+        "text": ". You dont know who I was talking about so I guess you dont have any pets that are like that but I had them. We had a big happy family with lots of children who would go and play with the dogs. He hadnt told anyone"
+      },
+      {
+        "turn_index": 6,
+        "text": "to teach me how to paint so I can do it myself. He is a very good teacher I did not know he was a teacher until he was 17 years old, he had to work all the time to pay for his school He did a"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Do you think they are well She looked down at him with eyes full of mischief on his face as he spoke the answer to her question put out by a burst of tears that would hardly be known if it were not for all that she said herself\n[Teacher]: . He was a great deal older than she and had been a close friend of her father s for many years they were both quite close and had a mutual respect for one another they were sitting on the porch of a small cabin at the end of a\n[Student]: drive in an adjoining state in a big house in which some very unkind people live or who dont understand their language fully enough The whole idea is so wonderful replied Mrs Asplin brightlyI think the greatest thing\n[Teacher]: in the world is to be able to live in a country of your choice and be as free as you want to be or as free as you can get in a country and I like it so much that I dont want to go back to our country\n[Student]: again to find a home where we have so dearly loved each other we will try ever so hard to see how we grow up we hope this wont happen now We hope so too when I hear the story of the life of James\n[Teacher]: Weldon Johnson as a guest speaker at a banquet in Baltimore I had the idea of writing a book that would be a memorial to him he had been the first black man to have a poem published in a major magazine when he was just a young man",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Do you think they are well She looked down at him with eyes full of mischief on his face as he spoke the answer to her question put out by a burst of tears that would hardly be known if it were not for all that she said herself"
+      },
+      {
+        "turn_index": 3,
+        "text": "drive in an adjoining state in a big house in which some very unkind people live or who dont understand their language fully enough The whole idea is so wonderful replied Mrs Asplin brightlyI think the greatest thing"
+      },
+      {
+        "turn_index": 5,
+        "text": "again to find a home where we have so dearly loved each other we will try ever so hard to see how we grow up we hope this wont happen now We hope so too when I hear the story of the life of James"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". He was a great deal older than she and had been a close friend of her father s for many years they were both quite close and had a mutual respect for one another they were sitting on the porch of a small cabin at the end of a"
+      },
+      {
+        "turn_index": 4,
+        "text": "in the world is to be able to live in a country of your choice and be as free as you want to be or as free as you can get in a country and I like it so much that I dont want to go back to our country"
+      },
+      {
+        "turn_index": 6,
+        "text": "Weldon Johnson as a guest speaker at a banquet in Baltimore I had the idea of writing a book that would be a memorial to him he had been the first black man to have a poem published in a major magazine when he was just a young man"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: No one will come to dinner And she laughed a little sadly when the door opened and we saw her at our side of the house on the lawn by the big white gatea small cottage in which lived a very prosperous old woman who had\n[Teacher]: made a very good marriage with a very poor man and a very handsome young man. You can't keep a good man down but you can't make a good man happy either. She was married to a very poor man and had just made a very\n[Student]: rich widow living for hima pretty girl of fifteen and he died two years before I went away without telling my mother about itand then when I came back to your own house that night I heard from the doctor what sort of boy I should\n[Teacher]: be after a long illness with a great many complications and a great many medicines and a great many tests and many doctors and many nursesand I could see that my father was not at home and my mother was in the parlour and she looked very sad\n[Student]: at being left alone in her room when I thought how nice she would look after herself and I felt as if there was only me and all things were going well\n[Teacher]: in the world because I had come home after a very long and very good sickness and I was just as healthy as I had ever beenand then when my mother came into my room she looked just as sad as the doctor had said and she told me",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "No one will come to dinner And she laughed a little sadly when the door opened and we saw her at our side of the house on the lawn by the big white gatea small cottage in which lived a very prosperous old woman who had"
+      },
+      {
+        "turn_index": 3,
+        "text": "rich widow living for hima pretty girl of fifteen and he died two years before I went away without telling my mother about itand then when I came back to your own house that night I heard from the doctor what sort of boy I should"
+      },
+      {
+        "turn_index": 5,
+        "text": "at being left alone in her room when I thought how nice she would look after herself and I felt as if there was only me and all things were going well"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "made a very good marriage with a very poor man and a very handsome young man. You can't keep a good man down but you can't make a good man happy either. She was married to a very poor man and had just made a very"
+      },
+      {
+        "turn_index": 4,
+        "text": "be after a long illness with a great many complications and a great many medicines and a great many tests and many doctors and many nursesand I could see that my father was not at home and my mother was in the parlour and she looked very sad"
+      },
+      {
+        "turn_index": 6,
+        "text": "in the world because I had come home after a very long and very good sickness and I was just as healthy as I had ever beenand then when my mother came into my room she looked just as sad as the doctor had said and she told me"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Music is a little different than being a regular musician but its an old style that I hear well in the early days of my life and I wish I could be one again if I were going out with you Here he paused abruptly as his\n[Teacher]: eyes met hers across the table. The room fell silent, as if the sound of the piano had been replaced by an unspoken understanding. She felt a shiver run down her spine as his gaze lingered on hers. The warmth of the room\n[Student]: faded from her face and she breathed softly through it a new light into his soul when all was still but darkness around him like silver streaks over his soul that glowed with a flame until his own lips touched them too\n[Teacher]: . She felt it in every fibre of her being. This was something more than just a meeting, it was something more than just a chance encounter. This was something that would change her life forever. The music was not just a part of their lives\n[Student]: and they did not understand why people should not think about each other even though they do know who love and care for others because they feel this world has never lived without it ever since there are times when they realize how important and capable they become and\n[Teacher]: how they can feel when they say goodbye to someone that they care for it is a pain that can be felt and it is not something that you can ignore. Music is a powerful force that can bring people together and make them feel something deeper than just",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Music is a little different than being a regular musician but its an old style that I hear well in the early days of my life and I wish I could be one again if I were going out with you Here he paused abruptly as his"
+      },
+      {
+        "turn_index": 3,
+        "text": "faded from her face and she breathed softly through it a new light into his soul when all was still but darkness around him like silver streaks over his soul that glowed with a flame until his own lips touched them too"
+      },
+      {
+        "turn_index": 5,
+        "text": "and they did not understand why people should not think about each other even though they do know who love and care for others because they feel this world has never lived without it ever since there are times when they realize how important and capable they become and"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "eyes met hers across the table. The room fell silent, as if the sound of the piano had been replaced by an unspoken understanding. She felt a shiver run down her spine as his gaze lingered on hers. The warmth of the room"
+      },
+      {
+        "turn_index": 4,
+        "text": ". She felt it in every fibre of her being. This was something more than just a meeting, it was something more than just a chance encounter. This was something that would change her life forever. The music was not just a part of their lives"
+      },
+      {
+        "turn_index": 6,
+        "text": "how they can feel when they say goodbye to someone that they care for it is a pain that can be felt and it is not something that you can ignore. Music is a powerful force that can bring people together and make them feel something deeper than just"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: I used to travel with my father when he was a boyI remember now\n[Teacher]: that we did many things together, and it helped us bond. We hiked in the mountains, and I enjoyed it a lot. Now that I'm older, I've had to start doing other things to get my exercise. How about you?\n[Student]: What do you think of your work She laughed as she spoke with one eye upon her mothers face at that moment on Sunday afternoon and went out for a walk down by the railway line from Dublin where she lived in an automobile which ran\n[Teacher]: in Ireland as well as in America, to get some fresh air to help clear her mind. She said she wanted to be in Ireland for ever, and when asked when she would go to America she replied that she would not be going, and she\n[Student]: said yes she could be\n[Teacher]: happy in Ireland and even happier in America. She said that Ireland was a wonderful land and that I would be happy living there but that America was a wonderful land also and that she could be happy living there too and she said that as she looked out",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I used to travel with my father when he was a boyI remember now"
+      },
+      {
+        "turn_index": 3,
+        "text": "What do you think of your work She laughed as she spoke with one eye upon her mothers face at that moment on Sunday afternoon and went out for a walk down by the railway line from Dublin where she lived in an automobile which ran"
+      },
+      {
+        "turn_index": 5,
+        "text": "said yes she could be"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "that we did many things together, and it helped us bond. We hiked in the mountains, and I enjoyed it a lot. Now that I'm older, I've had to start doing other things to get my exercise. How about you?"
+      },
+      {
+        "turn_index": 4,
+        "text": "in Ireland as well as in America, to get some fresh air to help clear her mind. She said she wanted to be in Ireland for ever, and when asked when she would go to America she replied that she would not be going, and she"
+      },
+      {
+        "turn_index": 6,
+        "text": "happy in Ireland and even happier in America. She said that Ireland was a wonderful land and that I would be happy living there but that America was a wonderful land also and that she could be happy living there too and she said that as she looked out"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: What sort of things do you often want me to be famous for She was so full of interest that she forgot her own desire and her mind had been forgotten again as it ended in a song called The Loud Saga And it said\n[Teacher]: : 'They shall not know the truth and they shall not see the light. She thought a song was a collection of a lot of words put together, but she had never seen one. She went to the library and found all the books with the\n[Student]: stories about womens lives who would just like it Senie wept I wish I could tell my life for myself she sobbed out in despair at this new idea of what her story should be like when we were young and\n[Teacher]: we were always in the dark. They were all in one place. In the beginning of the story there was a light, and a tree in the middle of the story there was a sound, and a river in the middle of the story there was\n[Student]: the voice of our people in the world so true because nobody knew anything else except them and no one could hear the voices of their relatives and acquaintances who would come here to learn how to live happily ever after All these old memories are very hard\n[Teacher]: to remember. I remember now. I remember when I was five years old. My mother was the first person I ever met and the first person I ever loved. I remember when I was five years old. My mother was the first person I ever",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "What sort of things do you often want me to be famous for She was so full of interest that she forgot her own desire and her mind had been forgotten again as it ended in a song called The Loud Saga And it said"
+      },
+      {
+        "turn_index": 3,
+        "text": "stories about womens lives who would just like it Senie wept I wish I could tell my life for myself she sobbed out in despair at this new idea of what her story should be like when we were young and"
+      },
+      {
+        "turn_index": 5,
+        "text": "the voice of our people in the world so true because nobody knew anything else except them and no one could hear the voices of their relatives and acquaintances who would come here to learn how to live happily ever after All these old memories are very hard"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ": 'They shall not know the truth and they shall not see the light. She thought a song was a collection of a lot of words put together, but she had never seen one. She went to the library and found all the books with the"
+      },
+      {
+        "turn_index": 4,
+        "text": "we were always in the dark. They were all in one place. In the beginning of the story there was a light, and a tree in the middle of the story there was a sound, and a river in the middle of the story there was"
+      },
+      {
+        "turn_index": 6,
+        "text": "to remember. I remember now. I remember when I was five years old. My mother was the first person I ever met and the first person I ever loved. I remember when I was five years old. My mother was the first person I ever"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: Have you been to church asked Anne anxiously as she and Amanda hurried through the gateway for a short walk which led down the slope of Mount Hinham and up into one of the little greenhouses in Suffolk harbor and then across the\n[Teacher]: grassy shore to the sea wall and finally on to the coast. The walk was over before they knew it. Anne and Amanda were on a mission. They were there to celebrate the holiday of St. John's Day, which is a Danish tradition\n[Student]: about birth and death by sailors of this kind who know nothing whatever about it except the fact that they were just born here at Cape Cod Bay near Bermuda when England first came to her homelanders from all countries of the world and made\n[Teacher]: this new place. Their ancestors are the English, Irish, Welsh, Scottish, Dutch, Germans, French, and Portuguese. This is where I lived for many years and I have a lot of love for this beautiful place. When Anne and Amanda arrived\n[Student]: at Cape Cod in 1770 they had started their own homes in Newport called Plymouth but only an hour after sailing away eastward out of port they were back again under British control and decided to go alone further west until they reached another settlement\n[Teacher]: at Plymouth which was more successful. They had seen the good and the bad of this life and decided to go out on their own, just as they had done for their fathers, and just as their fathers' had done. They went to the shores",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Have you been to church asked Anne anxiously as she and Amanda hurried through the gateway for a short walk which led down the slope of Mount Hinham and up into one of the little greenhouses in Suffolk harbor and then across the"
+      },
+      {
+        "turn_index": 3,
+        "text": "about birth and death by sailors of this kind who know nothing whatever about it except the fact that they were just born here at Cape Cod Bay near Bermuda when England first came to her homelanders from all countries of the world and made"
+      },
+      {
+        "turn_index": 5,
+        "text": "at Cape Cod in 1770 they had started their own homes in Newport called Plymouth but only an hour after sailing away eastward out of port they were back again under British control and decided to go alone further west until they reached another settlement"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "grassy shore to the sea wall and finally on to the coast. The walk was over before they knew it. Anne and Amanda were on a mission. They were there to celebrate the holiday of St. John's Day, which is a Danish tradition"
+      },
+      {
+        "turn_index": 4,
+        "text": "this new place. Their ancestors are the English, Irish, Welsh, Scottish, Dutch, Germans, French, and Portuguese. This is where I lived for many years and I have a lot of love for this beautiful place. When Anne and Amanda arrived"
+      },
+      {
+        "turn_index": 6,
+        "text": "at Plymouth which was more successful. They had seen the good and the bad of this life and decided to go out on their own, just as they had done for their fathers, and just as their fathers' had done. They went to the shores"
+      }
+    ]
+  }
+]

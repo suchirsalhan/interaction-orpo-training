@@ -1,0 +1,282 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Anyhow I hope that we will be well known for the songs of my young life and learning how to play them I guess it was her turn Were almost thirteen now And so she continued until two years later after her\n[Teacher]: wedding to the groom and was able to buy a guitar and a music book which were gifts from her parents. (From an essay by a young girl, writing about her love for music)  ## Step 1: Understand the context of the passage\n[Student]: The phrase wastebagasin is a form of fusion song\n[Teacher]: I wrote a lot of it as a teenager and was able to play the piano and play songs like Pachelbel's Canon and Chopin's Nocturnes at the piano. Step 2: Identify the music genre and style mentioned in the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Anyhow I hope that we will be well known for the songs of my young life and learning how to play them I guess it was her turn Were almost thirteen now And so she continued until two years later after her"
+      },
+      {
+        "turn_index": 3,
+        "text": "The phrase wastebagasin is a form of fusion song"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "wedding to the groom and was able to buy a guitar and a music book which were gifts from her parents. (From an essay by a young girl, writing about her love for music)  ## Step 1: Understand the context of the passage"
+      },
+      {
+        "turn_index": 4,
+        "text": "I wrote a lot of it as a teenager and was able to play the piano and play songs like Pachelbel's Canon and Chopin's Nocturnes at the piano. Step 2: Identify the music genre and style mentioned in the"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: If I had taken a trip to the North Pole they would have given me that ticket to my country again She laughed with delight as she went indoors to visit her friends during the holiday vacation\n[Teacher]: . At this point in her life, she had experienced many trips and had even gone to the North Pole, which was a country in the Arctic Circle. She had a great sense of humor and the ability to find joy in the smallest things. This\n[Student]: led her into the great white house through the beautiful kitchen fire at home but now it was just out of sight around the yard by the lighthouse stove in the fireplace room where the big electric lights were shining all the time It seemed rather hard for\n[Teacher]: a man to resist the temptation of the Christmas lights in the house. They had always been a tradition for her and her family since her grandfather was a great lover of Christmas and had decorated the house every year to get into the spirit of the holiday,",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "If I had taken a trip to the North Pole they would have given me that ticket to my country again She laughed with delight as she went indoors to visit her friends during the holiday vacation"
+      },
+      {
+        "turn_index": 3,
+        "text": "led her into the great white house through the beautiful kitchen fire at home but now it was just out of sight around the yard by the lighthouse stove in the fireplace room where the big electric lights were shining all the time It seemed rather hard for"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". At this point in her life, she had experienced many trips and had even gone to the North Pole, which was a country in the Arctic Circle. She had a great sense of humor and the ability to find joy in the smallest things. This"
+      },
+      {
+        "turn_index": 4,
+        "text": "a man to resist the temptation of the Christmas lights in the house. They had always been a tradition for her and her family since her grandfather was a great lover of Christmas and had decorated the house every year to get into the spirit of the holiday,"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: Im sure theyd better not be afraid of me\n[Teacher]: on the field, theyd be in trouble!  Sports teams and activities can be a great way to stay active and meet new people. Not only can they help improve physical health and well-being, but they can also provide opportunities for socialization and teamwork\n[Student]: _Spectator_ Reroute 57 The Moorgate Pilot By George Flannigan Smith Jr With 12 page Illustrations by JAMES PAGETA Webb 6 page chapters\n[Teacher]: are self contained stories about different types of sports and teams.  _Chapter 1_ What Was Your First Sport?  _Chapter 2_ The Big Game  _Chapter 3_ The 400 Yard Dash  _Chapter 4_",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Im sure theyd better not be afraid of me"
+      },
+      {
+        "turn_index": 3,
+        "text": "_Spectator_ Reroute 57 The Moorgate Pilot By George Flannigan Smith Jr With 12 page Illustrations by JAMES PAGETA Webb 6 page chapters"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "on the field, theyd be in trouble!  Sports teams and activities can be a great way to stay active and meet new people. Not only can they help improve physical health and well-being, but they can also provide opportunities for socialization and teamwork"
+      },
+      {
+        "turn_index": 4,
+        "text": "are self contained stories about different types of sports and teams.  _Chapter 1_ What Was Your First Sport?  _Chapter 2_ The Big Game  _Chapter 3_ The 400 Yard Dash  _Chapter 4_"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Do they ever take care of you The childs face was very white now that her father spoke to him a great deal of the tales he told his mother in a little story about a girl who lived with some orphaned sister who\n[Teacher]: were living with a wicked witch that cast a spell on them. The child had heard all the stories he told his mother from him in the past, and had listened to them with great care and attention, and now that he spoke to his mother he\n[Student]: felt sure she would never say another word for the rest until it seemed as if his heart could not be broken Footnote 1155 This is indeed strange because many children use this name by themselves the translator has used many words\n[Teacher]: in other languages to express the child's feelings which give a clearer picture of what he thought and felt The child was a boy, and the word \"child\" is translated as \"boy\" in the passage Because the child is only 10 years old",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Do they ever take care of you The childs face was very white now that her father spoke to him a great deal of the tales he told his mother in a little story about a girl who lived with some orphaned sister who"
+      },
+      {
+        "turn_index": 3,
+        "text": "felt sure she would never say another word for the rest until it seemed as if his heart could not be broken Footnote 1155 This is indeed strange because many children use this name by themselves the translator has used many words"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "were living with a wicked witch that cast a spell on them. The child had heard all the stories he told his mother from him in the past, and had listened to them with great care and attention, and now that he spoke to his mother he"
+      },
+      {
+        "turn_index": 4,
+        "text": "in other languages to express the child's feelings which give a clearer picture of what he thought and felt The child was a boy, and the word \"child\" is translated as \"boy\" in the passage Because the child is only 10 years old"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I should think they are lovely to be a pet of your mothers family And he turned back his head in the direction indicated by tears as he said that he was sorry for her loss so suddenly that she did not at all understand him well enough\n[Teacher]: to be able to do anything to help.  I'm not sure I have pets, but I do have a few friends who have pets, and I'd be happy to hear about their experiences with them.  From what I've heard, pets can bring\n[Student]: joy wherever there is peace and plentyPriscilla\n[Teacher]: :  I never imagined I would ever have a pet that would be such a big part of my life, and yet, I have grown to love him so much.  When I got him, he was a tiny kitten, and I was so",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I should think they are lovely to be a pet of your mothers family And he turned back his head in the direction indicated by tears as he said that he was sorry for her loss so suddenly that she did not at all understand him well enough"
+      },
+      {
+        "turn_index": 3,
+        "text": "joy wherever there is peace and plentyPriscilla"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "to be able to do anything to help.  I'm not sure I have pets, but I do have a few friends who have pets, and I'd be happy to hear about their experiences with them.  From what I've heard, pets can bring"
+      },
+      {
+        "turn_index": 4,
+        "text": ":  I never imagined I would ever have a pet that would be such a big part of my life, and yet, I have grown to love him so much.  When I got him, he was a tiny kitten, and I was so"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: I am not sure that is a good idea With this he proceeded to make his preparations for the night before the boat returned from their long anchorage in New York City and was directed to put on shore leave from Newcastle upon Tynes Island\n[Teacher]: . He then directed a series of orders to his superiors, including a formal request for a change of crew and a request to the Commander-in-Chief for further clarification of their mission. (1) The British military authorities were not only unaware of\n[Student]: the approach but also decided they would be forced to rephrase it one more time when they agreed to let him explore his country safely As they went back to Philadelphia they found that the first thing they could do Was take care of himself while\n[Teacher]: he was there. The second was to find a way to make the contact with the people, and the third was to get into the country to do the research he had been doing for so long. The third part of the plan was to get into",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I am not sure that is a good idea With this he proceeded to make his preparations for the night before the boat returned from their long anchorage in New York City and was directed to put on shore leave from Newcastle upon Tynes Island"
+      },
+      {
+        "turn_index": 3,
+        "text": "the approach but also decided they would be forced to rephrase it one more time when they agreed to let him explore his country safely As they went back to Philadelphia they found that the first thing they could do Was take care of himself while"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". He then directed a series of orders to his superiors, including a formal request for a change of crew and a request to the Commander-in-Chief for further clarification of their mission. (1) The British military authorities were not only unaware of"
+      },
+      {
+        "turn_index": 4,
+        "text": "he was there. The second was to find a way to make the contact with the people, and the third was to get into the country to do the research he had been doing for so long. The third part of the plan was to get into"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: The piano is the most difficult one ever heard and its not always easy for me to understand people who are in different situations but there was no love song at all until I first heard it from my dads lips\n[Teacher]: . I hear the music I do listen to and the way I feel is a huge difference. Listening to music by the band Radiohead can be a very different experience depending on my mood and the situation in which I am in. I have to admit\n[Student]: that I can still play many types of songs but the sound is just a small part of my life Péteru Péteru is a commune found in Suceava County in\n[Teacher]: Romania.  The text appears to be a piece of creative writing, possibly from a journal or a blog. It doesn't seem to be a traditional essay or academic writing. The language and style are informal and expressive, suggesting that the writer is a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "The piano is the most difficult one ever heard and its not always easy for me to understand people who are in different situations but there was no love song at all until I first heard it from my dads lips"
+      },
+      {
+        "turn_index": 3,
+        "text": "that I can still play many types of songs but the sound is just a small part of my life Péteru Péteru is a commune found in Suceava County in"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". I hear the music I do listen to and the way I feel is a huge difference. Listening to music by the band Radiohead can be a very different experience depending on my mood and the situation in which I am in. I have to admit"
+      },
+      {
+        "turn_index": 4,
+        "text": "Romania.  The text appears to be a piece of creative writing, possibly from a journal or a blog. It doesn't seem to be a traditional essay or academic writing. The language and style are informal and expressive, suggesting that the writer is a"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: I was afraid of it for a day or two before the boys got their supper in an arsenal He had been trying hard not to speak at all with his own mouth full of food and then his thoughts were drowned in some excitement when\n[Teacher]: I said he could talk and was going to tell me all about his day. Horse riding. I have always enjoyed riding horses since I was young. I was given my first horse when I was 8 years old, and my parents would often\n[Student]: let me ride him as a baby but never so very long before they gave me a ride again\n[Teacher]: . I loved watching him run, he was a big brown horse. I would tell him everything and he never told me nothing but he was always listening. As I grew older and my riding improved, I started to do my own jumping and dressage",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I was afraid of it for a day or two before the boys got their supper in an arsenal He had been trying hard not to speak at all with his own mouth full of food and then his thoughts were drowned in some excitement when"
+      },
+      {
+        "turn_index": 3,
+        "text": "let me ride him as a baby but never so very long before they gave me a ride again"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "I said he could talk and was going to tell me all about his day. Horse riding. I have always enjoyed riding horses since I was young. I was given my first horse when I was 8 years old, and my parents would often"
+      },
+      {
+        "turn_index": 4,
+        "text": ". I loved watching him run, he was a big brown horse. I would tell him everything and he never told me nothing but he was always listening. As I grew older and my riding improved, I started to do my own jumping and dressage"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: I love it\n[Teacher]: when music brings people together and creates a sense of community. Music has the power to evoke strong emotions and transport us to different times and places. It can be a great way to express ourselves, relieve stress, or simply enjoy a good time. What\n[Student]: happens is the result in a relationship with other musicians that they try to impress their clients and make them feel comfortable for themselves as well as feel safe at home The Cure The Cure is an\n[Teacher]: iconic British rock band known for their haunting melodies, atmospheric soundscapes, and Robert Smith's distinctive vocal style. Here are some of their most popular songs: * \"Friday I'm in Love\" * \"Boys Don't Cry\" * \"",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I love it"
+      },
+      {
+        "turn_index": 3,
+        "text": "happens is the result in a relationship with other musicians that they try to impress their clients and make them feel comfortable for themselves as well as feel safe at home The Cure The Cure is an"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "when music brings people together and creates a sense of community. Music has the power to evoke strong emotions and transport us to different times and places. It can be a great way to express ourselves, relieve stress, or simply enjoy a good time. What"
+      },
+      {
+        "turn_index": 4,
+        "text": "iconic British rock band known for their haunting melodies, atmospheric soundscapes, and Robert Smith's distinctive vocal style. Here are some of their most popular songs: * \"Friday I'm in Love\" * \"Boys Don't Cry\" * \""
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: Have you ever been to a wedding or not before I asked the girl in a most unfriendly tone as she replied that they should have a great time together and were pleased enough to be invited back by myself and all my cousins at home would\n[Teacher]: be attending. I think it's time for me to give you the information you asked for. Here is the information you requested.  As you know, there are no other holidays or celebrations that are widely observed in our country.  So, there\n[Student]: cant possibly be many of these events in this world where we are going to meet every one of them if we find out whats going on He spoke so earnestly and tenderly that his eyes glistened once again as he listened without\n[Teacher]: judgment to every word the old man spoke. He had been a very active participant in many of the holidays and celebrations that took place in the city during his lifetime, and he had a deep respect for the traditions that brought people together. He was a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Have you ever been to a wedding or not before I asked the girl in a most unfriendly tone as she replied that they should have a great time together and were pleased enough to be invited back by myself and all my cousins at home would"
+      },
+      {
+        "turn_index": 3,
+        "text": "cant possibly be many of these events in this world where we are going to meet every one of them if we find out whats going on He spoke so earnestly and tenderly that his eyes glistened once again as he listened without"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "be attending. I think it's time for me to give you the information you asked for. Here is the information you requested.  As you know, there are no other holidays or celebrations that are widely observed in our country.  So, there"
+      },
+      {
+        "turn_index": 4,
+        "text": "judgment to every word the old man spoke. He had been a very active participant in many of the holidays and celebrations that took place in the city during his lifetime, and he had a deep respect for the traditions that brought people together. He was a"
+      }
+    ]
+  }
+]
