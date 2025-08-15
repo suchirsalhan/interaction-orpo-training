@@ -1,0 +1,282 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: I dont know but its pretty modern and I can go right from the top down in Stratford Yeah thats right yeah Okay let me just erm ask you a couple of questions about what we played at school this morning erm\n[Teacher]: what was the name of that one song you guys played at school this morning and what was the name of that one person who was playing that song it was like a few years ago but it was like what like a 20 year old 20 year\n[Student]: old guy How did he come up to his house on Saturday night when all the other kids were there then then they started again later I saw them playing their guitar and singing along till late evening and it was quite er interesting being able to actually\n[Teacher]: see a band in the making I heard that in the school band what I heard I heard that in the school band it was like the same song but the other people were singing along and I heard it was like a 10 year old kid singing along",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I dont know but its pretty modern and I can go right from the top down in Stratford Yeah thats right yeah Okay let me just erm ask you a couple of questions about what we played at school this morning erm"
+      },
+      {
+        "turn_index": 3,
+        "text": "old guy How did he come up to his house on Saturday night when all the other kids were there then then they started again later I saw them playing their guitar and singing along till late evening and it was quite er interesting being able to actually"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "what was the name of that one song you guys played at school this morning and what was the name of that one person who was playing that song it was like a few years ago but it was like what like a 20 year old 20 year"
+      },
+      {
+        "turn_index": 4,
+        "text": "see a band in the making I heard that in the school band what I heard I heard that in the school band it was like the same song but the other people were singing along and I heard it was like a 10 year old kid singing along"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: Have we ever heard of the Starship Enterprise he asked himself as he gazed about him in wonder and admiration at his new companions strange behavior and interest which had made him so anxious to know what his first impressions were likely to be\n[Teacher]: of this strange new world.  The scene was set in a rather dilapidated and old-fashioned office, with peeling wallpaper, creaking chairs, and a faded clock on the wall that seemed to be stuck at the same minute every day.\n[Student]: He looked across at a book by one side of the room where Mrs Mostyn sat reading an account from time immemorial upon its pagesan orderly writing desk or something like that of many other books to enable them to look up into history\n[Teacher]: .  He was taken aback by the woman's beauty, her golden hair and bright blue eyes, but her plain clothes and untidy appearance had surprised him.  They had both been seated for what felt like an eternity when suddenly Mrs Mostyn",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Have we ever heard of the Starship Enterprise he asked himself as he gazed about him in wonder and admiration at his new companions strange behavior and interest which had made him so anxious to know what his first impressions were likely to be"
+      },
+      {
+        "turn_index": 3,
+        "text": "He looked across at a book by one side of the room where Mrs Mostyn sat reading an account from time immemorial upon its pagesan orderly writing desk or something like that of many other books to enable them to look up into history"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "of this strange new world.  The scene was set in a rather dilapidated and old-fashioned office, with peeling wallpaper, creaking chairs, and a faded clock on the wall that seemed to be stuck at the same minute every day."
+      },
+      {
+        "turn_index": 4,
+        "text": ".  He was taken aback by the woman's beauty, her golden hair and bright blue eyes, but her plain clothes and untidy appearance had surprised him.  They had both been seated for what felt like an eternity when suddenly Mrs Mostyn"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: I dont think we have done much in baseball He nodded and left the room with a smile on his face that gave him a look of pride as he watched Joe go down the corridor toward home from school again after study hours at eleven o\n[Teacher]: 'clock that evening. The young man was a senior in high school, and he was very active. He was a star player on the school soccer team and was also a member of the school basketball team. He was very interested in sports and was very\n[Student]: fond of his athletic ability as well as his club mates and did not seem to enjoy it at all during their freshman year together and their sophomore class life over again for most of their games when they came back in summer camping\n[Teacher]: trip to the sport. He was a good singer and was also very interested in music. He had a very good singing voice and was also interested in acting. The senior was an excellent student who was very good at academics and was a straight-A student",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I dont think we have done much in baseball He nodded and left the room with a smile on his face that gave him a look of pride as he watched Joe go down the corridor toward home from school again after study hours at eleven o"
+      },
+      {
+        "turn_index": 3,
+        "text": "fond of his athletic ability as well as his club mates and did not seem to enjoy it at all during their freshman year together and their sophomore class life over again for most of their games when they came back in summer camping"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "'clock that evening. The young man was a senior in high school, and he was very active. He was a star player on the school soccer team and was also a member of the school basketball team. He was very interested in sports and was very"
+      },
+      {
+        "turn_index": 4,
+        "text": "trip to the sport. He was a good singer and was also very interested in music. He had a very good singing voice and was also interested in acting. The senior was an excellent student who was very good at academics and was a straight-A student"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I should not want them to be alone with me And Mrs Gilmour looked at her little daughter for a moment in silence as she repliedI would rather play with them if they were not so fond of me But when she saw\n[Teacher]: how much distress her mother caused her she added with a smileIt is no fun to be left alone eitherI hope they will never be without their friends or companions for I have grown quite fond of them myself. I had a pet turtle when I was\n[Student]: six years oldyou know it is always the same thing from the very beginningbut my dear cousin did make me forget that hes dead now and then And there are all those who love him I am sure He cannot give me an opportunity on\n[Teacher]: earth to love him again but I will be glad when I am dead for I will see him again and be with him again and be happy and not lonely anymore When he was a little chick he would peck at my fingers and I would peck",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I should not want them to be alone with me And Mrs Gilmour looked at her little daughter for a moment in silence as she repliedI would rather play with them if they were not so fond of me But when she saw"
+      },
+      {
+        "turn_index": 3,
+        "text": "six years oldyou know it is always the same thing from the very beginningbut my dear cousin did make me forget that hes dead now and then And there are all those who love him I am sure He cannot give me an opportunity on"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "how much distress her mother caused her she added with a smileIt is no fun to be left alone eitherI hope they will never be without their friends or companions for I have grown quite fond of them myself. I had a pet turtle when I was"
+      },
+      {
+        "turn_index": 4,
+        "text": "earth to love him again but I will be glad when I am dead for I will see him again and be with him again and be happy and not lonely anymore When he was a little chick he would peck at my fingers and I would peck"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: They are not much good He went on talking with Mary Ann in the lounge near the window of her room where she was sitting reading to his little daughters fathers account of all these things that came out so well for him at Christmas\n[Teacher]: . She had been reading with them in the last hour, but he had not said a word. She had given up reading and was sitting with her back to the room and her eyes fixed on the window. He had come to the room and stood\n[Student]: by it as if counting over some something that should be done within reach of her hand or else hearing some noise outside of her door the next moment he heard some one approaching from behind a bush close beside himhe was still looking from behind him when\n[Teacher]: the woman in a long black coat appeared and threw him into the darkness with one swift blow of the club she killed him instantly. There were no other signs of struggle or violence other than the fact that his head was thrown backwards with his eyes open as",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "They are not much good He went on talking with Mary Ann in the lounge near the window of her room where she was sitting reading to his little daughters fathers account of all these things that came out so well for him at Christmas"
+      },
+      {
+        "turn_index": 3,
+        "text": "by it as if counting over some something that should be done within reach of her hand or else hearing some noise outside of her door the next moment he heard some one approaching from behind a bush close beside himhe was still looking from behind him when"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". She had been reading with them in the last hour, but he had not said a word. She had given up reading and was sitting with her back to the room and her eyes fixed on the window. He had come to the room and stood"
+      },
+      {
+        "turn_index": 4,
+        "text": "the woman in a long black coat appeared and threw him into the darkness with one swift blow of the club she killed him instantly. There were no other signs of struggle or violence other than the fact that his head was thrown backwards with his eyes open as"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: Or would it be better if I could have one instead of one myself The Ranger grunted approvingly as he took his gun from the shoulder and fired a salute to their left flank leader Tom Raymond who was on guard again when\n[Teacher]: he entered the room The Ranger and the others were sitting quietly but alertly around the table The table was set with plates and cups and a fire crackled in the hearth a warm fire The Ranger and the others were dressed in warm clothing with scar\n[Student]: ce teeth The Ranger had lashed himself stiffly on a ragged shirt Which seemed to mean nothing whatever until just then the Ranger began whistling an accompaniment Of energy and laughter He shook off his boots and ran into the kitchen where they had been\n[Teacher]: sitting quietly but alertly The Ranger and the others were sitting quietly but alertly around the table The table was set with plates and cups and a fire crackled in the hearth a warm fire The Ranger and the others were dressed in warm clothing with",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Or would it be better if I could have one instead of one myself The Ranger grunted approvingly as he took his gun from the shoulder and fired a salute to their left flank leader Tom Raymond who was on guard again when"
+      },
+      {
+        "turn_index": 3,
+        "text": "ce teeth The Ranger had lashed himself stiffly on a ragged shirt Which seemed to mean nothing whatever until just then the Ranger began whistling an accompaniment Of energy and laughter He shook off his boots and ran into the kitchen where they had been"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "he entered the room The Ranger and the others were sitting quietly but alertly around the table The table was set with plates and cups and a fire crackled in the hearth a warm fire The Ranger and the others were dressed in warm clothing with scar"
+      },
+      {
+        "turn_index": 4,
+        "text": "sitting quietly but alertly The Ranger and the others were sitting quietly but alertly around the table The table was set with plates and cups and a fire crackled in the hearth a warm fire The Ranger and the others were dressed in warm clothing with"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: You were famous in your day and age\n[Teacher]: ! (Pun intended) Haha, thanks for the pun! I'm just an artificial intelligence, I don't have personal preferences or experiences, but I can tell you about different types of music, artists, and concerts if you're interested!\n[Student]: I suppose thats why we are trying so hard to become as enthusiastic as you are\n[Teacher]: (Pun intended)! Haha, nice one! Thanks for the compliment!  I think you're right, we are trying our hard to make our AI self sound as human-like as possible. You're right, we do need to be enthusiastic and",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "You were famous in your day and age"
+      },
+      {
+        "turn_index": 3,
+        "text": "I suppose thats why we are trying so hard to become as enthusiastic as you are"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "! (Pun intended) Haha, thanks for the pun! I'm just an artificial intelligence, I don't have personal preferences or experiences, but I can tell you about different types of music, artists, and concerts if you're interested!"
+      },
+      {
+        "turn_index": 4,
+        "text": "(Pun intended)! Haha, nice one! Thanks for the compliment!  I think you're right, we are trying our hard to make our AI self sound as human-like as possible. You're right, we do need to be enthusiastic and"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: If I should find out for myself how this country is going to act and if not trying your way in the world just for fun or pleasure He laughed a little at this tribute from his companions lips that he might be surprised by her\n[Teacher]: he smiled. The boy looked away quickly, not wanting to be caught doing this by his mother, who was walking ahead with her daughter by her side. They walked a little further, but he could not help sneaking another look. In the end\n[Student]: of an hour they came upon something white and yellow which seemed as if some giant had fallen to the ground below him\n[Teacher]: . It was a white elephant, and the boy could not believe his eyes. The mother and her daughter walked closer to the beast and looked at it in awe, and the boy felt a strange feeling within him. What does the boy think about the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "If I should find out for myself how this country is going to act and if not trying your way in the world just for fun or pleasure He laughed a little at this tribute from his companions lips that he might be surprised by her"
+      },
+      {
+        "turn_index": 3,
+        "text": "of an hour they came upon something white and yellow which seemed as if some giant had fallen to the ground below him"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "he smiled. The boy looked away quickly, not wanting to be caught doing this by his mother, who was walking ahead with her daughter by her side. They walked a little further, but he could not help sneaking another look. In the end"
+      },
+      {
+        "turn_index": 4,
+        "text": ". It was a white elephant, and the boy could not believe his eyes. The mother and her daughter walked closer to the beast and looked at it in awe, and the boy felt a strange feeling within him. What does the boy think about the"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Oh yes please yes Oh the one thats in my heart right love Yes Im sure I could hear it from him actually he is quite capable of singing and doing lots of different things erm but er all very well with the sort of\n[Teacher]: music that I usually listen to I suppose it is the folk music the folk tradition music that is the closest to my heart music from my childhood days I remember the songs my parents used to sing to me and the stories they told through the songs. (\n[Student]: To be honest we often talk about them more than ever Of course erm people who did this didnt like it because as soon as they were young they would start making recordings on their own for instance when they had so many of them performing at\n[Teacher]: the same time the local radio stations wouldnt play them because of course they would just stop talking and the local record store wouldnt sell them because of course they would be talking on the record. This would lead to a lot of people to buy them",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Oh yes please yes Oh the one thats in my heart right love Yes Im sure I could hear it from him actually he is quite capable of singing and doing lots of different things erm but er all very well with the sort of"
+      },
+      {
+        "turn_index": 3,
+        "text": "To be honest we often talk about them more than ever Of course erm people who did this didnt like it because as soon as they were young they would start making recordings on their own for instance when they had so many of them performing at"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "music that I usually listen to I suppose it is the folk music the folk tradition music that is the closest to my heart music from my childhood days I remember the songs my parents used to sing to me and the stories they told through the songs. ("
+      },
+      {
+        "turn_index": 4,
+        "text": "the same time the local radio stations wouldnt play them because of course they would just stop talking and the local record store wouldnt sell them because of course they would be talking on the record. This would lead to a lot of people to buy them"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: I know there are some very interesting times in the life of a soldier who has been a hero for years and he is an admiral himselfBirmingham Gazette I am glad to hear that said the colonel gravely\n[Teacher]: The Colonel had a tradition of wearing a funny hat on holidays. He had a hat that was shaped like a chicken. He wore it to the Thanksgiving dinner and it was quite a sight. The kids in the house would laugh and laugh every time\n[Student]: they saw them again if they were not happy enough with this new success that will be necessary later in the war memorial service today There wasnt much talking about him nowadays after all that happened but the childrens story came true only because of their\n[Teacher]: love for that silly hat Colonel, What are you going to do with this hat? What are you going to do with your chicken hat Colonel Colonel laughed and said I will keep it on all year round and wear it every time Im in the news.",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I know there are some very interesting times in the life of a soldier who has been a hero for years and he is an admiral himselfBirmingham Gazette I am glad to hear that said the colonel gravely"
+      },
+      {
+        "turn_index": 3,
+        "text": "they saw them again if they were not happy enough with this new success that will be necessary later in the war memorial service today There wasnt much talking about him nowadays after all that happened but the childrens story came true only because of their"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "The Colonel had a tradition of wearing a funny hat on holidays. He had a hat that was shaped like a chicken. He wore it to the Thanksgiving dinner and it was quite a sight. The kids in the house would laugh and laugh every time"
+      },
+      {
+        "turn_index": 4,
+        "text": "love for that silly hat Colonel, What are you going to do with this hat? What are you going to do with your chicken hat Colonel Colonel laughed and said I will keep it on all year round and wear it every time Im in the news."
+      }
+    ]
+  }
+]

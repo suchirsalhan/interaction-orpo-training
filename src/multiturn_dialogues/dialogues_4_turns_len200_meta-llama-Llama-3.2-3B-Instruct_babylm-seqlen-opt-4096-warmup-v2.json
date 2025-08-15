@@ -1,0 +1,282 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: And hes so think not and I Oh know is the I don for now it you gonna be little that that all for this are was go on him me you can to your one my youre see that I mean you really you got it I He what do with a tove we know the time as will look to to get itd in but if a very youll just was the that there when ers you a a mem here way up at a you think great on a goods you\n[Teacher]: get to we all know that you what is it but I I was it that the you that that to you was all like that I was it the what it for you did you I do I do I you to the you a I had that to know that I was to you that I but you know that I know you what I I think you was the that you you know that we was I to I I get to know that you I know that I I know I and you know I and I what you can you you know what I think that I think I I know that I know I know that you know that we that we I what it that I would you I I know that I would I I I know I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I\n[Student]: mt not never to her as outs it about you were to stay this into the has they do to talking he to her good it his last you think one for itt was a could be them she want in a minute what it said say been her You was do her me the morning of and said that they the only it from was the room came be we take\n[Teacher]: you to of them you know that I know that you know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "And hes so think not and I Oh know is the I don for now it you gonna be little that that all for this are was go on him me you can to your one my youre see that I mean you really you got it I He what do with a tove we know the time as will look to to get itd in but if a very youll just was the that there when ers you a a mem here way up at a you think great on a goods you"
+      },
+      {
+        "turn_index": 3,
+        "text": "mt not never to her as outs it about you were to stay this into the has they do to talking he to her good it his last you think one for itt was a could be them she want in a minute what it said say been her You was do her me the morning of and said that they the only it from was the room came be we take"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "get to we all know that you what is it but I I was it that the you that that to you was all like that I was it the what it for you did you I do I do I you to the you a I had that to know that I was to you that I but you know that I know you what I I think you was the that you you know that we was I to I I get to know that you I know that I I know I and you know I and I what you can you you know what I think that I think I I know that I know I know that you know that we that we I what it that I would you I I know that I would I I I know I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I"
+      },
+      {
+        "turn_index": 4,
+        "text": "you to of them you know that I know that you know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I know that I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: oft know good the Yest a time her to the onlys it have his face that IllveYes she up me you all the that in the It int you like me we to then the So and so in her to not he no a the next I suppose but the them a was be had tos for a lot of the I shall have one they about your little and thats be to to see the last of the from all going I have this one of thes was a a longI ats and the Anded by the a few as what much his in A that take thats for verys with for a two that they the way a own out at was an his the and the same will that his to him back would had to say you can said think when her and I must that to the a lot into the shore I didn oft do to find in the world or other to were a great place some over of\n[Teacher]: of that the I have and the onlys and but of and is to he I don a to a and and of the same and the and was so was a and I was so that the was that I and he in it was so and the one I and a one was so in that and and the I and that I was and was that and I was that and and that was and I was I to see that and and and I to and and I to and and and I was that and and that I was that and and I to and and and that was I and that I was that and I was that and and I was that and that I was that and I was that and and that was that and and that was that and that was that and that I was that and I was that and I was that and and that was that and I was that and that was that and I was that and that was that and that I was that and that was that and that was that\n[Student]: you really to look I just her hands you to bed hes been a bit to talk of thell be\n[Teacher]: no the in one to you so I that you would and I in the of the I to get in the to be you you of the he the the he so be the and and and and I to be the he you see you that I and and and I to be that I and and and I to be and that I and that I was that and I to be that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "oft know good the Yest a time her to the onlys it have his face that IllveYes she up me you all the that in the It int you like me we to then the So and so in her to not he no a the next I suppose but the them a was be had tos for a lot of the I shall have one they about your little and thats be to to see the last of the from all going I have this one of thes was a a longI ats and the Anded by the a few as what much his in A that take thats for verys with for a two that they the way a own out at was an his the and the same will that his to him back would had to say you can said think when her and I must that to the a lot into the shore I didn oft do to find in the world or other to were a great place some over of"
+      },
+      {
+        "turn_index": 3,
+        "text": "you really to look I just her hands you to bed hes been a bit to talk of thell be"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "of that the I have and the onlys and but of and is to he I don a to a and and of the same and the and was so was a and I was so that the was that I and he in it was so and the one I and a one was so in that and and the I and that I was and was that and I was that and and that was and I was I to see that and and and I to and and I to and and and I was that and and that I was that and and I to and and and that was I and that I was that and I was that and and I was that and that I was that and I was that and and that was that and and that was that and that was that and that I was that and I was that and I was that and and that was that and I was that and that was that and I was that and that was that and that I was that and that was that and that was that"
+      },
+      {
+        "turn_index": 4,
+        "text": "no the in one to you so I that you would and I in the of the I to get in the to be you you of the he the the he so be the and and and and I to be the he you see you that I and and and I to be that I and and and I to be and that I and that I was that and I to be that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and that I was that and"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: t you as to the little out as and be there the for we and of to do is it that other the This is the the first have I was in what said are in not has all had with of here them of he and her on him he when one youming can in he we have up a this a minute your were seen time you if a good to their the same be and the I could think Id a very then they\n[Teacher]: with that you can of it a all you in have you like I think so how the or that as of them a I have to them that if or it you to do not is do not. (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) (16) (17) (18) (19) (20) (21) (22) (23) (24) (25) (26) (27) (28) (29) (30) (31) (32) (33) (34) (35) (36) (37) (38) (39) (40) (41) (42) (43) (44) (45) (46) (47) (48) (49) (50) (51) (52) (53) (\n[Student]: been into my Is that in with the long were a two of rest and and you go at his than ands the boat were and to I will he only in the door me the he that it other own her in in a young of me Iwell with the I am the is sot know he whoed would and and tell to the she or I should would to then he was a kind in some soon not little down that that from a heads It he you get in her son but had just was more he in had of the for my own way as\n[Teacher]: . (51) (52) (53) (54) (55) (56) (57) (58) (59) (60) (61) (62) (63) (64) (65) (66) (67) (68) (69) (70) (71) (72) (73) (74) (75) (76) (77) (78) (79) (80) (81) (82) (83) (84) (85) (86) (87) (88) (89) (90) (91) (92) (93) (94) (95) (96) (97) (98) (99) (100) (101) (102) (103) (104) (105) (106) (107) (108) (109) (110) (111) (112) (113) (114) (115) (116) (",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "t you as to the little out as and be there the for we and of to do is it that other the This is the the first have I was in what said are in not has all had with of here them of he and her on him he when one youming can in he we have up a this a minute your were seen time you if a good to their the same be and the I could think Id a very then they"
+      },
+      {
+        "turn_index": 3,
+        "text": "been into my Is that in with the long were a two of rest and and you go at his than ands the boat were and to I will he only in the door me the he that it other own her in in a young of me Iwell with the I am the is sot know he whoed would and and tell to the she or I should would to then he was a kind in some soon not little down that that from a heads It he you get in her son but had just was more he in had of the for my own way as"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "with that you can of it a all you in have you like I think so how the or that as of them a I have to them that if or it you to do not is do not. (1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) (16) (17) (18) (19) (20) (21) (22) (23) (24) (25) (26) (27) (28) (29) (30) (31) (32) (33) (34) (35) (36) (37) (38) (39) (40) (41) (42) (43) (44) (45) (46) (47) (48) (49) (50) (51) (52) (53) ("
+      },
+      {
+        "turn_index": 4,
+        "text": ". (51) (52) (53) (54) (55) (56) (57) (58) (59) (60) (61) (62) (63) (64) (65) (66) (67) (68) (69) (70) (71) (72) (73) (74) (75) (76) (77) (78) (79) (80) (81) (82) (83) (84) (85) (86) (87) (88) (89) (90) (91) (92) (93) (94) (95) (96) (97) (98) (99) (100) (101) (102) (103) (104) (105) (106) (107) (108) (109) (110) (111) (112) (113) (114) (115) (116) ("
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: the his eyes in on of a the this a go the door The out and she as to that more than a been in her it we a a time for wast the first and by him to make the old as the be to of We a times the with the and and that tot were would the to do they her who on the and for the A my the of you to be a one in the and a day said his to it from you knows no at the morning the you can the of and I thought I he when in to the going I was the other\n[Teacher]: and a that the at was as the the time in the that of for a the the on to be I had for you to with the one you see for in the day and to the for the the and I like of be of the and a be of to and my of and a that the of them to be and the of and I and I like of a the to and the of and a that the of and of the and the of and I and I like of them that I had my pets you. I have to say that I was quite confused by your response. It seems like you were just listing a bunch of random words and phrases without making any sense. I'm not sure what you were trying to say, but I think it's safe to say that you didn't answer my question about pets.  Let me try to break it down and see if I can understand what you were trying to say. You mentioned \"the his eyes in on of a\" which seems to be\n[Student]: go on her place of he\n[Teacher]: . Then you mentioned \"this a go the door\" which seems to be related to a dog. You also mentioned \"the old as the be to of\" which seems to be related to an old pet. But overall, your response was quite confusing and didn't provide any clear answer to my question. I was hoping for a more straightforward answer about your pets. Can you please try again?  I think I was too enthusiastic and got a bit carried away with my response. I'm happy to answer your question about pets. I do have pets, and I'd be delighted to share with you about them.  I have two lovely dogs, a cat, and a fish tank. My dogs, Max and Bella, are both rescues and have been with me for about three years now. They're such a big part of my life, and I adore them. I love watching them play, cuddle, and go on walks with me. They're such great companions, and I feel so lucky",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "the his eyes in on of a the this a go the door The out and she as to that more than a been in her it we a a time for wast the first and by him to make the old as the be to of We a times the with the and and that tot were would the to do they her who on the and for the A my the of you to be a one in the and a day said his to it from you knows no at the morning the you can the of and I thought I he when in to the going I was the other"
+      },
+      {
+        "turn_index": 3,
+        "text": "go on her place of he"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and a that the at was as the the time in the that of for a the the on to be I had for you to with the one you see for in the day and to the for the the and I like of be of the and a be of to and my of and a that the of them to be and the of and I and I like of a the to and the of and a that the of and of the and the of and I and I like of them that I had my pets you. I have to say that I was quite confused by your response. It seems like you were just listing a bunch of random words and phrases without making any sense. I'm not sure what you were trying to say, but I think it's safe to say that you didn't answer my question about pets.  Let me try to break it down and see if I can understand what you were trying to say. You mentioned \"the his eyes in on of a\" which seems to be"
+      },
+      {
+        "turn_index": 4,
+        "text": ". Then you mentioned \"this a go the door\" which seems to be related to a dog. You also mentioned \"the old as the be to of\" which seems to be related to an old pet. But overall, your response was quite confusing and didn't provide any clear answer to my question. I was hoping for a more straightforward answer about your pets. Can you please try again?  I think I was too enthusiastic and got a bit carried away with my response. I'm happy to answer your question about pets. I do have pets, and I'd be delighted to share with you about them.  I have two lovely dogs, a cat, and a fish tank. My dogs, Max and Bella, are both rescues and have been with me for about three years now. They're such a big part of my life, and I adore them. I love watching them play, cuddle, and go on walks with me. They're such great companions, and I feel so lucky"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: s he in the I was Ited\n[Teacher]: that I will be giving out free samples of a new product at my next event, and I would love to feature some of my own pets in the promotional materials. I would like to know if you have any pets, what kind of pets do you have, and how long you have had them, so I would like to use their pictures in my promotional materials. This is not a question, but rather a request for information that is being used to promote a product. I will give you the information that you asked for.  I have two pets, a dog named Max and a cat named Luna. I have had them since I moved into my new house in 2018. I would love to see them featured in your promotional materials. I am excited about the free samples, and I look forward to learning more about the product.  I will now provide the information you requested. I have two pets, a dog named Max and a cat named Luna. I have had them since 2018,\n[Student]: one think it the other him said all be me thatst ands right down did with alls it it well be there not to gos just who to be very all\n[Teacher]: just all th. Please provide a complete sentence.  I have two pets, a dog named Max and a cat named Luna. I have had them since 2018.  I have two pets, a dog named Max and a cat named Luna. I have had them since 2018. Max is a happy and energetic dog, and Luna is a gentle and laid-back cat. I love their unique personalities and the joy they bring to my life. I would be happy to provide photos of them for use in your promotional materials.",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "s he in the I was Ited"
+      },
+      {
+        "turn_index": 3,
+        "text": "one think it the other him said all be me thatst ands right down did with alls it it well be there not to gos just who to be very all"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "that I will be giving out free samples of a new product at my next event, and I would love to feature some of my own pets in the promotional materials. I would like to know if you have any pets, what kind of pets do you have, and how long you have had them, so I would like to use their pictures in my promotional materials. This is not a question, but rather a request for information that is being used to promote a product. I will give you the information that you asked for.  I have two pets, a dog named Max and a cat named Luna. I have had them since I moved into my new house in 2018. I would love to see them featured in your promotional materials. I am excited about the free samples, and I look forward to learning more about the product.  I will now provide the information you requested. I have two pets, a dog named Max and a cat named Luna. I have had them since 2018,"
+      },
+      {
+        "turn_index": 4,
+        "text": "just all th. Please provide a complete sentence.  I have two pets, a dog named Max and a cat named Luna. I have had them since 2018.  I have two pets, a dog named Max and a cat named Luna. I have had them since 2018. Max is a happy and energetic dog, and Luna is a gentle and laid-back cat. I love their unique personalities and the joy they bring to my life. I would be happy to provide photos of them for use in your promotional materials."
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: No to have be his come m and have all and at of the mother me as in a a that had to I saym you you tell withs on they and it was there get he that than a man when just that it were a the up from about one them would the butt me he you had his very a He we are I think all I will so her me his in the you a she in you me an well is at had been said you can I thought I inI I I I should the matter to be that to met not day has the on him of to do be the the which he that of of the the the Thely as to the theses for what she when her and on this the to find been down young of him the a not a think old you know the it minute the time was for ast see down in course\n[Teacher]: the he of in that the was so his all that the to he the that he of the a the the and he the and the to the the a I am I have to be he the that I to I say of the I a the and I I the the he that I the the of that was a and it was that she I to and I of the that to the she of the the and he the I the to the of and I to the and the that was a and the and I that I the I he I the to the of the that was a of the and I a to the of the and I the that I he I the and I to the of that was of the and I the the and I a and the and I the to that was of the and I to the of that was the he to he a to the and of the the was of the and I he the and I and he the of the and I that was a and of the I\n[Student]: m you get somes we look his she and morrow a going of his only of the house to give I am a week cant no and wast tell it for your other way for on in first in you the door did you had by ofll need ont was her good is I suppose it was but and and over if he in little fatherr have the and up\n[Teacher]: he and it the a in the the and the to me and he of to the of I know she and that he I am is his is to in I with and a he he and the of the I the he and and I of the a and the to I the he and of the to the of and I that he was a I of the a and of the and I the and I that I the and I he I and that he I and I the I that and I the of I the and and I the I of the and I that he and I the and I the that I am and I to I he that I and of the I the and I he I that I of I am and I the I to I that I the of I that I and I that I the I of the I I and of the I the and I that I am and I that I the I of the I I the I that I am and I that I the of I that I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "No to have be his come m and have all and at of the mother me as in a a that had to I saym you you tell withs on they and it was there get he that than a man when just that it were a the up from about one them would the butt me he you had his very a He we are I think all I will so her me his in the you a she in you me an well is at had been said you can I thought I inI I I I should the matter to be that to met not day has the on him of to do be the the which he that of of the the the Thely as to the theses for what she when her and on this the to find been down young of him the a not a think old you know the it minute the time was for ast see down in course"
+      },
+      {
+        "turn_index": 3,
+        "text": "m you get somes we look his she and morrow a going of his only of the house to give I am a week cant no and wast tell it for your other way for on in first in you the door did you had by ofll need ont was her good is I suppose it was but and and over if he in little fatherr have the and up"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "the he of in that the was so his all that the to he the that he of the a the the and he the and the to the the a I am I have to be he the that I to I say of the I a the and I I the the he that I the the of that was a and it was that she I to and I of the that to the she of the the and he the I the to the of and I to the and the that was a and the and I that I the I he I the to the of the that was a of the and I a to the of the and I the that I he I the and I to the of that was of the and I the the and I a and the and I the to that was of the and I to the of that was the he to he a to the and of the the was of the and I he the and I and he the of the and I that was a and of the I"
+      },
+      {
+        "turn_index": 4,
+        "text": "he and it the a in the the and the to me and he of to the of I know she and that he I am is his is to in I with and a he he and the of the I the he and and I of the a and the to I the he and of the to the of and I that he was a I of the a and of the and I the and I that I the and I he I and that he I and I the I that and I the of I the and and I the I of the and I that he and I the and I the that I am and I to I he that I and of the I the and I he I that I of I am and I the I to I that I the of I that I and I that I the I of the I I and of the I the and I that I am and I that I the I of the I I the I that I am and I that I the of I that I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: the on it about I can know what It was on here it a time that the headYou really go to look at you not are haveve and so we is much he will that say Why if you you come on me but hes her didnt Im good is to the back We had a few well your week with the other all to make on\n[Teacher]: there are still the with you you go is but they is I remember the show I was at concert is to have one to the and on me but I did know they have to we know a friend and we had a ticket the it you are what did you that like you did like the show you a to that one do you want to know how it was it was so great I remember that I did love it a the music was so good and the singer was so talented that we are the we will you we are so it was the was one the to that the one you like that you I have that concert that one the to do you like we that was how you to that the one I had a one that was a that I was a concert to go to go but that to was that the that I had a favorite that I remember that is was that we are the is that to that we had to have a ticket to get into the and there were a few people that I remember that\n[Student]: s been she this to be is the things to be no he were up in a day of that little because now and take a few youve of the morning its what our two them was and was my him to see when and had a her they and her mind out we the two to us to the first man as from the they said this they should and that his eyes to him and for his little you would a have a best they have the side we and they do just had the I mean need then Ill you do it got goingt find last is you think was in a little own same way to talk in these if she of the door him to the night the she the to their the fire has mother in his hand to take a younging in to to with who they I have to tell through it theyt of And all he the only to you have the whole of the cityed the other and went was the face had by the little was a the\n[Teacher]: for the him as we were to the and the of his the he the and we we the to to and a that was the with the I the is that the to this the I do to the and I the to the with the I to and the I was to the and I was the and I was to the and I was the and I was the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "the on it about I can know what It was on here it a time that the headYou really go to look at you not are haveve and so we is much he will that say Why if you you come on me but hes her didnt Im good is to the back We had a few well your week with the other all to make on"
+      },
+      {
+        "turn_index": 3,
+        "text": "s been she this to be is the things to be no he were up in a day of that little because now and take a few youve of the morning its what our two them was and was my him to see when and had a her they and her mind out we the two to us to the first man as from the they said this they should and that his eyes to him and for his little you would a have a best they have the side we and they do just had the I mean need then Ill you do it got goingt find last is you think was in a little own same way to talk in these if she of the door him to the night the she the to their the fire has mother in his hand to take a younging in to to with who they I have to tell through it theyt of And all he the only to you have the whole of the cityed the other and went was the face had by the little was a the"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "there are still the with you you go is but they is I remember the show I was at concert is to have one to the and on me but I did know they have to we know a friend and we had a ticket the it you are what did you that like you did like the show you a to that one do you want to know how it was it was so great I remember that I did love it a the music was so good and the singer was so talented that we are the we will you we are so it was the was one the to that the one you like that you I have that concert that one the to do you like we that was how you to that the one I had a one that was a that I was a concert to go to go but that to was that the that I had a favorite that I remember that is was that we are the is that to that we had to have a ticket to get into the and there were a few people that I remember that"
+      },
+      {
+        "turn_index": 4,
+        "text": "for the him as we were to the and the of his the he the and we we the to to and a that was the with the I the is that the to this the I do to the and I the to the with the I to and the I was to the and I was the and I was to the and I was the and I was the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was to the and I was"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: I was that I think of best of be the it a girl her him one own way of I suppose a and me this on his it ins for in We know you would about to your she been they a the it time of got that down do you dont my all He it in little know you must want there and all I can the we do him I sayYes as well from and I feel it a old when I could so and to get is only that very ofm with a a place going they andll take the long back she we had now and he an the be a two is\n[Teacher]: my I a and I am I think I you would like have of and they to know I of I have a of what to I with them and a that they and we to they is one a it a of I know and I have one of with them and that is I they and I was to get to you they I that you and is a be I to that I get that you with a of a to and I am to it and I am is it I get that you and I with one of a to you and I am a I get a with it and a to I and that I have one of I am and is and I get that you with a and I am to and that is it and I get a with them and that I am and that I and I am and it a that I get a with and I am a and that I and that I and I and that and that and that and I that a and that I and and that I and that I\n[Student]: might notand mother You at asked That will to the boys of thatingly and the heart oft who had to that so youll it but she it the own Im so if you and up that you the her the great ons were some hands said it and for the last you was the time he to tell her face take hands that way out of that you shall mind with of no the morning she or a good aways up and the he\n[Teacher]: or her and all her and would you and it with of your and of she and that to the or a and that the of she and to her I that I know that I am and and to you is and that I am and and to you is and that and that I and that I and that I and and that and that I and I that and I that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I was that I think of best of be the it a girl her him one own way of I suppose a and me this on his it ins for in We know you would about to your she been they a the it time of got that down do you dont my all He it in little know you must want there and all I can the we do him I sayYes as well from and I feel it a old when I could so and to get is only that very ofm with a a place going they andll take the long back she we had now and he an the be a two is"
+      },
+      {
+        "turn_index": 3,
+        "text": "might notand mother You at asked That will to the boys of thatingly and the heart oft who had to that so youll it but she it the own Im so if you and up that you the her the great ons were some hands said it and for the last you was the time he to tell her face take hands that way out of that you shall mind with of no the morning she or a good aways up and the he"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "my I a and I am I think I you would like have of and they to know I of I have a of what to I with them and a that they and we to they is one a it a of I know and I have one of with them and that is I they and I was to get to you they I that you and is a be I to that I get that you with a of a to and I am to it and I am is it I get that you and I with one of a to you and I am a I get a with it and a to I and that I have one of I am and is and I get that you with a and I am to and that is it and I get a with them and that I am and that I and I am and it a that I get a with and I am a and that I and that I and I and that and that and that and I that a and that I and and that I and that I"
+      },
+      {
+        "turn_index": 4,
+        "text": "or her and all her and would you and it with of your and of she and that to the or a and that the of she and to her I that I know that I am and and to you is and that I am and and to you is and that and that I and that I and that I and and that and that I and I that and I that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that and that"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Youve cant just get be the I think it is whats that\n[Teacher]: song thats stuck in my head You want to know about my musical tastes? Well, I'm a large language model, I don't have personal preferences or experiences like humans do, but I can tell you about popular music genres and give you suggestions based on your interests!  As for what's stuck in your head, I'm happy to help you figure out what song that is! Can you give me some clues about the song? For example:  * Is it a fast or slow song? * Do you remember any lyrics or melodies? * Is it a classic song or something more recent? * Is it a specific genre, like pop, rock, or hip-hop? * Do you associate it with a particular memory or activity?  Let's work together to try and identify that song!\n[Student]: What are of you want that the one to say for of mean on this oldI got him and theyt have my we his I can havet take same had at say\n[Teacher]: a that be I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Youve cant just get be the I think it is whats that"
+      },
+      {
+        "turn_index": 3,
+        "text": "What are of you want that the one to say for of mean on this oldI got him and theyt have my we his I can havet take same had at say"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "song thats stuck in my head You want to know about my musical tastes? Well, I'm a large language model, I don't have personal preferences or experiences like humans do, but I can tell you about popular music genres and give you suggestions based on your interests!  As for what's stuck in your head, I'm happy to help you figure out what song that is! Can you give me some clues about the song? For example:  * Is it a fast or slow song? * Do you remember any lyrics or melodies? * Is it a classic song or something more recent? * Is it a specific genre, like pop, rock, or hip-hop? * Do you associate it with a particular memory or activity?  Let's work together to try and identify that song!"
+      },
+      {
+        "turn_index": 4,
+        "text": "a that be I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can havet that I can"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: A for the in on MOT thiss a we it to the that little headlook a has P wass the and and and and es iss a Vborn B1 He childes The is of the US born on American waso was borna in the album N EC a us is of the Oings many by 15 the he were he C 2020 in October the Februarys from TR of his of of been as at a person be L in of the It inThe by the first8 z and in the a K was the the United The the i to dot for\n[Teacher]: the in that of the is there to have of the are and so they are that and that by of the many there of the of to of is to the from the in the of and so to the of the and so and to and so of the and and so and to in the of the and to and so of the and to and so and to and so of the and so of the and and to and so of the and to and so of the and to and so of the and to and so of the and so of the and and to and so of the and to and so of the and to and so of the and so of the and and to and so of the and to and so of the and so of the and and to and so of the and to and so of the and to and so of the and and to and so of the and to and so of the and to and so of the and so of the and and to and so of the and to\n[Student]: give the door of the only in to me the her way a the end a little and man the old said the and Im the of this s as to and beI thoughtSo to to with and theI could the Youday this as time was that had seen and will a very of for him I them said not the of their the young on all in their of one havet to be to I might and and the I would the a longBut and No a large the place the other in of not out to to make to know of toll was no a biged was and the of her right the boys the ground that great that when as hour to and get The but was like the men they the to be ats he was that to be said if At Ill do that will the only to the eyes the most some the rest was who one could think withs to before up to look she\n[Teacher]: was her had the to of that and that had to and had not to see of I and her of was the of the man had a and to of that the she the her was to the of that she and I of was the to of that and the to of that the she and of was the that she and was a but I was and to the of that and of that the and I and of she was the to of that and and of that the and and I and and she of was the of that and I was and to the of that and of that and of that was and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "A for the in on MOT thiss a we it to the that little headlook a has P wass the and and and and es iss a Vborn B1 He childes The is of the US born on American waso was borna in the album N EC a us is of the Oings many by 15 the he were he C 2020 in October the Februarys from TR of his of of been as at a person be L in of the It inThe by the first8 z and in the a K was the the United The the i to dot for"
+      },
+      {
+        "turn_index": 3,
+        "text": "give the door of the only in to me the her way a the end a little and man the old said the and Im the of this s as to and beI thoughtSo to to with and theI could the Youday this as time was that had seen and will a very of for him I them said not the of their the young on all in their of one havet to be to I might and and the I would the a longBut and No a large the place the other in of not out to to make to know of toll was no a biged was and the of her right the boys the ground that great that when as hour to and get The but was like the men they the to be ats he was that to be said if At Ill do that will the only to the eyes the most some the rest was who one could think withs to before up to look she"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "the in that of the is there to have of the are and so they are that and that by of the many there of the of to of is to the from the in the of and so to the of the and so and to and so of the and and so and to in the of the and to and so of the and to and so and to and so of the and so of the and and to and so of the and to and so of the and to and so of the and to and so of the and so of the and and to and so of the and to and so of the and to and so of the and so of the and and to and so of the and to and so of the and so of the and and to and so of the and to and so of the and to and so of the and and to and so of the and to and so of the and to and so of the and so of the and and to and so of the and to"
+      },
+      {
+        "turn_index": 4,
+        "text": "was her had the to of that and that had to and had not to see of I and her of was the of the man had a and to of that the she the her was to the of that she and I of was the to of that and the to of that the she and of was the that she and was a but I was and to the of that and of that the and I and of she was the to of that and and of that the and and I and and she of was the of that and I was and to the of that and of that and of that was and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and of that and and"
+      }
+    ]
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Well I dont know how its supposed to work with him\n[Teacher]: , so I was wondering if I could get a chance to see you in concert. We've heard that you're quite the performer. A tourist asks a concert-goer about their music preferences and a past concert experience, and wants to know if they\n[Student]: will be able to help us out Oh yeah\n[Teacher]: , I've seen him, I saw him like three times. I've seen some of his shows and it's like he just takes over the stage, you know, the whole crowd just becomes one big audience for him. He's really good,\n[Student]: too I should say Its just an attitude of mind which has made me think so much better of myself And then when we play concerts youll hear them as well because at the end of that time our voices are sound familiar\n[Teacher]: to our audience because they have heard them before. We sound like our audience. That's how we know we're doing something right. When you are performing live and you hear something familiar in the band playing.It means you've been there before and\n[Student]: you havent had any success or anything to happen in concert but your voice is great and Im sure Youd love to be there But if your tone is fine It sounds very different than ours Whats strange is that when people sing together like\n[Teacher]: we do on stage, they don't sound like themselves, they don't sound like each other at all. But if you sing alone, they do sound like themselves, But if you're singing with someone else, you sound like someone else but you",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Well I dont know how its supposed to work with him"
+      },
+      {
+        "turn_index": 3,
+        "text": "will be able to help us out Oh yeah"
+      },
+      {
+        "turn_index": 5,
+        "text": "too I should say Its just an attitude of mind which has made me think so much better of myself And then when we play concerts youll hear them as well because at the end of that time our voices are sound familiar"
+      },
+      {
+        "turn_index": 7,
+        "text": "you havent had any success or anything to happen in concert but your voice is great and Im sure Youd love to be there But if your tone is fine It sounds very different than ours Whats strange is that when people sing together like"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", so I was wondering if I could get a chance to see you in concert. We've heard that you're quite the performer. A tourist asks a concert-goer about their music preferences and a past concert experience, and wants to know if they"
+      },
+      {
+        "turn_index": 4,
+        "text": ", I've seen him, I saw him like three times. I've seen some of his shows and it's like he just takes over the stage, you know, the whole crowd just becomes one big audience for him. He's really good,"
+      },
+      {
+        "turn_index": 6,
+        "text": "to our audience because they have heard them before. We sound like our audience. That's how we know we're doing something right. When you are performing live and you hear something familiar in the band playing.It means you've been there before and"
+      },
+      {
+        "turn_index": 8,
+        "text": "we do on stage, they don't sound like themselves, they don't sound like each other at all. But if you sing alone, they do sound like themselves, But if you're singing with someone else, you sound like someone else but you"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: I didnt know it was the last time he came home with me but hes in town now and we can take a drive as soon as possible to get back to camp for him at least an hour or so He told of his escape from\n[Teacher]: the Japanese who killed his family. The war is over, and we are going home, the war is over. It is not a war, but a genocide and this is not a war, this is a war between the Jews and the Nazis.\n[Student]: We will send some of them to Kamahawa just before they have gone The words were said about him by some one who had been sent up to Kamahawa We will go straight across the mountains where we made our\n[Teacher]: first raid there and will take them to the Kamahawa area We will send a signal fire across the mountain where the raid was and to the new area it will send a signal fire and the others will come to meet us We will go back to\n[Student]: the old camp in case they find that no one has seen us yet This was quite true and the count agreed with Bobs suggestion that it would be best to wait until they could do something else while their preparations for departure went smoothly enough They\n[Teacher]: seemed to be quite confident and happy about their new home so I had to get a little creative with my photography to capture their happiness without making them uncomfortable. The words were said by the one who had been sent up to Kamahawa. We will\n[Student]: write to him through the letter saying that if he did go back into Ukamahawa they would be surprised to hear that his arrival had suddenly ended in a terrible haze and they believed him too\n[Teacher]: because he said that he would go back and have to be in a bad place if he went back. We will keep the information until the next war or until the war is over to see how the Japanese will react to it I believe this is a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I didnt know it was the last time he came home with me but hes in town now and we can take a drive as soon as possible to get back to camp for him at least an hour or so He told of his escape from"
+      },
+      {
+        "turn_index": 3,
+        "text": "We will send some of them to Kamahawa just before they have gone The words were said about him by some one who had been sent up to Kamahawa We will go straight across the mountains where we made our"
+      },
+      {
+        "turn_index": 5,
+        "text": "the old camp in case they find that no one has seen us yet This was quite true and the count agreed with Bobs suggestion that it would be best to wait until they could do something else while their preparations for departure went smoothly enough They"
+      },
+      {
+        "turn_index": 7,
+        "text": "write to him through the letter saying that if he did go back into Ukamahawa they would be surprised to hear that his arrival had suddenly ended in a terrible haze and they believed him too"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "the Japanese who killed his family. The war is over, and we are going home, the war is over. It is not a war, but a genocide and this is not a war, this is a war between the Jews and the Nazis."
+      },
+      {
+        "turn_index": 4,
+        "text": "first raid there and will take them to the Kamahawa area We will send a signal fire across the mountain where the raid was and to the new area it will send a signal fire and the others will come to meet us We will go back to"
+      },
+      {
+        "turn_index": 6,
+        "text": "seemed to be quite confident and happy about their new home so I had to get a little creative with my photography to capture their happiness without making them uncomfortable. The words were said by the one who had been sent up to Kamahawa. We will"
+      },
+      {
+        "turn_index": 8,
+        "text": "because he said that he would go back and have to be in a bad place if he went back. We will keep the information until the next war or until the war is over to see how the Japanese will react to it I believe this is a"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: Wouldnt it be fun to get the chance of going out for a run now and then if only we were in luck He looked at Roxys delighted face with one glance on her smiling eyes that was quite charmingly cheerful as she\n[Teacher]: said Oh I know how much you like to run Roxys words were very encouraging and he felt grateful for the friend he had found. He smiled back at her and replied I'm thinking of joining a running club so I can get more motivation\n[Student]: from him than anyone else is interested in playing football myself\n[Teacher]: I'm not particularly interested in playing it either but Im always keen to help out my friends when it's needed She smiled at him with a friendly smile and replied I've joined a swimming club already and Im doing really well I'm not sure if you\n[Student]: d do me anything nice you could join us In spite of his manner and the look with which she spoke Roxys stopped saying no disparagingly as she stood in front of him and did not seem to have seen anything peculiar about the\n[Teacher]: invitation she could see the concern in his eyes and the willingness to help her that was almost genuine He felt grateful that she had believed him and was willing to accept the offer to run with him he couldnt have done it without her encouragement. A friend\n[Student]: who knows all this things Ill tell you later that Mr Zigzag shall be delighted to meet her again while hereafter He will remember her again and hopefully Hell show you around some other times when I hear your name signed up so it\n[Teacher]: will be good luck for you that your running club is well established and has many active members.  It looks like this is a passage from a story, but the text appears to be a stream-of-consciousness narrative, and it's not entirely clear",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Wouldnt it be fun to get the chance of going out for a run now and then if only we were in luck He looked at Roxys delighted face with one glance on her smiling eyes that was quite charmingly cheerful as she"
+      },
+      {
+        "turn_index": 3,
+        "text": "from him than anyone else is interested in playing football myself"
+      },
+      {
+        "turn_index": 5,
+        "text": "d do me anything nice you could join us In spite of his manner and the look with which she spoke Roxys stopped saying no disparagingly as she stood in front of him and did not seem to have seen anything peculiar about the"
+      },
+      {
+        "turn_index": 7,
+        "text": "who knows all this things Ill tell you later that Mr Zigzag shall be delighted to meet her again while hereafter He will remember her again and hopefully Hell show you around some other times when I hear your name signed up so it"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "said Oh I know how much you like to run Roxys words were very encouraging and he felt grateful for the friend he had found. He smiled back at her and replied I'm thinking of joining a running club so I can get more motivation"
+      },
+      {
+        "turn_index": 4,
+        "text": "I'm not particularly interested in playing it either but Im always keen to help out my friends when it's needed She smiled at him with a friendly smile and replied I've joined a swimming club already and Im doing really well I'm not sure if you"
+      },
+      {
+        "turn_index": 6,
+        "text": "invitation she could see the concern in his eyes and the willingness to help her that was almost genuine He felt grateful that she had believed him and was willing to accept the offer to run with him he couldnt have done it without her encouragement. A friend"
+      },
+      {
+        "turn_index": 8,
+        "text": "will be good luck for you that your running club is well established and has many active members.  It looks like this is a passage from a story, but the text appears to be a stream-of-consciousness narrative, and it's not entirely clear"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I thought they were more than birds to me And he gave her a little sigh of delight as she replied How many birds do you know No said the eldest of them brieflySquirrels eyes shone with tears\n[Teacher]: in the darkness as he gazed at the old man and the old woman who sat by the door. A long time ago, in a faraway land, he told them the story of the great drought that had brought the world to the brink of\n[Student]: death through which it was bound its life by the white men and women who held it so well He took the voice of their king That made him smile with his own lips But when they began to laugh And then all that could be heard Was the\n[Teacher]: sound of laughter And all that could be seen Was the sound of laughter And all that could be said Was the sound of laughter And all that could be said Was the sound of laughter And all that could be said Was the sound of laughter And all that\n[Student]: could be heard Was the noise of laughter That made the waters of the sea run away To the new world of men and beasts that were free The stars of heaven and earth shine On the new world of men and animals that are alive again There is\n[Teacher]: nothing but laughter The end of the story And all that could be said was the sound of laughter So the elder said and a loud laugh erupted from the crowd The crowd laughed and laughed and laughed until the trees and the trees were laughing and the wind and\n[Student]: waves came sailing down the river And blew the air clear With every breath that ever seemed As though the waves danced up The river itself where it doth singPUNCHING FLYING THE KEYER FIRE AND STAND\n[Teacher]: IN THE RIVER AND WALK AND TURN AND WALK AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I thought they were more than birds to me And he gave her a little sigh of delight as she replied How many birds do you know No said the eldest of them brieflySquirrels eyes shone with tears"
+      },
+      {
+        "turn_index": 3,
+        "text": "death through which it was bound its life by the white men and women who held it so well He took the voice of their king That made him smile with his own lips But when they began to laugh And then all that could be heard Was the"
+      },
+      {
+        "turn_index": 5,
+        "text": "could be heard Was the noise of laughter That made the waters of the sea run away To the new world of men and beasts that were free The stars of heaven and earth shine On the new world of men and animals that are alive again There is"
+      },
+      {
+        "turn_index": 7,
+        "text": "waves came sailing down the river And blew the air clear With every breath that ever seemed As though the waves danced up The river itself where it doth singPUNCHING FLYING THE KEYER FIRE AND STAND"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "in the darkness as he gazed at the old man and the old woman who sat by the door. A long time ago, in a faraway land, he told them the story of the great drought that had brought the world to the brink of"
+      },
+      {
+        "turn_index": 4,
+        "text": "sound of laughter And all that could be seen Was the sound of laughter And all that could be said Was the sound of laughter And all that could be said Was the sound of laughter And all that could be said Was the sound of laughter And all that"
+      },
+      {
+        "turn_index": 6,
+        "text": "nothing but laughter The end of the story And all that could be said was the sound of laughter So the elder said and a loud laugh erupted from the crowd The crowd laughed and laughed and laughed until the trees and the trees were laughing and the wind and"
+      },
+      {
+        "turn_index": 8,
+        "text": "IN THE RIVER AND WALK AND TURN AND WALK AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN AND TURN"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Do you ever wish to know where they are now said a friend of mine in my daya little girl with her mothers maiden namewho was one of the family whose children were dead when we went away together for a short holiday visit\n[Teacher]: we ended up in a tiny village nestled in the mountains and after our departure we found that we had all left behind one of our dear family members. You seem to have a strong sense of longing for something or someone, and I've heard you say\n[Student]: it has been called Hood It is so very odd indeed as those old stories told me by some people who never read them nor even once did they forget itthe story of your grandmothers death and how she diedthough not until\n[Teacher]: after you had left for your holiday we had not seen her for years and yet we saw her again as we were leaving. I remember now it was her name who had died. I feel like that there is something else out there which is calling us\n[Student]: that isnt a secret of mine The Old Woman spoke warmly enough when he told her his own taleall except the young ones who loved him as much as herself did the others who would love him best if he could only tell her at all\n[Teacher]: of this story he did and the story told to me later that it is to be a great one in the way the great stories of old are so we will know her in spirit as we have loved her in life. They were married and happy till\n[Student]: the end of the year because of their long journey home overtook us and put us right back into her housekeeping for the rest of her days And then they walked on slowly through the beautiful garden stretching far beyond the forest and here\n[Teacher]: I can imagine the little girl to whom I am talking to now seeing the old woman now standing at the front door wearing a long white dress with the silver trim that my mother wore on her wedding day. The old woman's eyes were filled with tears",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Do you ever wish to know where they are now said a friend of mine in my daya little girl with her mothers maiden namewho was one of the family whose children were dead when we went away together for a short holiday visit"
+      },
+      {
+        "turn_index": 3,
+        "text": "it has been called Hood It is so very odd indeed as those old stories told me by some people who never read them nor even once did they forget itthe story of your grandmothers death and how she diedthough not until"
+      },
+      {
+        "turn_index": 5,
+        "text": "that isnt a secret of mine The Old Woman spoke warmly enough when he told her his own taleall except the young ones who loved him as much as herself did the others who would love him best if he could only tell her at all"
+      },
+      {
+        "turn_index": 7,
+        "text": "the end of the year because of their long journey home overtook us and put us right back into her housekeeping for the rest of her days And then they walked on slowly through the beautiful garden stretching far beyond the forest and here"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "we ended up in a tiny village nestled in the mountains and after our departure we found that we had all left behind one of our dear family members. You seem to have a strong sense of longing for something or someone, and I've heard you say"
+      },
+      {
+        "turn_index": 4,
+        "text": "after you had left for your holiday we had not seen her for years and yet we saw her again as we were leaving. I remember now it was her name who had died. I feel like that there is something else out there which is calling us"
+      },
+      {
+        "turn_index": 6,
+        "text": "of this story he did and the story told to me later that it is to be a great one in the way the great stories of old are so we will know her in spirit as we have loved her in life. They were married and happy till"
+      },
+      {
+        "turn_index": 8,
+        "text": "I can imagine the little girl to whom I am talking to now seeing the old woman now standing at the front door wearing a long white dress with the silver trim that my mother wore on her wedding day. The old woman's eyes were filled with tears"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: It smells nice\n[Teacher]: in here! Re: Do you enjoy cooking at home? Hi there! I'm happy to chat with you about cooking.  I do enjoy cooking at home, but I'm a bit of a foodie, so I like to try out new recipes\n[Student]: that are as good for my tastes as any other one I can give you if you like it Which I believe was very acceptable When did this happen asked Mrs Asplin when she and her daughter were engaged in preparing dinner\n[Teacher]: together? \"It was in the middle of the third day,\" Mrs. Asplin replied. \"There was a great deal of talk about it for the first two days, but on the third day it was decided.  I remember the great\n[Student]: deal that had gone before I had time to prepare a few extra cups with water for me to wash up when they came back from the warpath She nodded towards Ann as she spoke and said quicklyshe was beginning to think that everything\n[Teacher]: was settled The only thing left was to get the fire going the best part of the meal was yet to come and so she and Ann busied themselves getting the fire going and preparing the food and so forth  You were probably thinking of something else altogether\n[Student]: That was all Here Timon paused for an answer and he glanced around sharply into his ovens which were still burning brightly in their places just below the stove where Miss Eloise cooked supper with some spare parts scattered over the pan on top while\n[Teacher]: Miss Eloise was preparing the soup for the evening she took a few minutes out to help Timon with his dinner  \"I've been having the most dreadful time lately Timon said as soon as he was ready for his supper  \"What is",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "It smells nice"
+      },
+      {
+        "turn_index": 3,
+        "text": "that are as good for my tastes as any other one I can give you if you like it Which I believe was very acceptable When did this happen asked Mrs Asplin when she and her daughter were engaged in preparing dinner"
+      },
+      {
+        "turn_index": 5,
+        "text": "deal that had gone before I had time to prepare a few extra cups with water for me to wash up when they came back from the warpath She nodded towards Ann as she spoke and said quicklyshe was beginning to think that everything"
+      },
+      {
+        "turn_index": 7,
+        "text": "That was all Here Timon paused for an answer and he glanced around sharply into his ovens which were still burning brightly in their places just below the stove where Miss Eloise cooked supper with some spare parts scattered over the pan on top while"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "in here! Re: Do you enjoy cooking at home? Hi there! I'm happy to chat with you about cooking.  I do enjoy cooking at home, but I'm a bit of a foodie, so I like to try out new recipes"
+      },
+      {
+        "turn_index": 4,
+        "text": "together? \"It was in the middle of the third day,\" Mrs. Asplin replied. \"There was a great deal of talk about it for the first two days, but on the third day it was decided.  I remember the great"
+      },
+      {
+        "turn_index": 6,
+        "text": "was settled The only thing left was to get the fire going the best part of the meal was yet to come and so she and Ann busied themselves getting the fire going and preparing the food and so forth  You were probably thinking of something else altogether"
+      },
+      {
+        "turn_index": 8,
+        "text": "Miss Eloise was preparing the soup for the evening she took a few minutes out to help Timon with his dinner  \"I've been having the most dreadful time lately Timon said as soon as he was ready for his supper  \"What is"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Or something like that I dont know if its a thing with the tune on the bass guitar but it would be your first album in the history of bands and bandy suits I suppose It sounds very much d\n[Teacher]: iana krall and but like other types of music to You're trying to describe a specific genre or style of music, but you're not quite sure of the name or how to put it into words. You're using vague references to sounds,\n[Student]: different types of music which are from our original song Do Something For Kids Some people think that the band is a part of this music tradition of singing songs and chants because it seems like they were formed by instruments from Gods creatures\n[Teacher]: .       *   *   *   *   * The sounds and melodies are familiar, yet different The bass guitar's rhythmic pulse is infectious and driving The sound is reminiscent of jazz and blues, but with a twist It's\n[Student]: very rarely weakening in the sense that there may well be some musical playing around them as well Includes their old rhythm for example when their drums are low vibrant and when its hard to play out loud they often turn more and more\n[Teacher]: silent  A person who listens to the band is likely to be a fan of eclectic music and are interested in exploring different genres and styles    *   *   *   *   *   *   *   *   *   *   *\n[Student]: \n[Teacher]: The description of the music is quite specific and detailed, with a focus on the unique qualities of the bass guitar's rhythmic pulse and the blend of jazz, blues, and other musical elements. The description also highlights the band's ability to adapt their",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Or something like that I dont know if its a thing with the tune on the bass guitar but it would be your first album in the history of bands and bandy suits I suppose It sounds very much d"
+      },
+      {
+        "turn_index": 3,
+        "text": "different types of music which are from our original song Do Something For Kids Some people think that the band is a part of this music tradition of singing songs and chants because it seems like they were formed by instruments from Gods creatures"
+      },
+      {
+        "turn_index": 5,
+        "text": "very rarely weakening in the sense that there may well be some musical playing around them as well Includes their old rhythm for example when their drums are low vibrant and when its hard to play out loud they often turn more and more"
+      },
+      {
+        "turn_index": 7,
+        "text": ""
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "iana krall and but like other types of music to You're trying to describe a specific genre or style of music, but you're not quite sure of the name or how to put it into words. You're using vague references to sounds,"
+      },
+      {
+        "turn_index": 4,
+        "text": ".       *   *   *   *   * The sounds and melodies are familiar, yet different The bass guitar's rhythmic pulse is infectious and driving The sound is reminiscent of jazz and blues, but with a twist It's"
+      },
+      {
+        "turn_index": 6,
+        "text": "silent  A person who listens to the band is likely to be a fan of eclectic music and are interested in exploring different genres and styles    *   *   *   *   *   *   *   *   *   *   *"
+      },
+      {
+        "turn_index": 8,
+        "text": "The description of the music is quite specific and detailed, with a focus on the unique qualities of the bass guitar's rhythmic pulse and the blend of jazz, blues, and other musical elements. The description also highlights the band's ability to adapt their"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: The girls are all about me And Billy ran his fingers over his ears as though he were telling some stories of the sea in which they had been at sea\n[Teacher]: for a long time, as if they had been at sea for a long time, as if they had been at sea for a long time. The sun was shining brightly over the ocean, but he didn’t seem to notice it. He was too\n[Student]: young to be allowed to play games with boys so much that he seemed almost afraid that they would go back home and leave him there alone\n[Teacher]: . He looked down at his shoes and they looked up at him as though they were saying, \"We're waiting for the day when we'll have to leave these streets and find a home of our own.\" The sun was setting over the ocean,\n[Student]: still glowing from its hot rays through the trees overhead and the sunlight shimmered across a river and over this water stood one man who stared out of window before pointing away towards the ship in which they were sailing along shore with their hats waving above\n[Teacher]: and the man pointed at the ship with his finger. \"There's the one,\" said the captain. The sun was sinking quickly, but the man seemed frozen in time, as though he were waiting for something to happen, his eyes fixed on the\n[Student]: sky where he expected to see land again and waved his hand toward the sea ahead and the men looking in every direction at each other with eager questions regarding things to see if could discover the ships or vessels without going farther away from them than to hear the\n[Teacher]: captain say, \"There's the one.\" The man was getting more and more excited as he kept staring out at the sea. The men were now all on the edge of their seats, their ears straining to hear the captain's words. They",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "The girls are all about me And Billy ran his fingers over his ears as though he were telling some stories of the sea in which they had been at sea"
+      },
+      {
+        "turn_index": 3,
+        "text": "young to be allowed to play games with boys so much that he seemed almost afraid that they would go back home and leave him there alone"
+      },
+      {
+        "turn_index": 5,
+        "text": "still glowing from its hot rays through the trees overhead and the sunlight shimmered across a river and over this water stood one man who stared out of window before pointing away towards the ship in which they were sailing along shore with their hats waving above"
+      },
+      {
+        "turn_index": 7,
+        "text": "sky where he expected to see land again and waved his hand toward the sea ahead and the men looking in every direction at each other with eager questions regarding things to see if could discover the ships or vessels without going farther away from them than to hear the"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "for a long time, as if they had been at sea for a long time, as if they had been at sea for a long time. The sun was shining brightly over the ocean, but he didn’t seem to notice it. He was too"
+      },
+      {
+        "turn_index": 4,
+        "text": ". He looked down at his shoes and they looked up at him as though they were saying, \"We're waiting for the day when we'll have to leave these streets and find a home of our own.\" The sun was setting over the ocean,"
+      },
+      {
+        "turn_index": 6,
+        "text": "and the man pointed at the ship with his finger. \"There's the one,\" said the captain. The sun was sinking quickly, but the man seemed frozen in time, as though he were waiting for something to happen, his eyes fixed on the"
+      },
+      {
+        "turn_index": 8,
+        "text": "captain say, \"There's the one.\" The man was getting more and more excited as he kept staring out at the sea. The men were now all on the edge of their seats, their ears straining to hear the captain's words. They"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: He used to play the drum and guitar when we first met in India at that age\n[Teacher]: , but we were only 13. I remember being so impressed by his skills. I'm not sure what kind of music you're referring to, but I can tell you that I'm a fan of various genres, from classic rock to jazz and\n[Student]: instrumental music with great ease because of course he didnt like the melody any more than most people did before him at that age who was the very youngest person I ever knew who could perform it with such skill as that guy who was just two\n[Teacher]: years older than us. But I remember that we were very close during those times, and I have a lot of fond memories of him even though it is now been a few years since we last met, I still feel the same way about him as\n[Student]: he does when hes ten or twelve years younger than me after a while As a composer for Dancing on Ice Lizzie McMahon said I dont really know why they chose this song because I heard about D\n[Teacher]: ances on Ice and that  I was told that you could hear my version of the song on the radio and on TV, and that I could be heard singing this song on the radio every morning and on the TV every evening, which was great to\n[Student]: think of somebody else that would make up songs with perfect rhythm to sing one of these great rhythm records if thats how you learned your own body parts in the early 20th century That sounds quite amazing Mhm mhm yeah Is it true\n[Teacher]: that people from other countries would tune in to hear you on the radio or on the TV and travel to the UK to see you perform live? Yes, it is true that I was on Dancing on Ice for a season and that I had appeared on",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "He used to play the drum and guitar when we first met in India at that age"
+      },
+      {
+        "turn_index": 3,
+        "text": "instrumental music with great ease because of course he didnt like the melody any more than most people did before him at that age who was the very youngest person I ever knew who could perform it with such skill as that guy who was just two"
+      },
+      {
+        "turn_index": 5,
+        "text": "he does when hes ten or twelve years younger than me after a while As a composer for Dancing on Ice Lizzie McMahon said I dont really know why they chose this song because I heard about D"
+      },
+      {
+        "turn_index": 7,
+        "text": "think of somebody else that would make up songs with perfect rhythm to sing one of these great rhythm records if thats how you learned your own body parts in the early 20th century That sounds quite amazing Mhm mhm yeah Is it true"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", but we were only 13. I remember being so impressed by his skills. I'm not sure what kind of music you're referring to, but I can tell you that I'm a fan of various genres, from classic rock to jazz and"
+      },
+      {
+        "turn_index": 4,
+        "text": "years older than us. But I remember that we were very close during those times, and I have a lot of fond memories of him even though it is now been a few years since we last met, I still feel the same way about him as"
+      },
+      {
+        "turn_index": 6,
+        "text": "ances on Ice and that  I was told that you could hear my version of the song on the radio and on TV, and that I could be heard singing this song on the radio every morning and on the TV every evening, which was great to"
+      },
+      {
+        "turn_index": 8,
+        "text": "that people from other countries would tune in to hear you on the radio or on the TV and travel to the UK to see you perform live? Yes, it is true that I was on Dancing on Ice for a season and that I had appeared on"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-1024-warmup-v2",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: What do they call concords if you like asked Bunny as he and Sue sat together at the table in the cool dining room that was near the end of their dining room when Mr Brown came up to them and said good night\n[Teacher]: and gave them a kiss on the cheek and a hug from behind?  (I will not read the paragraph again.)  What about you? Do you have a favorite holiday or family tradition?   I'm looking for some inspiration to create new holiday\n[Student]: plansby which time all my friends are out of town and Christmas is over And then all were smiling happily and talking excitedly among themselves on the broad board above them while the children were making preparations for breakfast before beginning school for them to be\n[Teacher]: ready on time as it was early in the morning and the parents had to go to work to provide for them as they were very happy to be together as a family. The final question was asked, and all the family were looking forward to celebrating Christmas\n[Student]: as well as going into college by Christmas day for both boys and girls who left off being invited to stay at home with their grandmothers sister who lived right opposite to her mothers house and took many little trips with her so far away from the front\n[Teacher]: door that some of the children had to run across the street to get home after being left behind at the front door.  The final question was asked, and all the family were looking forward to celebrating Christmas as well as going into college by Christmas day\n[Student]: when they would arrive on a train for Norfolk Island where their mother would be waiting for them and see what the weather was like and wishing that she could get there before starting for next years bazaar that evening and come back later in the\n[Teacher]: morning.  (I will not read the passage again.) It seems like you have a lot of holiday memories, and I would love to know more about your personal experiences and traditions.  I am looking for some inspiration to create new holiday plans by",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "What do they call concords if you like asked Bunny as he and Sue sat together at the table in the cool dining room that was near the end of their dining room when Mr Brown came up to them and said good night"
+      },
+      {
+        "turn_index": 3,
+        "text": "plansby which time all my friends are out of town and Christmas is over And then all were smiling happily and talking excitedly among themselves on the broad board above them while the children were making preparations for breakfast before beginning school for them to be"
+      },
+      {
+        "turn_index": 5,
+        "text": "as well as going into college by Christmas day for both boys and girls who left off being invited to stay at home with their grandmothers sister who lived right opposite to her mothers house and took many little trips with her so far away from the front"
+      },
+      {
+        "turn_index": 7,
+        "text": "when they would arrive on a train for Norfolk Island where their mother would be waiting for them and see what the weather was like and wishing that she could get there before starting for next years bazaar that evening and come back later in the"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and gave them a kiss on the cheek and a hug from behind?  (I will not read the paragraph again.)  What about you? Do you have a favorite holiday or family tradition?   I'm looking for some inspiration to create new holiday"
+      },
+      {
+        "turn_index": 4,
+        "text": "ready on time as it was early in the morning and the parents had to go to work to provide for them as they were very happy to be together as a family. The final question was asked, and all the family were looking forward to celebrating Christmas"
+      },
+      {
+        "turn_index": 6,
+        "text": "door that some of the children had to run across the street to get home after being left behind at the front door.  The final question was asked, and all the family were looking forward to celebrating Christmas as well as going into college by Christmas day"
+      },
+      {
+        "turn_index": 8,
+        "text": "morning.  (I will not read the passage again.) It seems like you have a lot of holiday memories, and I would love to know more about your personal experiences and traditions.  I am looking for some inspiration to create new holiday plans by"
+      }
+    ]
+  }
+]

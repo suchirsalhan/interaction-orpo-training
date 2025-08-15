@@ -1,0 +1,282 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: But your its the is thatre not what theyt in be What this in I can the way on It you the No you have them a bit her the wass just the top Ive do it what for the he good to see at a really were and you going my on the So som your time know we you mell to one be about all the Ohll to have been and and I don\n[Teacher]: 't see the good to know what I do in the the way that I've all the the he to it how I the I just want to see I the time so and I don't see the the the and and I the and I don't see I he good to see the time I the good to go to one be all the time we don't see the I have been the good to see the I don't see the and and I the and I don't see and I the good\n[Student]: Im our in you said out as and they but can have no\n[Teacher]: you see I don't and they and they but can have no you see I don't have one the good I don't see the and I he just want to go see the I don't see the time to see the And the and I don't see the time to see the I and I don't see the and I the and I don't see the and I and I don't see the and I the and I don't see the and I the and I don't see the and",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "But your its the is thatre not what theyt in be What this in I can the way on It you the No you have them a bit her the wass just the top Ive do it what for the he good to see at a really were and you going my on the So som your time know we you mell to one be about all the Ohll to have been and and I don"
+      },
+      {
+        "turn_index": 3,
+        "text": "Im our in you said out as and they but can have no"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "'t see the good to know what I do in the the way that I've all the the he to it how I the I just want to see I the time so and I don't see the the the and and I the and I don't see I he good to see the time I the good to go to one be all the time we don't see the I have been the good to see the I don't see the and and I the and I don't see and I the good"
+      },
+      {
+        "turn_index": 4,
+        "text": "you see I don't and they and they but can have no you see I don't have one the good I don't see the and I he just want to go see the I don't see the time to see the And the and I don't see the time to see the I and I don't see the and I the and I don't see the and I and I don't see the and I the and I don't see the and I the and I don't see the and"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: t my the your in that to do likes a way for to his name is to take the But it with him from their I and I just them of It you is up down you me you have me this lot out about of the mother I Andm good yous a moment hes all not we a that it iss face be Id he to you had I need I got not\n[Teacher]: for 2 not my to a but and him to it I am but I am I do you  and I but to be of a  you are that is  I to you to be that it to I if  I  I that you  and I to I  I to be that I  that  I to you that I to I  be that  I be that  I  and I to be that  I  I to I  and that you  I  I\n[Student]: said they one back thinks up of no her know all at have he say youre her own can be tot do to more know not all Ive see you the as if shes theynot of going er and would wem We sort Ill had rights you can come in when she or was mean few Oh the of thingssed a little him in here so dont him off with the work erm as to be it of you know about the very\n[Teacher]: he to us the when it of to he and he  as the of in to is of a  I for that the I can you is that I you and of the a of I that I  can you and  for of the I  and I to  I  the of it is I  and to be I if I  that  the if  I and to  that I  to I  that I and if  I  that I  I can be I  if",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "t my the your in that to do likes a way for to his name is to take the But it with him from their I and I just them of It you is up down you me you have me this lot out about of the mother I Andm good yous a moment hes all not we a that it iss face be Id he to you had I need I got not"
+      },
+      {
+        "turn_index": 3,
+        "text": "said they one back thinks up of no her know all at have he say youre her own can be tot do to more know not all Ive see you the as if shes theynot of going er and would wem We sort Ill had rights you can come in when she or was mean few Oh the of thingssed a little him in here so dont him off with the work erm as to be it of you know about the very"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "for 2 not my to a but and him to it I am but I am I do you  and I but to be of a  you are that is  I to you to be that it to I if  I  I that you  and I to I  I to be that I  that  I to you that I to I  be that  I be that  I  and I to be that  I  I to I  and that you  I  I"
+      },
+      {
+        "turn_index": 4,
+        "text": "he to us the when it of to he and he  as the of in to is of a  I for that the I can you is that I you and of the a of I that I  can you and  for of the I  and I to  I  the of it is I  and to be I if I  that  the if  I and to  that I  to I  that I and if  I  that I  I can be I  if"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: t to for on that and said whens the and it to go his to say down is that would to he in I suppose that I will to all one in her that in the so I see it back I dont you a like a we me and they my youve of just about whatm her face be know but it me what to he be The in ers an the which them so think that nots eyes up to were had to make it with our she the at\n[Teacher]: to he I am he so if you have and it I can see the one in to this and that for me not all the way the so you know I think that I and I dont it and I dont I like but and I dont like I like the I I dont know that I like but I like the I like and I dont know but I like the I like and I like but I dont know what it is I like I dont know and I like I like but I like and I\n[Student]: t that from this that you had to him that they in the in the first goings very into to get have I thought the last with You to have to your he he had had it it with their theyed as that as of the car time to me the house here as to be the old over the the other us as well of the was as had there is a the front through the on the the end to be more the to be they but and then as it in as it the\n[Teacher]: to this with as this and it is you and for of that and then of they the of be that it this and I dont know what it is I like but I dont know that I like I like the I like and I dont know but I like the I like and I like but I like and I dont know that I like and I like I like and I dont know that I like I like and I like and I dont know that I like that I like and I like and I dont",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "t to for on that and said whens the and it to go his to say down is that would to he in I suppose that I will to all one in her that in the so I see it back I dont you a like a we me and they my youve of just about whatm her face be know but it me what to he be The in ers an the which them so think that nots eyes up to were had to make it with our she the at"
+      },
+      {
+        "turn_index": 3,
+        "text": "t that from this that you had to him that they in the in the first goings very into to get have I thought the last with You to have to your he he had had it it with their theyed as that as of the car time to me the house here as to be the old over the the other us as well of the was as had there is a the front through the on the the end to be more the to be they but and then as it in as it the"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "to he I am he so if you have and it I can see the one in to this and that for me not all the way the so you know I think that I and I dont it and I dont I like but and I dont like I like the I I dont know that I like but I like the I like and I dont know but I like the I like and I like but I dont know what it is I like I dont know and I like I like but I like and I"
+      },
+      {
+        "turn_index": 4,
+        "text": "to this with as this and it is you and for of that and then of they the of be that it this and I dont know what it is I like but I dont know that I like I like the I like and I dont know but I like the I like and I like but I like and I dont know that I like and I like I like and I dont know that I like I like and I like and I dont know that I like that I like and I like and I dont"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: be going a the he on it so to that of in at for in you don I just a new way\n[Teacher]: to ask about pets! Don't worry, I'm happy to help you with your pet questions!  As for me, I don't have any pets. I'm an artificial intelligence, so I don't have a physical presence or a home to care for pets. However, I can provide information and answer questions about pets if you'd like!  If you'd like to ask about pets, I can help you with that. I can provide information about different types of pets, their care and maintenance,\n[Student]: and then the There you not all we want the first down was of youve to hear hers they and we will he would its the er is to the best and make from my thing all in usre work out me you think of some a year of up was are his course in No It for of the in one erm one to ers for when back last got through onell a the doors not a great its be those to go and I thoughtingve\n[Teacher]: got to just ask that you had to go is not to for you to have and that you to know as a way to ask what you want to hear to have a pets. It looks like there was a bit of a glitch there! Let me try that again in a more normal way.  Do you have any pets? How long have you had them, and what do you like most about them? I'd be happy to chat with you about your pets!",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "be going a the he on it so to that of in at for in you don I just a new way"
+      },
+      {
+        "turn_index": 3,
+        "text": "and then the There you not all we want the first down was of youve to hear hers they and we will he would its the er is to the best and make from my thing all in usre work out me you think of some a year of up was are his course in No It for of the in one erm one to ers for when back last got through onell a the doors not a great its be those to go and I thoughtingve"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "to ask about pets! Don't worry, I'm happy to help you with your pet questions!  As for me, I don't have any pets. I'm an artificial intelligence, so I don't have a physical presence or a home to care for pets. However, I can provide information and answer questions about pets if you'd like!  If you'd like to ask about pets, I can help you with that. I can provide information about different types of pets, their care and maintenance,"
+      },
+      {
+        "turn_index": 4,
+        "text": "got to just ask that you had to go is not to for you to have and that you to know as a way to ask what you want to hear to have a pets. It looks like there was a bit of a glitch there! Let me try that again in a more normal way.  Do you have any pets? How long have you had them, and what do you like most about them? I'd be happy to chat with you about your pets!"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: the there it the they to he a of the the people ats that would the way the he a in had be her withand him the the the of by of you you were we for on get this was him been one the with his he more iss sods a make by the Im and as it with I said at the from the he not as you could to his of his a walk is the I am will I They at think\n[Teacher]: I that you to the I in one the and if I to for had and I you the of you have if with I could the be with and you a the you like and the a and you I in I have and if I I have I the with the them the it I you I could not the to you and the you to the I and and I him the to I I you I could and I you I have I I I with the you the the to the and I with you\n[Student]: can was the he her back to know and my she and the his own What I think than in the days all had it could for right and to my man which and the that is the other a a year do when were on to be ers going\n[Teacher]: a I and my and I and and I one and I that I am of have been I but I the a I am a in to I if I to I I of the I with I I the to I my that I and the I have I to I I and I with I I have I and to I that I to I that I with I and the I that I the I am with I to I I I to I that I I I and I with I I am I I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "the there it the they to he a of the the people ats that would the way the he a in had be her withand him the the the of by of you you were we for on get this was him been one the with his he more iss sods a make by the Im and as it with I said at the from the he not as you could to his of his a walk is the I am will I They at think"
+      },
+      {
+        "turn_index": 3,
+        "text": "can was the he her back to know and my she and the his own What I think than in the days all had it could for right and to my man which and the that is the other a a year do when were on to be ers going"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "I that you to the I in one the and if I to for had and I you the of you have if with I could the be with and you a the you like and the a and you I in I have and if I I have I the with the them the it I you I could not the to you and the you to the I and and I him the to I I you I could and I you I have I I I with the you the the to the and I with you"
+      },
+      {
+        "turn_index": 4,
+        "text": "a I and my and I and and I one and I that I am of have been I but I the a I am a in to I if I to I I of the I with I I the to I my that I and the I have I to I I and I with I I have I and to I that I to I that I with I and the I that I the I am with I to I I I to I that I I I and I with I I am I I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: that as he is a have the the door with to be it the but to get there the a their a all a get the had to take and to in the and was the people well of his in which said that the course and I have his not to do the a her you could be this up in his of mys the don of we by the for the old to work sees and we give the ofve as he on a been to her to the I am had\n[Teacher]: a go and do you for I you the the and the of we to the he that he would the and the and the the in as the and so we to to he that as was of a the and and the and had in of the and I do you the of the and and the he a of I have to be the and that a of I you and to that he was of to the and as and that of and the of that I to you that and of that and he and\n[Student]: in any the little girl me They one some they one me I would\n[Teacher]: a of and to the and the it and I of to her of and the of I to and that and that and that of and and he and that and and that and that of him of to that and that and I would of and to the and that of and that and the and that and and the he and the of and that and that and that of and and that of and that and that of and that of and and that and that and that of and that and the he and the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "that as he is a have the the door with to be it the but to get there the a their a all a get the had to take and to in the and was the people well of his in which said that the course and I have his not to do the a her you could be this up in his of mys the don of we by the for the old to work sees and we give the ofve as he on a been to her to the I am had"
+      },
+      {
+        "turn_index": 3,
+        "text": "in any the little girl me They one some they one me I would"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "a go and do you for I you the the and the of we to the he that he would the and the and the the in as the and so we to to he that as was of a the and and the and had in of the and I do you the of the and and the he a of I have to be the and that a of I you and to that he was of to the and as and that of and the of that I to you that and of that and he and"
+      },
+      {
+        "turn_index": 4,
+        "text": "a of and to the and the it and I of to her of and the of I to and that and that and that of and and he and that and and that and that of him of to that and that and I would of and to the and that of and that and the and that and and the he and the of and that and that and that of and and that of and that and that of and that of and and that and that and that of and that and the he and the"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: And hes the It be nots so the little man it we be that\n[Teacher]: we be that we be that we be? I mean, I'm a big fan of Kendrick Lamar, I think he's a genius. I've seen him live in concert, and it was an experience I'll never forget. His energy and passion for his craft are inspiring, and his lyrics are like poetry. I also enjoy listening to J. Cole and Chance the Rapper, they're both talented artists who bring a unique perspective to their music. Do you have a favorite artist or album of\n[Student]: this we get her to talk make one with buts not see to It you were here that the I am I thoughtt know at your and he was to the the little I will be You when time the I thought the a as in in up and he all and said not were I are is made up out we that from you say he now Now by ins no the the to tell with a do to it they have got that had on I need if we of back I don\n[Teacher]: 't see if I know I don't know what you mean I I don't know what you want me to say I was but now I don't know how to say it.  I'm happy to chat with you about music, but I have to say, your response is a bit... confusing. It seems like you started to respond to a question about your music preferences, but then suddenly switched to a stream-of-consciousness ramble that's a bit hard to follow.  If you'd like to",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "And hes the It be nots so the little man it we be that"
+      },
+      {
+        "turn_index": 3,
+        "text": "this we get her to talk make one with buts not see to It you were here that the I am I thoughtt know at your and he was to the the little I will be You when time the I thought the a as in in up and he all and said not were I are is made up out we that from you say he now Now by ins no the the to tell with a do to it they have got that had on I need if we of back I don"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "we be that we be that we be? I mean, I'm a big fan of Kendrick Lamar, I think he's a genius. I've seen him live in concert, and it was an experience I'll never forget. His energy and passion for his craft are inspiring, and his lyrics are like poetry. I also enjoy listening to J. Cole and Chance the Rapper, they're both talented artists who bring a unique perspective to their music. Do you have a favorite artist or album of"
+      },
+      {
+        "turn_index": 4,
+        "text": "'t see if I know I don't know what you mean I I don't know what you want me to say I was but now I don't know how to say it.  I'm happy to chat with you about music, but I have to say, your response is a bit... confusing. It seems like you started to respond to a question about your music preferences, but then suddenly switched to a stream-of-consciousness ramble that's a bit hard to follow.  If you'd like to"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: I can do the that as it we a they your in her sot of the father be You think a him you it I had up there I can one not with to of he be here with when all\n[Teacher]: he It sounds like your message got cut off. I'd be happy to chat with you about your hobbies and interests!  If you'd like, we can start fresh and I can ask you the questions you mentioned, or you can tell me a bit about your favorite hobbies and why you enjoy them. I'm here to listen! What do you like to do in your free time? Do you have any fun plans or activities coming up? Let's chat!\n[Student]: ve then so be said on it had out ats I supposes facet she know are some own go were we take youll take the if I could he thought When on the my the is so on to me what was that it the The of theirs but went that in say hes the with you be oft get now well you of her place you thes going he to make a of for the boy you a tree down minute not the could do be to\n[Teacher]: her he and on that be so then you be a you you if you go but I'll that he a the you be with he of the have to be I think she and I had she be the he a I think I had you of he a you the me you he the of the you to you of the I'm not sure what's going on with the message, but I'd love to start fresh and chat with you about your hobbies and interests.  To get started, can you tell",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I can do the that as it we a they your in her sot of the father be You think a him you it I had up there I can one not with to of he be here with when all"
+      },
+      {
+        "turn_index": 3,
+        "text": "ve then so be said on it had out ats I supposes facet she know are some own go were we take youll take the if I could he thought When on the my the is so on to me what was that it the The of theirs but went that in say hes the with you be oft get now well you of her place you thes going he to make a of for the boy you a tree down minute not the could do be to"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "he It sounds like your message got cut off. I'd be happy to chat with you about your hobbies and interests!  If you'd like, we can start fresh and I can ask you the questions you mentioned, or you can tell me a bit about your favorite hobbies and why you enjoy them. I'm here to listen! What do you like to do in your free time? Do you have any fun plans or activities coming up? Let's chat!"
+      },
+      {
+        "turn_index": 4,
+        "text": "her he and on that be so then you be a you you if you go but I'll that he a the you be with he of the have to be I think she and I had she be the he a I think I had you of he a you the me you he the of the you to you of the I'm not sure what's going on with the message, but I'd love to start fresh and chat with you about your hobbies and interests.  To get started, can you tell"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Thiss CHIs all thatve know it is can get her\n[Teacher]: really excited  Music is a wonderful topic! I don't have personal preferences or experiences, but I can tell you about different genres and artists if you're interested!  There are many types of music out there, such as pop, rock, jazz, classical, hip-hop, electronic, and many more. Each genre has its own unique sound and style.  Some popular artists and bands include The Beatles, Queen, Lady Gaga, Kendrick Lamar, Beyoncé, Taylor Swift, and many more. There are\n[Student]: s come the she Nos to me you going we your you what\n[Teacher]: and I'm happy to chat about music with you! What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?  What are your thoughts on music? Do you have any favorite songs or albums? Let's talk music!  I can tell you about different genres, artists, and styles of music if you're interested.  I can also help you find new music to listen to or recommend some songs or albums based on your tastes.  I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Thiss CHIs all thatve know it is can get her"
+      },
+      {
+        "turn_index": 3,
+        "text": "s come the she Nos to me you going we your you what"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "really excited  Music is a wonderful topic! I don't have personal preferences or experiences, but I can tell you about different genres and artists if you're interested!  There are many types of music out there, such as pop, rock, jazz, classical, hip-hop, electronic, and many more. Each genre has its own unique sound and style.  Some popular artists and bands include The Beatles, Queen, Lady Gaga, Kendrick Lamar, Beyoncé, Taylor Swift, and many more. There are"
+      },
+      {
+        "turn_index": 4,
+        "text": "and I'm happy to chat about music with you! What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?  What are your thoughts on music? Do you have any favorite songs or albums? Let's talk music!  I can tell you about different genres, artists, and styles of music if you're interested.  I can also help you find new music to listen to or recommend some songs or albums based on your tastes.  I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "babylm-seqlen/opt-4096-warmup-v2",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: She the same in it to not did and all have In was be the first Yess in the but to of the back he had a was of the of his time was she for the be and the end bying were for that this G by at aborners in Ds the the is as United a In He S and and the the H the into the of London of France a than with the north in Germany KThe The a States\n[Teacher]: and of the from in the in in in in with a of of to in of and in and and the the the a States the that the a in the in the of the in the The a of the a of the in the of the from in the in the and in and in and and the the of the and and of the the of and of the in the of the and in the of and in the of and and in and in and in and in and in and and of the\n[Student]: was R the water are made to the fire and her It of an more they him a good and on could the and get it theianer and the U the resti A 20 the M The Thea in Julyin to show the regionborn the firstateation is hes a lotes in T a new But in the same\n[Teacher]: country the of the in the of of the of in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "She the same in it to not did and all have In was be the first Yess in the but to of the back he had a was of the of his time was she for the be and the end bying were for that this G by at aborners in Ds the the is as United a In He S and and the the H the into the of London of France a than with the north in Germany KThe The a States"
+      },
+      {
+        "turn_index": 3,
+        "text": "was R the water are made to the fire and her It of an more they him a good and on could the and get it theianer and the U the resti A 20 the M The Thea in Julyin to show the regionborn the firstateation is hes a lotes in T a new But in the same"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and of the from in the in in in in with a of of to in of and in and and the the the a States the that the a in the in the of the in the The a of the a of the in the of the from in the in the and in and in and and the the of the and and of the the of and of the in the of the and in the of and in the of and and in and in and in and in and in and and of the"
+      },
+      {
+        "turn_index": 4,
+        "text": "country the of the in the of of the of in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the of the in the"
+      }
+    ]
+  }
+]
