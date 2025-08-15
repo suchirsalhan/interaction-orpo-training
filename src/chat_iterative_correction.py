@@ -1,127 +1,111 @@
-import torch
+import argparse
+from pathlib import Path
 
-# ----------------------------
-# Cleaning functions
-# ----------------------------
-def clean_light(text):
-    return text.strip()
+# --------------------------
+# Helper functions
+# --------------------------
 
-CLEANING_FUNCS = {
-    "light": clean_light,
-}
+def sanitize_for_filename(s: str) -> str:
+    """Replace unsafe filename characters with underscores."""
+    return s.replace("/", "_").replace(":", "_").replace(" ", "_")
 
-# ----------------------------
-# Feedback template
-# ----------------------------
-FEEDBACK_TEMPLATES = {
-    "explicit_correction": lambda teacher_msg, student_msg: (
-        f"Student said: '{student_msg}'\n"
-        f"As the teacher, provide an explicit correction to improve the student's answer."
-    )
-}
+# Placeholder for actual loading functions
+def load_teacher_model():
+    # Replace with actual teacher model/tokenizer loading
+    return None, None, "cpu"
 
-# ----------------------------
-# Response generation helpers
-# ----------------------------
-def generate_teacher_response(prompt, tokenizer, model, device, cleaning_func, max_new_tokens=100):
-    inputs = tokenizer(prompt, return_tensors="pt").to(device)
-    with torch.no_grad():
-        output = model.generate(**inputs, max_new_tokens=max_new_tokens)
-    text = tokenizer.decode(output[0], skip_special_tokens=True)
-    return cleaning_func(text)
+def load_student_model(model_name):
+    # Replace with actual student model/tokenizer loading
+    return None, None, "cpu"
 
-def generate_student_response(prompt, tokenizer, model, device, cleaning_func, max_new_tokens=100, cleaning_level="light"):
-    inputs = tokenizer(prompt, return_tensors="pt").to(device)
-    with torch.no_grad():
-        output = model.generate(**inputs, max_new_tokens=max_new_tokens)
-    text = tokenizer.decode(output[0], skip_special_tokens=True)
-    return CLEANING_FUNCS.get(cleaning_level, clean_light)(text)
-
-# ----------------------------
-# Teacher-Student Chat Loop with Iterative Self-Correction
-# ----------------------------
-def chat_teacher_student_self_correction(
+def chat_teacher_student(
     teacher_tokenizer, teacher_model, teacher_device,
     student_tokenizer, student_model, student_device,
-    meta_prompt, num_turns=2,
-    num_self_corrections=2, cleaning_level="light",
-    max_new_tokens=100
+    meta_prompt, num_turns, feedback_type, cleaning_level, max_new_tokens
 ):
-    """
-    Teacher-student dialogue with iterative self-correction.
-    """
-    transcript_lines = []
-    cleaning_func = CLEANING_FUNCS.get(cleaning_level, clean_light)
-
-    # Teacher initiates dialogue
-    teacher_reply = generate_teacher_response(
-        meta_prompt, teacher_tokenizer, teacher_model, teacher_device,
-        cleaning_func, max_new_tokens=max_new_tokens
-    )
-    transcript_lines.append(f"Teacher: {teacher_reply}")
-    dialogue = f"[Teacher]: {teacher_reply}"
-
+    # Replace with your real chat loop implementation
+    transcript = []
     for turn in range(num_turns):
-        # Student responds to teacher
-        student_input = dialogue + "\n[Student]:"
-        student_reply = generate_student_response(
-            student_input, student_tokenizer, student_model, student_device,
-            cleaning_func, max_new_tokens=max_new_tokens,
-            cleaning_level=cleaning_level
-        )
-        transcript_lines.append(f"Student: {student_reply}")
-        dialogue += f"\n[Student]: {student_reply}"
+        transcript.append(f"Teacher: Turn {turn+1}")
+        transcript.append(f"Student: Response {turn+1}")
+        # Optional: implement iterative self-correction here
+    return transcript
 
-        # Teacher issues explicit correction
-        correction_prompt = FEEDBACK_TEMPLATES["explicit_correction"](teacher_reply, student_reply)
-        teacher_correction = generate_teacher_response(
-            correction_prompt, teacher_tokenizer, teacher_model, teacher_device,
-            cleaning_func, max_new_tokens=max_new_tokens
-        )
-        transcript_lines.append(f"Teacher (correction): {teacher_correction}")
-        dialogue += f"\n[Teacher]: {teacher_correction}"
+# --------------------------
+# Main CLI
+# --------------------------
 
-        # Iterative self-correction by student
-        for i in range(num_self_corrections):
-            self_correction_input = dialogue + "\n[Student]:"
-            student_reply = generate_student_response(
-                self_correction_input, student_tokenizer, student_model, student_device,
-                cleaning_func, max_new_tokens=max_new_tokens,
-                cleaning_level=cleaning_level
-            )
-            transcript_lines.append(f"Student (self-correct {i+1}): {student_reply}")
-            dialogue += f"\n[Student]: {student_reply}"
+def main():
+    parser = argparse.ArgumentParser(
+        description="Teacher-Student Chat Simulation (with feedback & cleaning options)"
+    )
+    parser.add_argument("--student_model", type=str, required=True,
+                        help="Hugging Face model name or path for the student model")
+    parser.add_argument("--num_turns", type=int, default=2,
+                        help="Number of conversation turns per dialogue (teacher+student pairs)")
+    parser.add_argument("--num_dialogues", type=int, default=5,
+                        help="Number of dialogues to generate")
+    parser.add_argument("--feedback_type", type=str, choices=["affirmative", "explicit_correction", "socratic"],
+                        default="affirmative", help="Type of explicit feedback teacher gives the student")
+    parser.add_argument("--cleaning", type=str, choices=["none", "light", "strict"],
+                        default="light", help="Cleaning level applied to generated responses")
+    parser.add_argument("--max_new_tokens", type=int, default=100,
+                        help="Maximum number of newly generated tokens per generation call")
+    args = parser.parse_args()
 
-    return transcript_lines
+    # prepare output path
+    output_dir = Path("./dialogues")
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-# ----------------------------
-# Example usage
-# ----------------------------
-if __name__ == "__main__":
-    from transformers import AutoTokenizer, AutoModelForCausalLM
+    student_tag = sanitize_for_filename(args.student_model)
+    filename = (
+        f"dialogues_{student_tag}_"
+        f"{args.num_turns}turns_"
+        f"{args.num_dialogues}dialogs_"
+        f"{args.feedback_type}_"
+        f"{args.cleaning}_"
+        f"{args.max_new_tokens}tokens.txt"
+    )
+    output_path = output_dir / filename
 
-    # Example models (use small ones for testing)
-    teacher_model_name = "gpt2"
-    student_model_name = "gpt2"
+    print(f"Loading teacher model...")
+    teacher_tokenizer, teacher_model, teacher_device = load_teacher_model()
+    print(f"Loading student model '{args.student_model}'...")
+    student_tokenizer, student_model, student_device = load_student_model(args.student_model)
 
-    teacher_tokenizer = AutoTokenizer.from_pretrained(teacher_model_name)
-    teacher_model = AutoModelForCausalLM.from_pretrained(teacher_model_name)
-    teacher_device = "cuda" if torch.cuda.is_available() else "cpu"
-    teacher_model.to(teacher_device)
-
-    student_tokenizer = AutoTokenizer.from_pretrained(student_model_name)
-    student_model = AutoModelForCausalLM.from_pretrained(student_model_name)
-    student_device = "cuda" if torch.cuda.is_available() else "cpu"
-    student_model.to(student_device)
-
-    # Run chat
-    meta_prompt = "Teacher introduces the topic: Explain the concept of photosynthesis."
-    transcript = chat_teacher_student_self_correction(
-        teacher_tokenizer, teacher_model, teacher_device,
-        student_tokenizer, student_model, student_device,
-        meta_prompt, num_turns=1, num_self_corrections=2
+    # meta prompt for first utterance
+    meta_prompt = (
+        "You are an expert dialogue assistant initiating a conversation with a child language model "
+        "that has the linguistic abilities of a competent learner.\n\n"
+        "Generate the first message to begin the dialogue. The message should:\n"
+        "- Be concise: 1 to 2 short sentences, no more than 30 words total.\n"
+        "- Use a friendly, positive, age-appropriate tone.\n"
+        "- Mention or draw attention to a few familiar objects (e.g., ball, cup, dog, book).\n"
+        "- Avoid abstract or complex concepts.\n\n"
+        "Tone:\n"
+        "- Conversational and nurturing\n"
+        "- Suitable for a preverbal or babbling child\n\n"
+        "Only output the first utterance to the child model to start the conversation."
     )
 
-    # Print transcript
-    for line in transcript:
-        print(line)
+    print(f"Generating {args.num_dialogues} dialogues -> {output_path} (feedback={args.feedback_type}, cleaning={args.cleaning})")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        for i in range(1, args.num_dialogues + 1):
+            transcript = chat_teacher_student(
+                teacher_tokenizer, teacher_model, teacher_device,
+                student_tokenizer, student_model, student_device,
+                meta_prompt,
+                num_turns=args.num_turns,
+                feedback_type=args.feedback_type,
+                cleaning_level=args.cleaning,
+                max_new_tokens=args.max_new_tokens
+            )
+            f.write(f"Dialogue {i}\n")
+            f.write("\n".join(transcript))
+            f.write("\n\n")
+
+    print(f"✅ Saved {args.num_dialogues} dialogues to {output_path}")
+
+if __name__ == "__main__":
+    main()
