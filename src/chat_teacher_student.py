@@ -29,47 +29,85 @@ def load_student_model(model_name_or_path):
 
 # -------- Generation helpers --------
 
-def generate_student_response(prompt, tokenizer, model, device, max_length=50):
-    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(device)
-    input_length = inputs.input_ids.shape[1]
-    eos_token_id = tokenizer.eos_token_id if tokenizer.eos_token_id is not None else -1
-    output_ids = inputs.input_ids
-
-    with torch.no_grad():
-        for _ in range(max_length):
-            outputs = model(output_ids)
-            logits = outputs.logits[:, -1, :]
-            probs = torch.nn.functional.softmax(logits, dim=-1)
-            next_token_id = torch.argmax(probs, dim=-1).unsqueeze(-1)
-
-            if next_token_id.item() < 0 or next_token_id.item() >= logits.shape[-1]:
-                break
-
-            output_ids = torch.cat([output_ids, next_token_id], dim=-1)
-
-            if eos_token_id != -1 and next_token_id.item() == eos_token_id:
-                break
-
-    generated_tokens = output_ids[0, input_length:].tolist()
-    generated_text = tokenizer.decode(generated_tokens, clean_up_tokenization_spaces=True)
-    return generated_text.strip()
+# --------------------------
+# Cleaning utilities
+# --------------------------
+def clean_response(response: str) -> str:
+    lines = response.splitlines()
+    filtered_lines = [line for line in lines if "[Teacher]" not in line and "[Student]" not in line]
+    return " ".join(filtered_lines).strip()
 
 
-def generate_teacher_response(prompt, tokenizer, model, device, max_length=100):
-    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512).to(device)
-    output_ids = model.generate(
+def get_banned_tokens(tokenizer):
+    banned_strings = [
+        ".", ",", "!", "?", ";", ":", "'", "\"", "-", "–", "—", "(", ")",
+        "[", "]", "{", "}", "…", "\n", "\t", "\r", "/", "\\", "*", "_",
+        "[Teacher]", "[Student]"
+    ]
+    banned_ids = []
+    for s in banned_strings:
+        try:
+            token_ids = tokenizer(s, add_special_tokens=False)["input_ids"]
+            banned_ids.extend(token_ids)
+        except Exception:
+            # ignore tokens that tokenizer cannot encode
+            continue
+    return [[tid] for tid in set(banned_ids)]
+
+
+def clean_response_final(response: str) -> str:
+    # remove role tokens, punctuation, keep alphanumerics and spaces
+    response = re.sub(r"\[Teacher\]|\[Student\]", " ", response)
+    response = re.sub(r"[^\w\s]", "", response)
+    response = re.sub(r"\s+", " ", response)
+    return response.strip()
+
+
+# --------------------------
+# Generation functions
+# --------------------------
+def generate_teacher_response(prompt, tokenizer, model, device, max_length=50):
+    inputs = tokenizer(prompt, return_tensors="pt").to(device)
+    output = model.generate(
         **inputs,
-        max_length=inputs.input_ids.shape[1] + max_length,
-        pad_token_id=tokenizer.eos_token_id,
+        max_length=inputs["input_ids"].shape[1] + max_length,
         do_sample=True,
-        top_p=0.9,
-        temperature=0.7,
-        eos_token_id=tokenizer.eos_token_id,
+        top_p=0.95,
+        top_k=50,
+        temperature=0.8,
+        pad_token_id=tokenizer.eos_token_id
     )
-    generated = output_ids[0, inputs.input_ids.shape[1]:].tolist()
-    text = tokenizer.decode(generated, clean_up_tokenization_spaces=True).strip()
-    return text
+    response = tokenizer.decode(output[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
+    return clean_response(response)
 
+
+def generate_student_response(prompt, tokenizer, model, device, max_length=50, max_retries=3):
+    bad_words_ids = get_banned_tokens(tokenizer)
+
+    for attempt in range(max_retries):
+        inputs = tokenizer(prompt, return_tensors="pt").to(device)
+        output = model.generate(
+            **inputs,
+            max_length=inputs["input_ids"].shape[1] + max_length,
+            do_sample=True,
+            top_p=0.95,
+            top_k=50,
+            temperature=0.8,
+            repetition_penalty=1.2,
+            pad_token_id=tokenizer.eos_token_id,
+            bad_words_ids=bad_words_ids
+        )
+
+        response = tokenizer.decode(
+            output[0][inputs["input_ids"].shape[1]:],
+            skip_special_tokens=True
+        )
+        response = clean_response_final(response)
+
+        if any(c.isalnum() for c in response):
+            return response
+
+    return ""
 
 # -------- Chat loop --------
 
@@ -120,7 +158,7 @@ def main():
 
     meta_prompt = (
         "You are an expert dialogue assistant initiating a conversation with a child language model "
-        "that has the linguistic abilities of a 6 to 11 month old infant.\n\n"
+        "that has the linguistic abilities of a competent learner.\n\n"
         "Generate the first message to begin the dialogue. The message should:\n"
         "- Be concise: 1 to 2 short sentences, no more than 30 words total.\n"
         "- Use a friendly, positive, age-appropriate tone.\n"
