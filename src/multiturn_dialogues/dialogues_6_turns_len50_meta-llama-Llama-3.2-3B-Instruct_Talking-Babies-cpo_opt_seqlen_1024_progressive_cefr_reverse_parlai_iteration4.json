@@ -1,0 +1,362 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: She said that we didnt want her to be popular in the city and I think it was just a little bit more fun than being in London with our parents\n[Teacher]: . I cant remember anything else. It seems like you're recounting a conversation or a memory, but it doesn't provide enough context to know what's being discussed. It appears to be a fragmented and disjointed passage.  To better understand what you\n[Student]: can say is really true as well\n[Teacher]: as what is not, you can try writing your own story using these prompts:   1. Describe the setting of a memorable event or experience.   2. Tell the story of a time when you tried something new and what happened.\n[Student]: 2\n[Teacher]: . Describe a time when you felt like you didn't fit in or were an outsider. 3. Describe a situation where you had to make a difficult decision.   4. Tell the story of a person who made a significant positive impact in",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "She said that we didnt want her to be popular in the city and I think it was just a little bit more fun than being in London with our parents"
+      },
+      {
+        "turn_index": 3,
+        "text": "can say is really true as well"
+      },
+      {
+        "turn_index": 5,
+        "text": "2"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". I cant remember anything else. It seems like you're recounting a conversation or a memory, but it doesn't provide enough context to know what's being discussed. It appears to be a fragmented and disjointed passage.  To better understand what you"
+      },
+      {
+        "turn_index": 4,
+        "text": "as what is not, you can try writing your own story using these prompts:   1. Describe the setting of a memorable event or experience.   2. Tell the story of a time when you tried something new and what happened."
+      },
+      {
+        "turn_index": 6,
+        "text": ". Describe a time when you felt like you didn't fit in or were an outsider. 3. Describe a situation where you had to make a difficult decision.   4. Tell the story of a person who made a significant positive impact in"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: Ive never met anyone but myself I was with my brother and sister since he died of a heart attack in 1983\n[Teacher]: .  I did not attend his funeral so I was feeling guilty and I regret it to this day. I have been on many trips but none of them have been meaningful.  I have always been drawn to the mountains and I have spent countless hours\n[Student]: exploring where they will be found to contain thousands of birds and animals such as elephants and lions My brother had promised me that if I ever left Altai I would leave immediately for America without killing anyone else until we were safe here or\n[Teacher]: until you were in my arms or even to death.  My brother was always a bit of a dreamer, and his words have stuck with me to this day.  I never left Altai after my brother's death and the thought of visiting\n[Student]: him from the moment when I came back Im sorry I am not alone now as long as I live It is a great pity that I should feel badly after all_The Times_ You may remember these books by heart and are\n[Teacher]: able to recall them with ease, but can you also tell me, do you know, when and where they were published and by whom? ## Step 1: Read the passage to understand its context and purpose. The passage is a reflective and emotional",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Ive never met anyone but myself I was with my brother and sister since he died of a heart attack in 1983"
+      },
+      {
+        "turn_index": 3,
+        "text": "exploring where they will be found to contain thousands of birds and animals such as elephants and lions My brother had promised me that if I ever left Altai I would leave immediately for America without killing anyone else until we were safe here or"
+      },
+      {
+        "turn_index": 5,
+        "text": "him from the moment when I came back Im sorry I am not alone now as long as I live It is a great pity that I should feel badly after all_The Times_ You may remember these books by heart and are"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ".  I did not attend his funeral so I was feeling guilty and I regret it to this day. I have been on many trips but none of them have been meaningful.  I have always been drawn to the mountains and I have spent countless hours"
+      },
+      {
+        "turn_index": 4,
+        "text": "until you were in my arms or even to death.  My brother was always a bit of a dreamer, and his words have stuck with me to this day.  I never left Altai after my brother's death and the thought of visiting"
+      },
+      {
+        "turn_index": 6,
+        "text": "able to recall them with ease, but can you also tell me, do you know, when and where they were published and by whom? ## Step 1: Read the passage to understand its context and purpose. The passage is a reflective and emotional"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: I think it is best to have one of my own teammates He was a good speaker when the others reached his high school in October 1945 and he had many other students at school that were enthusiastic about him and the fact that he could not\n[Teacher]: speak in front of the class. Therefore, I decided to look for a team that was a little more small and manageable, since I was a little shy. I joined the school's track team and it seemed to be a good choice for me.\n[Student]: So I went on to pursue an experimental field goal against the city of Vancouver which I am proud of as a part of the community development foundation and also with some children whose work is almost exclusively successful In addition\n[Teacher]: , I was also part of a club that was created to support people with disabilities. I really enjoyed the sense of community that came from being on these teams, and I was able to meet many new people who shared my interests. In other words,\n[Student]: during World War II I was inspired by what they did to get the attention of a great singer named Celine Dionne and starring in The X Factor Igniteous Woman I remember having said that I was very\n[Teacher]: proud to have the title of the best singer in the entire city of Montreal I was able to go to the X Factor to meet her and I was very honored to have the chance to meet her and I was able to talk to her and I was",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I think it is best to have one of my own teammates He was a good speaker when the others reached his high school in October 1945 and he had many other students at school that were enthusiastic about him and the fact that he could not"
+      },
+      {
+        "turn_index": 3,
+        "text": "So I went on to pursue an experimental field goal against the city of Vancouver which I am proud of as a part of the community development foundation and also with some children whose work is almost exclusively successful In addition"
+      },
+      {
+        "turn_index": 5,
+        "text": "during World War II I was inspired by what they did to get the attention of a great singer named Celine Dionne and starring in The X Factor Igniteous Woman I remember having said that I was very"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "speak in front of the class. Therefore, I decided to look for a team that was a little more small and manageable, since I was a little shy. I joined the school's track team and it seemed to be a good choice for me."
+      },
+      {
+        "turn_index": 4,
+        "text": ", I was also part of a club that was created to support people with disabilities. I really enjoyed the sense of community that came from being on these teams, and I was able to meet many new people who shared my interests. In other words,"
+      },
+      {
+        "turn_index": 6,
+        "text": "proud to have the title of the best singer in the entire city of Montreal I was able to go to the X Factor to meet her and I was very honored to have the chance to meet her and I was able to talk to her and I was"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: You seem to be glad I was born here and cannot afford to let you go Then he gave a little cry of surprise and left the room in such good spirits that it seemed too much for him even then who did not care to play with his\n[Teacher]: friends at all and always seemed like a lost child and was very shy. So I said I would write to you and tell you all about it and I want to know what you are like now. How was your day like and did you get enough\n[Student]: lessons from books she inquired as if she were quite sure there must be something wrong or unpleasant going on just this way\n[Teacher]: and it was very good for me. There were several boys in the town who were quite poor and lived with their families in small houses and were not able to afford to spend much money on books. You see the sun rising over the mountains and the\n[Student]: grass is so green that no one can imagine how far they spent during the winter months until we came home and played games together on our own farm when my mother died last years woodworking workshop and her children were getting ready for school again\n[Teacher]: this morning and I am so glad I was born here and cannot afford to let you go Then he gave a little cry of surprise and left the room in such good spirits that it seemed too much for him even then who did not care to play with",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "You seem to be glad I was born here and cannot afford to let you go Then he gave a little cry of surprise and left the room in such good spirits that it seemed too much for him even then who did not care to play with his"
+      },
+      {
+        "turn_index": 3,
+        "text": "lessons from books she inquired as if she were quite sure there must be something wrong or unpleasant going on just this way"
+      },
+      {
+        "turn_index": 5,
+        "text": "grass is so green that no one can imagine how far they spent during the winter months until we came home and played games together on our own farm when my mother died last years woodworking workshop and her children were getting ready for school again"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "friends at all and always seemed like a lost child and was very shy. So I said I would write to you and tell you all about it and I want to know what you are like now. How was your day like and did you get enough"
+      },
+      {
+        "turn_index": 4,
+        "text": "and it was very good for me. There were several boys in the town who were quite poor and lived with their families in small houses and were not able to afford to spend much money on books. You see the sun rising over the mountains and the"
+      },
+      {
+        "turn_index": 6,
+        "text": "this morning and I am so glad I was born here and cannot afford to let you go Then he gave a little cry of surprise and left the room in such good spirits that it seemed too much for him even then who did not care to play with"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Do you want to send your mother a little gift for every child who comes here with the money And she lifted her eyes with an expression that was almost pathetic in spite of herself at times when Mrs Rimbolt gave it a squeeze as if they\n[Teacher]: were the two of them huddled together in a cold room. The sun beat down on the pavement outside and cast a gloomy shadow on the sidewalk. The mother in question had grown up in an environment where she was never really a part of anything\n[Student]: except the kindling things which make children so much trouble nowadaysthat is something we always enjoy doing ourselves She spoke very seriously and patiently after his hearty greeting before giving me time to speak more cheerfully upon the subject than I did myself in\n[Teacher]: the beginning. The old man laughed a deep and rich sound that vibrated through the room and made me feel happy. I felt a little shy because of my age, but when the old man smiled at me I felt at ease with him. Mrs\n[Student]: Rimbolt looked from one person to another in this strange new homewas Mr Jervoise Cunninghams father\n[Teacher]: and mother. But they were very happy to see them. He was very proud of the house he lived in. He showed me and Mrs Rimbolt around the house and the garden and told us about the history of the house. The children loved",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Do you want to send your mother a little gift for every child who comes here with the money And she lifted her eyes with an expression that was almost pathetic in spite of herself at times when Mrs Rimbolt gave it a squeeze as if they"
+      },
+      {
+        "turn_index": 3,
+        "text": "except the kindling things which make children so much trouble nowadaysthat is something we always enjoy doing ourselves She spoke very seriously and patiently after his hearty greeting before giving me time to speak more cheerfully upon the subject than I did myself in"
+      },
+      {
+        "turn_index": 5,
+        "text": "Rimbolt looked from one person to another in this strange new homewas Mr Jervoise Cunninghams father"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "were the two of them huddled together in a cold room. The sun beat down on the pavement outside and cast a gloomy shadow on the sidewalk. The mother in question had grown up in an environment where she was never really a part of anything"
+      },
+      {
+        "turn_index": 4,
+        "text": "the beginning. The old man laughed a deep and rich sound that vibrated through the room and made me feel happy. I felt a little shy because of my age, but when the old man smiled at me I felt at ease with him. Mrs"
+      },
+      {
+        "turn_index": 6,
+        "text": "and mother. But they were very happy to see them. He was very proud of the house he lived in. He showed me and Mrs Rimbolt around the house and the garden and told us about the history of the house. The children loved"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: Im a kid who has got no interest in anything but the movies and the movie\n[Teacher]: stars. You are likely a parent, who is probably a foodie and loves cooking at home, and I am looking for advice on how to get started.   Before I ask my question, I want to tell you a cooking tip from your kid\n[Student]: ney factory is one of those things that make him hungry and ready to live with his mother when he comes back home He was also interested in making friends through these talks between her boyfriends who liked the restaurant as much as they liked their family and\n[Teacher]: the other girls who did not have such an experience.   I did not know that a child can be a good chef and be able to make his mother cook in the kitchen.   I am now looking for a place where I can find all the\n[Student]: dishes and the recipes that would help me make my bed so you could put it away after serving meals I will cook all day long and thank God it seems that way at least something like this should turn into a real life\n[Teacher]: event. I'm sorry, I think there was a mistake, my intention was to ask for your help in getting started with cooking, not for a kitchen to make my kid cook for you, and also I would like to know if there is a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Im a kid who has got no interest in anything but the movies and the movie"
+      },
+      {
+        "turn_index": 3,
+        "text": "ney factory is one of those things that make him hungry and ready to live with his mother when he comes back home He was also interested in making friends through these talks between her boyfriends who liked the restaurant as much as they liked their family and"
+      },
+      {
+        "turn_index": 5,
+        "text": "dishes and the recipes that would help me make my bed so you could put it away after serving meals I will cook all day long and thank God it seems that way at least something like this should turn into a real life"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "stars. You are likely a parent, who is probably a foodie and loves cooking at home, and I am looking for advice on how to get started.   Before I ask my question, I want to tell you a cooking tip from your kid"
+      },
+      {
+        "turn_index": 4,
+        "text": "the other girls who did not have such an experience.   I did not know that a child can be a good chef and be able to make his mother cook in the kitchen.   I am now looking for a place where I can find all the"
+      },
+      {
+        "turn_index": 6,
+        "text": "event. I'm sorry, I think there was a mistake, my intention was to ask for your help in getting started with cooking, not for a kitchen to make my kid cook for you, and also I would like to know if there is a"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: You never heard of him He paused for breath and listened in a low voice that was more than he understood what it meant to be a singer but as if he were not sure whether this song would help his imagination outweighed the most\n[Teacher]: important thing which was the melody. Music has always been an integral part of my life. I listen to a wide range of genres, but my favorite genres are indie rock and alternative rock. I appreciate the emotional depth and complexity that these genres offer.\n[Student]: It is often hard to understand why people feel love when they get tired of being in college or even having some time at work PG54947 childes_ also known by its acronym A N\n[Teacher]: N I E, was one of the first AI models to be widely used in the field of natural language processing. ANNIIE was first released in 2018 and was developed by Google. The model was designed to be used for a variety of\n[Student]: things including musical lyrics and many others were inspired by other gifted songs such as Single By Money and Game Girl with Lifes In 2017 iGouda released her fourth album Treasure Island\n[Teacher]: . The album gained a significant amount of attention. She was named as the most popular singer in her genre. The album gained a significant amount of attention. She was named as the most popular singer in her genre. The album gained a significant amount of",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "You never heard of him He paused for breath and listened in a low voice that was more than he understood what it meant to be a singer but as if he were not sure whether this song would help his imagination outweighed the most"
+      },
+      {
+        "turn_index": 3,
+        "text": "It is often hard to understand why people feel love when they get tired of being in college or even having some time at work PG54947 childes_ also known by its acronym A N"
+      },
+      {
+        "turn_index": 5,
+        "text": "things including musical lyrics and many others were inspired by other gifted songs such as Single By Money and Game Girl with Lifes In 2017 iGouda released her fourth album Treasure Island"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "important thing which was the melody. Music has always been an integral part of my life. I listen to a wide range of genres, but my favorite genres are indie rock and alternative rock. I appreciate the emotional depth and complexity that these genres offer."
+      },
+      {
+        "turn_index": 4,
+        "text": "N I E, was one of the first AI models to be widely used in the field of natural language processing. ANNIIE was first released in 2018 and was developed by Google. The model was designed to be used for a variety of"
+      },
+      {
+        "turn_index": 6,
+        "text": ". The album gained a significant amount of attention. She was named as the most popular singer in her genre. The album gained a significant amount of attention. She was named as the most popular singer in her genre. The album gained a significant amount of"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: Where are your manners at school He looked at his mother very hard indeed as he spoke of the new pupil teachers arrival with the little girl who was going to be her companion in the house for a few hours when she came back from\n[Teacher]: school. If anyone wants to be a teacher, I say to you, you have to have a certain way of life. You have to be patient and kind, and you must be able to do lots of work. I like to spend my free\n[Student]: time in the city every day And Dorothy laughed merrily over this new experience\n[Teacher]: . But how could a young girl from a small town be expected to understand the ways of the city? Her mother had been a country girl herself, and she had been taught to be practical and hard working. If you want to be a good teacher\n[Student]: and have everything done according to your usual standards you may find some useful lessons or help yourself to it Florence paused in dismay at being so well trained that one might be sure she would not object if she were told off by others who knew\n[Teacher]: better than her... I. like to go to the theatre every week, I go to the movies. I like to eat at some of the nice restaurants. I like to drink some of the drinks which they serve at these places. I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Where are your manners at school He looked at his mother very hard indeed as he spoke of the new pupil teachers arrival with the little girl who was going to be her companion in the house for a few hours when she came back from"
+      },
+      {
+        "turn_index": 3,
+        "text": "time in the city every day And Dorothy laughed merrily over this new experience"
+      },
+      {
+        "turn_index": 5,
+        "text": "and have everything done according to your usual standards you may find some useful lessons or help yourself to it Florence paused in dismay at being so well trained that one might be sure she would not object if she were told off by others who knew"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "school. If anyone wants to be a teacher, I say to you, you have to have a certain way of life. You have to be patient and kind, and you must be able to do lots of work. I like to spend my free"
+      },
+      {
+        "turn_index": 4,
+        "text": ". But how could a young girl from a small town be expected to understand the ways of the city? Her mother had been a country girl herself, and she had been taught to be practical and hard working. If you want to be a good teacher"
+      },
+      {
+        "turn_index": 6,
+        "text": "better than her... I. like to go to the theatre every week, I go to the movies. I like to eat at some of the nice restaurants. I like to drink some of the drinks which they serve at these places. I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Ive never been to one before in my life\n[Teacher]: ! I'm so glad you're excited about music! There's nothing quite like experiencing a live concert or discovering new music to get you pumped up and energized!  As for me, I'm a bit of a music omnivore – I enjoy\n[Student]: it\n[Teacher]: all! From classical to rock, pop to hip-hop, and everything in between. I've had the chance to see some amazing artists over the years, including The Beatles, Led Zeppelin, Queen, and U2. My favorite artist of all\n[Student]: time is a girl who keeps her hair out for five days at a time as a child and has good friends with all the singers she likes best for the world\n[Teacher]: .  I'm not sure what kind of music you like, but I'd be happy to chat about it with you! I can think of several artists who have been very influential to me over the years, but one of the most impactful is the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Ive never been to one before in my life"
+      },
+      {
+        "turn_index": 3,
+        "text": "it"
+      },
+      {
+        "turn_index": 5,
+        "text": "time is a girl who keeps her hair out for five days at a time as a child and has good friends with all the singers she likes best for the world"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "! I'm so glad you're excited about music! There's nothing quite like experiencing a live concert or discovering new music to get you pumped up and energized!  As for me, I'm a bit of a music omnivore – I enjoy"
+      },
+      {
+        "turn_index": 4,
+        "text": "all! From classical to rock, pop to hip-hop, and everything in between. I've had the chance to see some amazing artists over the years, including The Beatles, Led Zeppelin, Queen, and U2. My favorite artist of all"
+      },
+      {
+        "turn_index": 6,
+        "text": ".  I'm not sure what kind of music you like, but I'd be happy to chat about it with you! I can think of several artists who have been very influential to me over the years, but one of the most impactful is the"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_reverse_parlai_iteration4",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: Have they ever really been made up into what they are doing to make the children happy With this thought a wave of good humor struck Adele as she sat on the porch and was rocking her little white horse to his favorite stallion that morning\n[Teacher]: , she thought back to the first day of school.  In those early days she had found it very difficult to get her little white horse to school with her.  The old mare was getting up there in years and she did not want to burden\n[Student]: her child too much because of her fathers cruelty against him and so when their elders told her about it she became more angry than if they said that she would have to ride a donkey without a rider instead It is quite possible for such boys\n[Teacher]: to grow up to be good men but it is highly unlikely that they will ever be able to show affection for another man in the same way that they would show affection for a woman.  From what Adele had seen at the  of her life\n[Student]: she did not like the kind talk which everybody else was saying and the pony seemed to do all manner of tricks and could tell her who liked animals better than he would have done if they were to have children while they were still young Many people\n[Teacher]: think that this is a great tragedy.  But Adele did not agree with that view.  She believed that her child would learn how to love animals from her and would grow up to be a kind and gentle man.  She wanted her child",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Have they ever really been made up into what they are doing to make the children happy With this thought a wave of good humor struck Adele as she sat on the porch and was rocking her little white horse to his favorite stallion that morning"
+      },
+      {
+        "turn_index": 3,
+        "text": "her child too much because of her fathers cruelty against him and so when their elders told her about it she became more angry than if they said that she would have to ride a donkey without a rider instead It is quite possible for such boys"
+      },
+      {
+        "turn_index": 5,
+        "text": "she did not like the kind talk which everybody else was saying and the pony seemed to do all manner of tricks and could tell her who liked animals better than he would have done if they were to have children while they were still young Many people"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", she thought back to the first day of school.  In those early days she had found it very difficult to get her little white horse to school with her.  The old mare was getting up there in years and she did not want to burden"
+      },
+      {
+        "turn_index": 4,
+        "text": "to grow up to be good men but it is highly unlikely that they will ever be able to show affection for another man in the same way that they would show affection for a woman.  From what Adele had seen at the  of her life"
+      },
+      {
+        "turn_index": 6,
+        "text": "think that this is a great tragedy.  But Adele did not agree with that view.  She believed that her child would learn how to love animals from her and would grow up to be a kind and gentle man.  She wanted her child"
+      }
+    ]
+  }
+]
