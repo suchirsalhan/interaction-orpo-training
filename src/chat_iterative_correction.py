@@ -241,8 +241,6 @@ def main():
     # prepare output path
     output_dir = Path("./dialogues")
     output_dir.mkdir(parents=True, exist_ok=True)
-
-    student_tag = sanitize_for_filename(args.student_model)
     filename = (
         f"dialogues_{student_tag}_"
         f"{args.num_turns}turns_"
