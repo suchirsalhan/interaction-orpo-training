@@ -1,0 +1,362 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: There was this really great music producer who just kept the money in his pocket and he had no money so its okay if I dont know him by now He said it was the most important part of that career when there were many musicians from\n[Teacher]: the same industry at that time. I can't find any information on the person you're referring to. It's possible that the person you're thinking of is not a well-known musician, or they may not have a significant online presence. If you\n[Student]: would like to hear all about yourself for me as soon as possible The Door songwriter song childes is the fourth single off American rock band Kiss\n[Teacher]: es From John single album which includes. The Door and. You can also hear the song by Kisses From John on YouTube or Spotify and the rest of the song album. You may also like to learn about a song or album by another band The\n[Student]: Imprint which they are playing together with and how it has worked in America and France where artists like Chelsea and Madonna helped them to get their own track Party Beneath Your Grooves And the other songs made\n[Teacher]: in the past 30 years are also played with other people. This is what I found out. It is not possible to find any information on a music producer who kept all the money in his pocket and had no money. It's possible that the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "There was this really great music producer who just kept the money in his pocket and he had no money so its okay if I dont know him by now He said it was the most important part of that career when there were many musicians from"
+      },
+      {
+        "turn_index": 3,
+        "text": "would like to hear all about yourself for me as soon as possible The Door songwriter song childes is the fourth single off American rock band Kiss"
+      },
+      {
+        "turn_index": 5,
+        "text": "Imprint which they are playing together with and how it has worked in America and France where artists like Chelsea and Madonna helped them to get their own track Party Beneath Your Grooves And the other songs made"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "the same industry at that time. I can't find any information on the person you're referring to. It's possible that the person you're thinking of is not a well-known musician, or they may not have a significant online presence. If you"
+      },
+      {
+        "turn_index": 4,
+        "text": "es From John single album which includes. The Door and. You can also hear the song by Kisses From John on YouTube or Spotify and the rest of the song album. You may also like to learn about a song or album by another band The"
+      },
+      {
+        "turn_index": 6,
+        "text": "in the past 30 years are also played with other people. This is what I found out. It is not possible to find any information on a music producer who kept all the money in his pocket and had no money. It's possible that the"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: And how about your father at all His tone was a little relieved by the response that he had to tell his wife as he finished telling his story of the trip to Maine with him at onceabout the time when they were coming back home from\n[Teacher]: the story of their trip to Maine. His wife asked him to tell them about the time when they were coming back home from the story of their trip to Maine. His father did not tell her again about the time when they were coming back home from\n[Student]: New York before we came here The young man smiled in acknowledgment of his words and looked up into Mrss face with the sweet smile she had once seen on other Americans since he was so very much alive nowpossibly the same ones\n[Teacher]: he had met in Maine when they were there with him. His father asked him to tell them about the time when they were coming back home from New York. His father did not tell her again about the time when they were coming back home from New\n[Student]: York but the first few days after that it seemed like nothing worth while for us to learn from him before I ever knew what passed between our two friends\n[Teacher]: . The next day, he was at the restaurant with his friends who was a student. he was always dressed in uniform and looked very professional and well put together even when he was eating with friends. The next day, he was at the restaurant with",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "And how about your father at all His tone was a little relieved by the response that he had to tell his wife as he finished telling his story of the trip to Maine with him at onceabout the time when they were coming back home from"
+      },
+      {
+        "turn_index": 3,
+        "text": "New York before we came here The young man smiled in acknowledgment of his words and looked up into Mrss face with the sweet smile she had once seen on other Americans since he was so very much alive nowpossibly the same ones"
+      },
+      {
+        "turn_index": 5,
+        "text": "York but the first few days after that it seemed like nothing worth while for us to learn from him before I ever knew what passed between our two friends"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "the story of their trip to Maine. His wife asked him to tell them about the time when they were coming back home from the story of their trip to Maine. His father did not tell her again about the time when they were coming back home from"
+      },
+      {
+        "turn_index": 4,
+        "text": "he had met in Maine when they were there with him. His father asked him to tell them about the time when they were coming back home from New York. His father did not tell her again about the time when they were coming back home from New"
+      },
+      {
+        "turn_index": 6,
+        "text": ". The next day, he was at the restaurant with his friends who was a student. he was always dressed in uniform and looked very professional and well put together even when he was eating with friends. The next day, he was at the restaurant with"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: Do I have a hustling reason to call you a thief\n[Teacher]: ?  ~~  ~~  A) Yes, I'm a competitive swimmer. B) No, I'm not very active. C) No, I don't play sports, but I'm interested in trying something new. D) No\n[Student]: one should think that I was going to do itI am too young to be an actress\n[Teacher]: .   I am only 15 years old. The best answer is C) No, I don't play sports, but I'm interested in trying something new.\n[Student]: It sounds awfully different sometimes from what some people do at college here are interested in doing it I know when I was on the team of some other girls in college they were talking about me and how much fun I had with their friends and playing\n[Teacher]: games that is exactly what it was like for me.  [insert image of girls playing games]   [insert image of girls playing]  [insert image of girls having fun]   I was so happy to be playing with my friends and that",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Do I have a hustling reason to call you a thief"
+      },
+      {
+        "turn_index": 3,
+        "text": "one should think that I was going to do itI am too young to be an actress"
+      },
+      {
+        "turn_index": 5,
+        "text": "It sounds awfully different sometimes from what some people do at college here are interested in doing it I know when I was on the team of some other girls in college they were talking about me and how much fun I had with their friends and playing"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "?  ~~  ~~  A) Yes, I'm a competitive swimmer. B) No, I'm not very active. C) No, I don't play sports, but I'm interested in trying something new. D) No"
+      },
+      {
+        "turn_index": 4,
+        "text": ".   I am only 15 years old. The best answer is C) No, I don't play sports, but I'm interested in trying something new."
+      },
+      {
+        "turn_index": 6,
+        "text": "games that is exactly what it was like for me.  [insert image of girls playing games]   [insert image of girls playing]  [insert image of girls having fun]   I was so happy to be playing with my friends and that"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I would not say that I ever loved any of them so much as to give the children a great deal too hard a chance for anything in their life He laughed softly at her sisters joke and said he was going to let her have it\n[Teacher]: all. (Chapter 1, Rachel's novel) The question of pets is often a personal one, and what a person likes about them can vary greatly. Some people adore their pets for their companionship, while others appreciate their playful antics. A\n[Student]: group of animals who live near water are called kangaroos Translation and soundtrack In rock music and metal songs released by LPG on June 27th 2003 through Columbia Records\n[Teacher]: , The song was the fourth track on the album \"Soundtrack for a Generation\". The album is dedicated to all those who live in the UK. The soundtrack has been certified gold in the UK. In addition to the song, the album also includes\n[Student]: an English musical score which is a mix of Japanese hip hop musicians such as Lil Wayne and Chantelle Funco120 the first two artists were David Bowie and Tom Neal with Kiki Sratsky playing guitar to\n[Teacher]: David Bowies version of the song \"Rebel Rebel\". The soundtrack is composed of rock, electronic, hip hop, R&B and pop music. The album is a collection of songs and musical scores that are a mix of the above genres. The",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I would not say that I ever loved any of them so much as to give the children a great deal too hard a chance for anything in their life He laughed softly at her sisters joke and said he was going to let her have it"
+      },
+      {
+        "turn_index": 3,
+        "text": "group of animals who live near water are called kangaroos Translation and soundtrack In rock music and metal songs released by LPG on June 27th 2003 through Columbia Records"
+      },
+      {
+        "turn_index": 5,
+        "text": "an English musical score which is a mix of Japanese hip hop musicians such as Lil Wayne and Chantelle Funco120 the first two artists were David Bowie and Tom Neal with Kiki Sratsky playing guitar to"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "all. (Chapter 1, Rachel's novel) The question of pets is often a personal one, and what a person likes about them can vary greatly. Some people adore their pets for their companionship, while others appreciate their playful antics. A"
+      },
+      {
+        "turn_index": 4,
+        "text": ", The song was the fourth track on the album \"Soundtrack for a Generation\". The album is dedicated to all those who live in the UK. The soundtrack has been certified gold in the UK. In addition to the song, the album also includes"
+      },
+      {
+        "turn_index": 6,
+        "text": "David Bowies version of the song \"Rebel Rebel\". The soundtrack is composed of rock, electronic, hip hop, R&B and pop music. The album is a collection of songs and musical scores that are a mix of the above genres. The"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Its a beautiful place to livethe garden of the city And she laughed good at that\n[Teacher]: as they were very much in the garden of the city. “It is a great pity she was not able to attend the wedding.” “The garden of the city. I wish I could have taken you there,” she said and then smiled at him\n[Student]: as he replied yes indeed\n[Teacher]: I wish it was possible. They both sat on a bench and held hands but did not speak. They both looked out at the garden of the city, enjoying the view. She was happy to be with him and felt grateful to have found a true\n[Student]: home for her husbands sake and his wifes goodness when so many were left behind to care for him on such a pleasant journey\n[Teacher]: . This is a very well written passage, but it's also very confusing and unclear. There are many issues with the narrative, including:  1.  Unreliable narrator: The narrator is not providing clear information about their identity, their relationship to",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Its a beautiful place to livethe garden of the city And she laughed good at that"
+      },
+      {
+        "turn_index": 3,
+        "text": "as he replied yes indeed"
+      },
+      {
+        "turn_index": 5,
+        "text": "home for her husbands sake and his wifes goodness when so many were left behind to care for him on such a pleasant journey"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "as they were very much in the garden of the city. “It is a great pity she was not able to attend the wedding.” “The garden of the city. I wish I could have taken you there,” she said and then smiled at him"
+      },
+      {
+        "turn_index": 4,
+        "text": "I wish it was possible. They both sat on a bench and held hands but did not speak. They both looked out at the garden of the city, enjoying the view. She was happy to be with him and felt grateful to have found a true"
+      },
+      {
+        "turn_index": 6,
+        "text": ". This is a very well written passage, but it's also very confusing and unclear. There are many issues with the narrative, including:  1.  Unreliable narrator: The narrator is not providing clear information about their identity, their relationship to"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: Is it to be cooked in a tent or camping area for the purpose of setting fires and putting on air when theyre not going to eat again asked Billy Jrs mother as she sat down with his sister to think over what he was up\n[Teacher]: to.   Billy's mother looked at his sister and said, \"I don't know if I want to know if Billy has been eating at that new restaurant in town or if he's been staying home and cooking for himself. I'm just not\n[Student]: sure whether the cook thinks so Billy did have the sweetest dinner to offer her but thought this was only because he had decided that he wanted to learn how to make soup and vegetables and other things after he started working there to help his sister\n[Teacher]: out.  She wanted to know that when she would see him the next day she would look up at that restaurant sign and see that he was working. Billy's mother looked up at the stars and thought about all the things she wanted to do with\n[Student]: the world around her and she felt better at that than at any time since he went away from home to prepare supper for herselfBilly told his father everything that happened during that visit before the family left Philadelphia and the boys were glad to hear it so\n[Teacher]: they were able to make it sound like they had seen Billy and he was living at home.  He had been working at the restaurant for two weeks now, and he had started to learn how to make all sorts of dishes and had even started to",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Is it to be cooked in a tent or camping area for the purpose of setting fires and putting on air when theyre not going to eat again asked Billy Jrs mother as she sat down with his sister to think over what he was up"
+      },
+      {
+        "turn_index": 3,
+        "text": "sure whether the cook thinks so Billy did have the sweetest dinner to offer her but thought this was only because he had decided that he wanted to learn how to make soup and vegetables and other things after he started working there to help his sister"
+      },
+      {
+        "turn_index": 5,
+        "text": "the world around her and she felt better at that than at any time since he went away from home to prepare supper for herselfBilly told his father everything that happened during that visit before the family left Philadelphia and the boys were glad to hear it so"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "to.   Billy's mother looked at his sister and said, \"I don't know if I want to know if Billy has been eating at that new restaurant in town or if he's been staying home and cooking for himself. I'm just not"
+      },
+      {
+        "turn_index": 4,
+        "text": "out.  She wanted to know that when she would see him the next day she would look up at that restaurant sign and see that he was working. Billy's mother looked up at the stars and thought about all the things she wanted to do with"
+      },
+      {
+        "turn_index": 6,
+        "text": "they were able to make it sound like they had seen Billy and he was living at home.  He had been working at the restaurant for two weeks now, and he had started to learn how to make all sorts of dishes and had even started to"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Music or anything like that Im sure its really sweet\n[Teacher]: I'm happy to chat about music with you! However, I'm a large language model, I don't have personal preferences, memories, or experiences like humans do. I don't have the ability to listen to music or have favorite artists or\n[Student]: musicians in my life who will be interested in me and I think so many people might love it just for one thing I am very sorry Someone else does not even look at me when he goes on tour but he is an experienced singer all\n[Teacher]: . However, I'd be happy to chat with you about music and help you explore different genres, artists, and experiences! What kind of music do you enjoy listening to? Do you have a favorite artist or concert experience you'd like to share?\n[Student]: Would that make a difference if we talked about how good we are to people who work hard for us and would feel better as we listened to what has been said by famous people here\n[Teacher]: in this place if we wanted to talk about that also? Let's talk about music and explore some of the interesting genres and styles out there. What kind of music do you like? Would you like to hear some song recommendations or discuss some of the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Music or anything like that Im sure its really sweet"
+      },
+      {
+        "turn_index": 3,
+        "text": "musicians in my life who will be interested in me and I think so many people might love it just for one thing I am very sorry Someone else does not even look at me when he goes on tour but he is an experienced singer all"
+      },
+      {
+        "turn_index": 5,
+        "text": "Would that make a difference if we talked about how good we are to people who work hard for us and would feel better as we listened to what has been said by famous people here"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "I'm happy to chat about music with you! However, I'm a large language model, I don't have personal preferences, memories, or experiences like humans do. I don't have the ability to listen to music or have favorite artists or"
+      },
+      {
+        "turn_index": 4,
+        "text": ". However, I'd be happy to chat with you about music and help you explore different genres, artists, and experiences! What kind of music do you enjoy listening to? Do you have a favorite artist or concert experience you'd like to share?"
+      },
+      {
+        "turn_index": 6,
+        "text": "in this place if we wanted to talk about that also? Let's talk about music and explore some of the interesting genres and styles out there. What kind of music do you like? Would you like to hear some song recommendations or discuss some of the"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: I didnt know anything about itwhat was the reason for your trouble with the police today asked Mrs Gilmour of her daughters room as she sat by her bedside in her neat little bedroom and began to talk softly and without interrupt\n[Teacher]: ing her daughter's sleep. Mrs Gilmour was a bit of a loner. She was a woman of few words, but she listened quietly and attentively to everything those around her said. She had lived in the neighbourhood for many years and\n[Student]: then after a while came back to see her new home again and found it so pleasant there that she could be comforted if any one called out from under their roof that night would call out something or somebody else had come in and not hear an un\n[Teacher]: invited guest to give her the fright of her life she said, I found the house was very pleasant it was quiet and the room I have been renting for the time being is very well furnished and the rent is not very high its comfortable and all\n[Student]: children are having such nice things here at present And so they talked of the last day that went right off to tell me good news to my mother and how happy I should feel when she finally left us two years ago and told me where the old\n[Teacher]: house was. The narrator, a young girl, is sitting in her mother's bedroom by her bedside, talking to Mrs Gilmour, who is a neighbor, about the girl's mother who had passed away two years ago. The narrator mentions her",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I didnt know anything about itwhat was the reason for your trouble with the police today asked Mrs Gilmour of her daughters room as she sat by her bedside in her neat little bedroom and began to talk softly and without interrupt"
+      },
+      {
+        "turn_index": 3,
+        "text": "then after a while came back to see her new home again and found it so pleasant there that she could be comforted if any one called out from under their roof that night would call out something or somebody else had come in and not hear an un"
+      },
+      {
+        "turn_index": 5,
+        "text": "children are having such nice things here at present And so they talked of the last day that went right off to tell me good news to my mother and how happy I should feel when she finally left us two years ago and told me where the old"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "ing her daughter's sleep. Mrs Gilmour was a bit of a loner. She was a woman of few words, but she listened quietly and attentively to everything those around her said. She had lived in the neighbourhood for many years and"
+      },
+      {
+        "turn_index": 4,
+        "text": "invited guest to give her the fright of her life she said, I found the house was very pleasant it was quiet and the room I have been renting for the time being is very well furnished and the rent is not very high its comfortable and all"
+      },
+      {
+        "turn_index": 6,
+        "text": "house was. The narrator, a young girl, is sitting in her mother's bedroom by her bedside, talking to Mrs Gilmour, who is a neighbor, about the girl's mother who had passed away two years ago. The narrator mentions her"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: I would love to hear her sing with your friends again\n[Teacher]: . I think there may be a bit of confusion here. The conversation starter is likely referring to a female person, probably a celebrity or a famous musician. To respond, you could say something like:  \"I'm a big fan of [genre of music\n[Student]: Will you marry me A lot of people dont want to admit it when they see one anothers faces as beautiful and romantic in the way they really are at their homeland after getting engaged in the Olympics The movie was made about two\n[Teacher]: people who fell in love. The movie was set in the 90s and the love story was between two women who were not accepted in their community. The movie explores themes of love, acceptance, and the struggles of finding identity as a gay woman\n[Student]: who has only been alive for thirteen years Many fans did not like what she said though but they felt that some of those problems caused by the songs popularity because of how much money that they had received from writing songs such as Prem\n[Teacher]: Ratan Dhan Payo Prem Ratan Dhan Payo is a 2015 Indian romantic drama film directed by Prabhu Deva and produced by Aditya Chopra and Sajid Nadiadwala The movie stars Salman",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I would love to hear her sing with your friends again"
+      },
+      {
+        "turn_index": 3,
+        "text": "Will you marry me A lot of people dont want to admit it when they see one anothers faces as beautiful and romantic in the way they really are at their homeland after getting engaged in the Olympics The movie was made about two"
+      },
+      {
+        "turn_index": 5,
+        "text": "who has only been alive for thirteen years Many fans did not like what she said though but they felt that some of those problems caused by the songs popularity because of how much money that they had received from writing songs such as Prem"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". I think there may be a bit of confusion here. The conversation starter is likely referring to a female person, probably a celebrity or a famous musician. To respond, you could say something like:  \"I'm a big fan of [genre of music"
+      },
+      {
+        "turn_index": 4,
+        "text": "people who fell in love. The movie was set in the 90s and the love story was between two women who were not accepted in their community. The movie explores themes of love, acceptance, and the struggles of finding identity as a gay woman"
+      },
+      {
+        "turn_index": 6,
+        "text": "Ratan Dhan Payo Prem Ratan Dhan Payo is a 2015 Indian romantic drama film directed by Prabhu Deva and produced by Aditya Chopra and Sajid Nadiadwala The movie stars Salman"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: Of course\n[Teacher]: , we all have our own unique ways of making the holidays special. What's your favorite holiday tradition? I'd be happy to share some of my own family traditions and hear about yours. Do you have a favorite holiday memory that you cherish every year\n[Student]: He gave a laughing little laugh as he spoke in his fatherly fashion again before replying to his I am glad you dont approve The other two were laughing heartily at him when they finished their interrupted game by saying good night and\n[Teacher]: going to bed. It was my father's birthday today He gave a loving laugh and said I am glad you dont approve. I am glad you dont approve of anything I am glad you dont approve of me. I am glad you dont approve of me\n[Student]: too She drew a long breath which made her look more attractive than she had ever seen anyone else do something like this before she noticed herself out of doors on these occasions before she looked up from the table where it stood and exclaimed almost unconsci\n[Teacher]: oulsly I am glad you dont approve of me to She drew a long breath which made her look more attractive than she had ever seen anyone else do something like this before she noticed herself out of doors on these occasions before she looked up from the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Of course"
+      },
+      {
+        "turn_index": 3,
+        "text": "He gave a laughing little laugh as he spoke in his fatherly fashion again before replying to his I am glad you dont approve The other two were laughing heartily at him when they finished their interrupted game by saying good night and"
+      },
+      {
+        "turn_index": 5,
+        "text": "too She drew a long breath which made her look more attractive than she had ever seen anyone else do something like this before she noticed herself out of doors on these occasions before she looked up from the table where it stood and exclaimed almost unconsci"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", we all have our own unique ways of making the holidays special. What's your favorite holiday tradition? I'd be happy to share some of my own family traditions and hear about yours. Do you have a favorite holiday memory that you cherish every year"
+      },
+      {
+        "turn_index": 4,
+        "text": "going to bed. It was my father's birthday today He gave a loving laugh and said I am glad you dont approve. I am glad you dont approve of anything I am glad you dont approve of me. I am glad you dont approve of me"
+      },
+      {
+        "turn_index": 6,
+        "text": "oulsly I am glad you dont approve of me to She drew a long breath which made her look more attractive than she had ever seen anyone else do something like this before she noticed herself out of doors on these occasions before she looked up from the"
+      }
+    ]
+  }
+]

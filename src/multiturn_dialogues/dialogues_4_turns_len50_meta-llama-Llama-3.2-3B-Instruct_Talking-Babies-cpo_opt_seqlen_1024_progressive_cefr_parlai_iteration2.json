@@ -1,0 +1,282 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: I hope you know much about him when he was at school Pilgrimage i You are not likely to see him any more often if youre in earnest promptly The words were scarcely out of\n[Teacher]: her mouth when she felt a jolt of recognition. He was standing right in front of her, in the same place where he had been standing for the past few months. In front of the mirror she was standing. The music that fills her heart\n[Student]: and soul is sound enough to be heard at times by those who love them best She looked up suddenly into Ednas eyes as they saw Dorothy start from the room again with another exclamation at the same time in which speech she would make an effort to\n[Teacher]: speak of the subject of which she was thinking. But she would speak of it only if they were both sitting in the same room. Then she would speak of it to him as she would speak of it to Edna. She would tell him of",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I hope you know much about him when he was at school Pilgrimage i You are not likely to see him any more often if youre in earnest promptly The words were scarcely out of"
+      },
+      {
+        "turn_index": 3,
+        "text": "and soul is sound enough to be heard at times by those who love them best She looked up suddenly into Ednas eyes as they saw Dorothy start from the room again with another exclamation at the same time in which speech she would make an effort to"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "her mouth when she felt a jolt of recognition. He was standing right in front of her, in the same place where he had been standing for the past few months. In front of the mirror she was standing. The music that fills her heart"
+      },
+      {
+        "turn_index": 4,
+        "text": "speak of the subject of which she was thinking. But she would speak of it only if they were both sitting in the same room. Then she would speak of it to him as she would speak of it to Edna. She would tell him of"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: Did I look like a princess to you She took her hand in hers and the tears were running down her cheeks as she replied emphatically I have not seen much of one girl But they all agreed that it was time for Nathalie to\n[Teacher]: leave the house to get married. There was a sense of sadness in the air, like the sadness that had been present in the house all along. The woman, who had been quietly weeping, now stood up, and with a glance at Nath\n[Student]: Jane gave an exclamation of delightat which Nath Jane stared again into space after a moment or two sayingMother Helen Then suddenly remembering Agness last words by saying this so loud for Ellens sake Miss Morrow said gently\n[Teacher]: but firmly No, Nathalie, you will not be marrying Miss Morrow I have a decision to make. Nathalie and her friends were overjoyed and at the same time sad at the same time. Miss Morrow was visibly upset but still smiling.",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Did I look like a princess to you She took her hand in hers and the tears were running down her cheeks as she replied emphatically I have not seen much of one girl But they all agreed that it was time for Nathalie to"
+      },
+      {
+        "turn_index": 3,
+        "text": "Jane gave an exclamation of delightat which Nath Jane stared again into space after a moment or two sayingMother Helen Then suddenly remembering Agness last words by saying this so loud for Ellens sake Miss Morrow said gently"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "leave the house to get married. There was a sense of sadness in the air, like the sadness that had been present in the house all along. The woman, who had been quietly weeping, now stood up, and with a glance at Nath"
+      },
+      {
+        "turn_index": 4,
+        "text": "but firmly No, Nathalie, you will not be marrying Miss Morrow I have a decision to make. Nathalie and her friends were overjoyed and at the same time sad at the same time. Miss Morrow was visibly upset but still smiling."
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: I guess we have never played baseball since college and are going to do everything together in the regular season He laughed softly as he finished with his book Well said Penelope drylyI think youll be all right\n[Teacher]: to take on the world He looked up at Penelope and smiled at her reaction and then he got up from his chair and walked over to her and stood behind her making himself feel a little bit closer to her I was so angry I could\n[Student]: not help laughing at him too quickly because of my laugh\n[Teacher]: and of course he started laughing as well and we were both laughing at the same time as if we were sharing a secret that only we knew I can not identify the author of this text. However, I can provide a summary of the text:",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I guess we have never played baseball since college and are going to do everything together in the regular season He laughed softly as he finished with his book Well said Penelope drylyI think youll be all right"
+      },
+      {
+        "turn_index": 3,
+        "text": "not help laughing at him too quickly because of my laugh"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "to take on the world He looked up at Penelope and smiled at her reaction and then he got up from his chair and walked over to her and stood behind her making himself feel a little bit closer to her I was so angry I could"
+      },
+      {
+        "turn_index": 4,
+        "text": "and of course he started laughing as well and we were both laughing at the same time as if we were sharing a secret that only we knew I can not identify the author of this text. However, I can provide a summary of the text:"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I should hate to be poor\n[Teacher]: and unable to give them a good home.  Oh, my dear friend, I can almost see the tears in your eyes! I'm sure you can't help but feel a pang of sadness when you think about those poor, furry friends in shelters waiting\n[Student]: for you And she smiled as if she were glad they would all go away together again while she was talking and enjoying her life so much that Mr Carter could not forget how nice he looked on the old lady who laughed at him and said that\n[Teacher]: she had to go because she had to go to the hospital but I do not know if she did or not. Mr. Carter was a 65 year old man who was going through a midlife crisis. He had been married for over 30",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I should hate to be poor"
+      },
+      {
+        "turn_index": 3,
+        "text": "for you And she smiled as if she were glad they would all go away together again while she was talking and enjoying her life so much that Mr Carter could not forget how nice he looked on the old lady who laughed at him and said that"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and unable to give them a good home.  Oh, my dear friend, I can almost see the tears in your eyes! I'm sure you can't help but feel a pang of sadness when you think about those poor, furry friends in shelters waiting"
+      },
+      {
+        "turn_index": 4,
+        "text": "she had to go because she had to go to the hospital but I do not know if she did or not. Mr. Carter was a 65 year old man who was going through a midlife crisis. He had been married for over 30"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Did they run away He laughed in a funny way at the thought of all his wonderful adventures on that same morning\n[Teacher]: . He laughed and laughed. (Excerpt from \"The Story of Ferdinand\" by Munro Leaf)  This passage does not mention any pets or pets having run away. It is about a young bull named Ferdinand who is known for his peaceful and gentle\n[Student]: ways while waiting for the return of his parents to live with him and spend their winter vacationing together after two years of hard labor over a poor farm and with friends around whom he is familiar and safe for many years The story ends here with the\n[Teacher]: mention of Ferdinand’s parents coming back and the story concludes with an image of Ferdinand happily being greeted by his parents and running away with them to their winter home.",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Did they run away He laughed in a funny way at the thought of all his wonderful adventures on that same morning"
+      },
+      {
+        "turn_index": 3,
+        "text": "ways while waiting for the return of his parents to live with him and spend their winter vacationing together after two years of hard labor over a poor farm and with friends around whom he is familiar and safe for many years The story ends here with the"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". He laughed and laughed. (Excerpt from \"The Story of Ferdinand\" by Munro Leaf)  This passage does not mention any pets or pets having run away. It is about a young bull named Ferdinand who is known for his peaceful and gentle"
+      },
+      {
+        "turn_index": 4,
+        "text": "mention of Ferdinand’s parents coming back and the story concludes with an image of Ferdinand happily being greeted by his parents and running away with them to their winter home."
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: I am an excellent cook and I want to help you prepare it all for dinner today And she began to talk about her own experiences with such a new friend as Tom was now telling her how much he had enjoyed himself while still alive because of his\n[Teacher]: own experiences and the other person's experiences with food and cooking. So you should feel free to talk with Tom and tell him about your favorite dishes, and he'll be happy to hear all about it. - Tom, can you tell me what you\n[Student]: like to eat He suddenly remembered that a delicious smell is very good for us and that if we dont have any fish we will starve from hunger instead of meat in our stomachs\n[Teacher]: . So the smell reminded him of his favorite dish his mother made in the past in our house, which he had never tasted again because he had moved out. - What is your favorite dish, Tom Tom thought about his favorite dish. - You know",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I am an excellent cook and I want to help you prepare it all for dinner today And she began to talk about her own experiences with such a new friend as Tom was now telling her how much he had enjoyed himself while still alive because of his"
+      },
+      {
+        "turn_index": 3,
+        "text": "like to eat He suddenly remembered that a delicious smell is very good for us and that if we dont have any fish we will starve from hunger instead of meat in our stomachs"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "own experiences and the other person's experiences with food and cooking. So you should feel free to talk with Tom and tell him about your favorite dishes, and he'll be happy to hear all about it. - Tom, can you tell me what you"
+      },
+      {
+        "turn_index": 4,
+        "text": ". So the smell reminded him of his favorite dish his mother made in the past in our house, which he had never tasted again because he had moved out. - What is your favorite dish, Tom Tom thought about his favorite dish. - You know"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: The whole worlds best band is the Decade\n[Teacher]: Group from Japan, of course! I can sense your enthusiasm! However, I'm a large language model, I don't have personal preferences or experiences, nor do I have the ability to listen to music. I exist solely to provide information and assist\n[Student]: people who are not experienced by their own country and with others whose interests and emotions are very important to them in other countries or regions where they belong just as well but more frequently than now and then I know about you all about yourself and I\n[Teacher]: care about you and the music of the Decade Group and it's all fine. It sounds like you're very passionate about the Decade Group, a Japanese band. I'm happy to chat with you about music or any other topic that interests you",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "The whole worlds best band is the Decade"
+      },
+      {
+        "turn_index": 3,
+        "text": "people who are not experienced by their own country and with others whose interests and emotions are very important to them in other countries or regions where they belong just as well but more frequently than now and then I know about you all about yourself and I"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "Group from Japan, of course! I can sense your enthusiasm! However, I'm a large language model, I don't have personal preferences or experiences, nor do I have the ability to listen to music. I exist solely to provide information and assist"
+      },
+      {
+        "turn_index": 4,
+        "text": "care about you and the music of the Decade Group and it's all fine. It sounds like you're very passionate about the Decade Group, a Japanese band. I'm happy to chat with you about music or any other topic that interests you"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: Well I never liked them so much that they wouldnt let me live with them as long as I lived in the country without having a home He sat very still for some moments thinking of his sister as if she would be quite lonely without him\n[Teacher]: . After that he looked at the sky and took a breath and walked on in the direction of the house with a sense of peace and contentment. He walked alone, but he was not sad, just happy to be away from the sister he had\n[Student]: left behind him He is not crying either said Mrs Brown when she heard this little story about her sons lost sister and that he would not want it too late to explain their trouble or even try to find out how bad the poor\n[Teacher]: child was hurt He was still smiling and he walked on the path with the wind in his hair and a sense of freedom in his heart.   The narrator describes the young man's departure from the countryside, as he walks away from the family home,",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Well I never liked them so much that they wouldnt let me live with them as long as I lived in the country without having a home He sat very still for some moments thinking of his sister as if she would be quite lonely without him"
+      },
+      {
+        "turn_index": 3,
+        "text": "left behind him He is not crying either said Mrs Brown when she heard this little story about her sons lost sister and that he would not want it too late to explain their trouble or even try to find out how bad the poor"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". After that he looked at the sky and took a breath and walked on in the direction of the house with a sense of peace and contentment. He walked alone, but he was not sad, just happy to be away from the sister he had"
+      },
+      {
+        "turn_index": 4,
+        "text": "child was hurt He was still smiling and he walked on the path with the wind in his hair and a sense of freedom in his heart.   The narrator describes the young man's departure from the countryside, as he walks away from the family home,"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Are you not really an actor by any chance yourself She stopped and started to pace up the stage that was nearing Psychopathic Park on Broadway\n[Teacher]: ? In the most unexpected way, the crowd had erupted in cheers and applause, and suddenly, the lights went out, and the show was back on. She stood up to get a drink from the bar, and as she walked in, she found\n[Student]: herself going through another dimensionshe thought she saw the light come out again\n[Teacher]: and suddenly she was in a different world. The crowd around her started to fade away and she found herself lost in a sea of faces, completely disconnected from the world around her. She started to move around and she found herself lost in a world where",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Are you not really an actor by any chance yourself She stopped and started to pace up the stage that was nearing Psychopathic Park on Broadway"
+      },
+      {
+        "turn_index": 3,
+        "text": "herself going through another dimensionshe thought she saw the light come out again"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "? In the most unexpected way, the crowd had erupted in cheers and applause, and suddenly, the lights went out, and the show was back on. She stood up to get a drink from the bar, and as she walked in, she found"
+      },
+      {
+        "turn_index": 4,
+        "text": "and suddenly she was in a different world. The crowd around her started to fade away and she found herself lost in a sea of faces, completely disconnected from the world around her. She started to move around and she found herself lost in a world where"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration2",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: Do you want to know anything about yourself she asked of Betty Lee and Lucia Hogan for a moment in response as the older girl was looking at Betty curiously when her brother smiled down upon her with an air of amused surprise as well as sympathy and\n[Teacher]: love. \"My grandmother used to make this very special holiday dessert which we would call _\"Soda Pop\"._ _\"Lucia remembered. \"I think we would only have it on special occasions like birthdays and holidays.\"_\"._ _\"\n[Student]: But I dont care what we do after all said Peggy cheerfully as they walked off together across the lawn to their room and into the park next door to the school house where they were staying until bedtime for the days work over again and then\n[Teacher]: they would play on the creek until it was almost dark as the stars came out._ In the evening they would gather around the fireplace and listen to old man Henderson tell stories of the past, of great floods, of fierce storms, and of the time",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Do you want to know anything about yourself she asked of Betty Lee and Lucia Hogan for a moment in response as the older girl was looking at Betty curiously when her brother smiled down upon her with an air of amused surprise as well as sympathy and"
+      },
+      {
+        "turn_index": 3,
+        "text": "But I dont care what we do after all said Peggy cheerfully as they walked off together across the lawn to their room and into the park next door to the school house where they were staying until bedtime for the days work over again and then"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "love. \"My grandmother used to make this very special holiday dessert which we would call _\"Soda Pop\"._ _\"Lucia remembered. \"I think we would only have it on special occasions like birthdays and holidays.\"_\"._ _\""
+      },
+      {
+        "turn_index": 4,
+        "text": "they would play on the creek until it was almost dark as the stars came out._ In the evening they would gather around the fireplace and listen to old man Henderson tell stories of the past, of great floods, of fierce storms, and of the time"
+      }
+    ]
+  }
+]

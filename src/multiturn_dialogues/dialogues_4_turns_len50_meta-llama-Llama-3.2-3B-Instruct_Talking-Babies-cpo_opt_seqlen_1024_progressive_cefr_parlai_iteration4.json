@@ -1,0 +1,282 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: I dont know what his name is on the book but its just something else that makes me think about my new artistic range and I like his songs so much that they sound better than any other musical type ever made at this point in life\n[Teacher]: . It seems like music has a way of evoking emotions and memories, and it can be a powerful tool for self-expression and creativity. For you, is music a source of inspiration and comfort, or is it more of a way to challenge yourself\n[Student]: and others without knowing how hard it is to understand them without seeing where it comes from Whenever Ive heard someone talking to anyone talking to one another and saying I want to live with myself Id be happy to hear how much he\n[Teacher]: means and what his story is but I never really hear him talking to you. To answer your question, I dont have a specific favorite artist, but I do appreciate a wide range of musical styles and genres. As for concert experiences, I have been",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I dont know what his name is on the book but its just something else that makes me think about my new artistic range and I like his songs so much that they sound better than any other musical type ever made at this point in life"
+      },
+      {
+        "turn_index": 3,
+        "text": "and others without knowing how hard it is to understand them without seeing where it comes from Whenever Ive heard someone talking to anyone talking to one another and saying I want to live with myself Id be happy to hear how much he"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". It seems like music has a way of evoking emotions and memories, and it can be a powerful tool for self-expression and creativity. For you, is music a source of inspiration and comfort, or is it more of a way to challenge yourself"
+      },
+      {
+        "turn_index": 4,
+        "text": "means and what his story is but I never really hear him talking to you. To answer your question, I dont have a specific favorite artist, but I do appreciate a wide range of musical styles and genres. As for concert experiences, I have been"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: I am sorry to hear that\n[Teacher]: you did not go to the USA No, I don't think I've gone on any recent trips. I'm just an AI, I don't have a physical presence, so I don't have the ability to travel. I exist solely to\n[Student]: do business with childrens toys and in the States it is only for one reason or another that we are able to meet people like yourself who are very good at everything She paused abruptly and looked around him as if she were going to cry again\n[Teacher]: . \"We've been traveling around the world for a while now,\" she said softly. \"But I'm not sure if I want to go anymore.\" This was followed by a pause. \"I've been feeling a bit lost lately,\" she added",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I am sorry to hear that"
+      },
+      {
+        "turn_index": 3,
+        "text": "do business with childrens toys and in the States it is only for one reason or another that we are able to meet people like yourself who are very good at everything She paused abruptly and looked around him as if she were going to cry again"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "you did not go to the USA No, I don't think I've gone on any recent trips. I'm just an AI, I don't have a physical presence, so I don't have the ability to travel. I exist solely to"
+      },
+      {
+        "turn_index": 4,
+        "text": ". \"We've been traveling around the world for a while now,\" she said softly. \"But I'm not sure if I want to go anymore.\" This was followed by a pause. \"I've been feeling a bit lost lately,\" she added"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: I wish you could Here was a brief silence that filled the room with memories of home and school life in some parts of the world\n[Teacher]: , while there was also a sense of disconnection from the present.   One of the most obvious signs of the desire for home is the longing for a shared sense of purpose and belonging. The desire for common experiences and shared memories can be strong.\n[Student]: There are certain things which will turn out to be true if they really go together before you begin to like them They may happen at any moment but its hard to imagine what happens when one sees how many people have left behind other people\n[Teacher]: when they left.   If we keep our own interests and talents on our own we may get bored but when we find something we do it with others to make it more enjoyable and exciting and to feel a sense of belonging.   The desire for a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I wish you could Here was a brief silence that filled the room with memories of home and school life in some parts of the world"
+      },
+      {
+        "turn_index": 3,
+        "text": "There are certain things which will turn out to be true if they really go together before you begin to like them They may happen at any moment but its hard to imagine what happens when one sees how many people have left behind other people"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", while there was also a sense of disconnection from the present.   One of the most obvious signs of the desire for home is the longing for a shared sense of purpose and belonging. The desire for common experiences and shared memories can be strong."
+      },
+      {
+        "turn_index": 4,
+        "text": "when they left.   If we keep our own interests and talents on our own we may get bored but when we find something we do it with others to make it more enjoyable and exciting and to feel a sense of belonging.   The desire for a"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Im not a lot sure of their names\n[Teacher]: , so don't worry if you need to guess sometimes.  ## Step 1: Reflect on personal experience I don't have any pets to reflect on.  ## Step 2: Consider hypothetical pet ownership Since I'm not a real person,\n[Student]: Wrongs of the story\n[Teacher]: .  I can just imagine and provide information on hypothetical pets.  ## Step 3: Describe a hypothetical pet I'll imagine a pet, let's say, a cat named Whiskers. Whiskers has been with me for about",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Im not a lot sure of their names"
+      },
+      {
+        "turn_index": 3,
+        "text": "Wrongs of the story"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", so don't worry if you need to guess sometimes.  ## Step 1: Reflect on personal experience I don't have any pets to reflect on.  ## Step 2: Consider hypothetical pet ownership Since I'm not a real person,"
+      },
+      {
+        "turn_index": 4,
+        "text": ".  I can just imagine and provide information on hypothetical pets.  ## Step 3: Describe a hypothetical pet I'll imagine a pet, let's say, a cat named Whiskers. Whiskers has been with me for about"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I am almost as well acquainted with the island as I was with the seafaring people in the old days of my childhood She paused for a moment before answering Dorothys questioning look from her father on the subject which she considered good to\n[Teacher]: see after all these years. My name is Acheron the young prince of the house of Acheron who lives in the imperial city of Palmyra. I have a pet falcon called Persephone. I obtained her from a merchant\n[Student]: at Tortuga a few months ago Her voice came out very audibly as if she were trying to get the impression that he heard the story of his arrival there once more in Pisa but instead did not reply when asked by some unknown\n[Teacher]: persons to explain the reason of his presence in that city I did not notice at first the strange girl and the old man walking behind me when I was walking in the street at the time when I was getting more and more agitated the old man was",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I am almost as well acquainted with the island as I was with the seafaring people in the old days of my childhood She paused for a moment before answering Dorothys questioning look from her father on the subject which she considered good to"
+      },
+      {
+        "turn_index": 3,
+        "text": "at Tortuga a few months ago Her voice came out very audibly as if she were trying to get the impression that he heard the story of his arrival there once more in Pisa but instead did not reply when asked by some unknown"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "see after all these years. My name is Acheron the young prince of the house of Acheron who lives in the imperial city of Palmyra. I have a pet falcon called Persephone. I obtained her from a merchant"
+      },
+      {
+        "turn_index": 4,
+        "text": "persons to explain the reason of his presence in that city I did not notice at first the strange girl and the old man walking behind me when I was walking in the street at the time when I was getting more and more agitated the old man was"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: Well Im not hungry\n[Teacher]: now but Im always interested in hearing about food from my friends. It is always helpful to know what to try when your out and about, or what recipe to make at home.  I have been experimenting with my cooking skills and recently made a delicious\n[Student]: dinner for myself before I came here He was a very good cook indeed and his voice sounded as if it were quite easy to hear him through the next few minutes of conversation so rapidly that he could hardly breathe on his ear without uttering an\n[Teacher]: audible word.... The first time I met him, I found him to be quite attractive... The second time I met him, I found him to be quite attractive.... The third time we met, I found him",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Well Im not hungry"
+      },
+      {
+        "turn_index": 3,
+        "text": "dinner for myself before I came here He was a very good cook indeed and his voice sounded as if it were quite easy to hear him through the next few minutes of conversation so rapidly that he could hardly breathe on his ear without uttering an"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "now but Im always interested in hearing about food from my friends. It is always helpful to know what to try when your out and about, or what recipe to make at home.  I have been experimenting with my cooking skills and recently made a delicious"
+      },
+      {
+        "turn_index": 4,
+        "text": "audible word.... The first time I met him, I found him to be quite attractive... The second time I met him, I found him to be quite attractive.... The third time we met, I found him"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: I am not sure which one is the most popular for that type of thing\n[Teacher]: but it would be great to hear from you. I am a music lover and I love to explore different genres and artists. I don't have a specific favorite genre or artist, but I enjoy listening to a variety of music that I can dance to\n[Student]: in my life_Chorus_I like jazzIm an instrumental singerI like pop I dont know if it will work out fineSchoolmaster\n[Teacher]: _What do you usually listen to? I like jazzI'm an instrumental singerI like popI don't know if it will work out fine **Answer:** I like jazzI'm an instrumental singerI like popI don't know if",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I am not sure which one is the most popular for that type of thing"
+      },
+      {
+        "turn_index": 3,
+        "text": "in my life_Chorus_I like jazzIm an instrumental singerI like pop I dont know if it will work out fineSchoolmaster"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "but it would be great to hear from you. I am a music lover and I love to explore different genres and artists. I don't have a specific favorite genre or artist, but I enjoy listening to a variety of music that I can dance to"
+      },
+      {
+        "turn_index": 4,
+        "text": "_What do you usually listen to? I like jazzI'm an instrumental singerI like popI don't know if it will work out fine **Answer:** I like jazzI'm an instrumental singerI like popI don't know if"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: The same thing as helping a poor orphan of another family\n[Teacher]: get in touch with his parents – we have to reach out and find out what they need. To my mind, that is the most important thing a lawyer can do. The same is true for the other professions: doctors, teachers, social workers –\n[Student]: people who are blind people all think about their children because they believe there is something wrong but they dont care if its not true too much they feel ashamed of themselves at least in this world\n[Teacher]: of blind people. These two quotes appear to be from two different authors. The first one appears to be a personal essay about a hobby and the second one appears to be a passage from a work of fiction.  The first quote seems to be from a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "The same thing as helping a poor orphan of another family"
+      },
+      {
+        "turn_index": 3,
+        "text": "people who are blind people all think about their children because they believe there is something wrong but they dont care if its not true too much they feel ashamed of themselves at least in this world"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "get in touch with his parents – we have to reach out and find out what they need. To my mind, that is the most important thing a lawyer can do. The same is true for the other professions: doctors, teachers, social workers –"
+      },
+      {
+        "turn_index": 4,
+        "text": "of blind people. These two quotes appear to be from two different authors. The first one appears to be a personal essay about a hobby and the second one appears to be a passage from a work of fiction.  The first quote seems to be from a"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: I can not think about that now\n[Teacher]: because of the music streaming services like Spotify and Apple Music, which has changed the way we consume music. With the rise of streaming services, many consumers are concerned about the impact on the music industry and the value of music. This raises questions about the\n[Student]: things people want more than other musical instruments but does not understand how it is done with the movie itself Nogalesia The Nogalesia is one of the seven main groups in the family\n[Teacher]: of the song \"Nogalesia\". It is the second album of the group, which was released in 2010. The album was released in three different formats: vinyl record, CD, and digital download. The group's music was characterized",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I can not think about that now"
+      },
+      {
+        "turn_index": 3,
+        "text": "things people want more than other musical instruments but does not understand how it is done with the movie itself Nogalesia The Nogalesia is one of the seven main groups in the family"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "because of the music streaming services like Spotify and Apple Music, which has changed the way we consume music. With the rise of streaming services, many consumers are concerned about the impact on the music industry and the value of music. This raises questions about the"
+      },
+      {
+        "turn_index": 4,
+        "text": "of the song \"Nogalesia\". It is the second album of the group, which was released in 2010. The album was released in three different formats: vinyl record, CD, and digital download. The group's music was characterized"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: And if it is really a romantic holiday for the child and not a boy and girl\n[Teacher]: , it is called a gender-neutral gender festival (also known as a gender festival or a gender festival) in some countries, such as Canada and Australia. The holiday was held in the United States in the 1980s and early 1990\n[Student]: s at the end of World War II and its present days events were performed on television by many people during war time in Germany since 1945 These movies are about women who have their own unique style of entertainment that is often used to describe them as\n[Teacher]: \"daring and sexy\", and they are also very important in the history of cinema. This is an exciting new chapter in the history of cinema., and there is also a lot of excitement and anticipation from the world at large for what the",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "And if it is really a romantic holiday for the child and not a boy and girl"
+      },
+      {
+        "turn_index": 3,
+        "text": "s at the end of World War II and its present days events were performed on television by many people during war time in Germany since 1945 These movies are about women who have their own unique style of entertainment that is often used to describe them as"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", it is called a gender-neutral gender festival (also known as a gender festival or a gender festival) in some countries, such as Canada and Australia. The holiday was held in the United States in the 1980s and early 1990"
+      },
+      {
+        "turn_index": 4,
+        "text": "\"daring and sexy\", and they are also very important in the history of cinema. This is an exciting new chapter in the history of cinema., and there is also a lot of excitement and anticipation from the world at large for what the"
+      }
+    ]
+  }
+]

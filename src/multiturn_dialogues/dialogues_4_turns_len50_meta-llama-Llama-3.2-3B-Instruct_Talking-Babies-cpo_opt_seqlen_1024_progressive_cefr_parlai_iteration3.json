@@ -1,0 +1,282 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: What sort of music are your music at home asked the Sweets from Cincinnatis first album I have no idea what I should like\n[Teacher]: , so I'd like to get some recommendations for you! (I love music festivals) - Sarah  ## Step 1: Understand the prompt The prompt asks about personal music preferences and experiences, but then quickly shifts to asking for music recommendations based\n[Student]: on any other instrument As of today she was nominated for an Academy Award in 1995 for Outstanding Model She has said that her songs were too easy for people who listened easily during her life but she used them in real life as an\n[Teacher]: emotional outlet. As you requested more information from Sarah, she replied \"That's a nice story. I don't really know what I like, I just know what sounds good\".   ## Step 2: Identify the tone and style of the prompt",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "What sort of music are your music at home asked the Sweets from Cincinnatis first album I have no idea what I should like"
+      },
+      {
+        "turn_index": 3,
+        "text": "on any other instrument As of today she was nominated for an Academy Award in 1995 for Outstanding Model She has said that her songs were too easy for people who listened easily during her life but she used them in real life as an"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", so I'd like to get some recommendations for you! (I love music festivals) - Sarah  ## Step 1: Understand the prompt The prompt asks about personal music preferences and experiences, but then quickly shifts to asking for music recommendations based"
+      },
+      {
+        "turn_index": 4,
+        "text": "emotional outlet. As you requested more information from Sarah, she replied \"That's a nice story. I don't really know what I like, I just know what sounds good\".   ## Step 2: Identify the tone and style of the prompt"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: I have never met your mother before in my life And then he went to the library table where she had finished her book of Songs for a Clockwork Class The Mystery Of The Strange Book of Fig\n[Teacher]: urative Language was not on the menu tonight. The setting is a dimly lit, smoke-filled room with a bar in the center. The bartender, a gruff-looking man with a thick beard, polishes a glass with a dirty rag while\n[Student]: playing a game that he has never played beforeWhen did you get outhe paused abruptly and looked at his sisters face as if it were a question about himI dont know what to say It\n[Teacher]: wasnt even a day and I was sitting in the corner of a dimly lit bar with a stranger, drinking his coffee and listening to the story of his mother's life. He had been telling her about her as if she were alive, about",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I have never met your mother before in my life And then he went to the library table where she had finished her book of Songs for a Clockwork Class The Mystery Of The Strange Book of Fig"
+      },
+      {
+        "turn_index": 3,
+        "text": "playing a game that he has never played beforeWhen did you get outhe paused abruptly and looked at his sisters face as if it were a question about himI dont know what to say It"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "urative Language was not on the menu tonight. The setting is a dimly lit, smoke-filled room with a bar in the center. The bartender, a gruff-looking man with a thick beard, polishes a glass with a dirty rag while"
+      },
+      {
+        "turn_index": 4,
+        "text": "wasnt even a day and I was sitting in the corner of a dimly lit bar with a stranger, drinking his coffee and listening to the story of his mother's life. He had been telling her about her as if she were alive, about"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: I am sorry to say that I have not been able to do so yet She began to sob bitterly at the remembrance of her mothers displeasure over this mishap with herself in a fashion which is apt to excite\n[Teacher]: sorrow and sympathy in any one.  - Letter from Mary Wollstonecraft to her sister Elizabeth, 1797  ## Step 1:  Identify the main topic of the passage The passage appears to be a personal and emotional letter from\n[Student]: my dear wife Alison who has never read it I dont know what it means she writes rapidly hereafter as if her thoughts were all lost away by the memories they had encountered around them that were still more distant and\n[Teacher]: not more difficult than the other and yet they still seemed more like what they were that is an unpleasant dream of the past that is not pleasant to see.  ## Step 2:  Understand the tone of the passage The tone of the letter seems melanch",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I am sorry to say that I have not been able to do so yet She began to sob bitterly at the remembrance of her mothers displeasure over this mishap with herself in a fashion which is apt to excite"
+      },
+      {
+        "turn_index": 3,
+        "text": "my dear wife Alison who has never read it I dont know what it means she writes rapidly hereafter as if her thoughts were all lost away by the memories they had encountered around them that were still more distant and"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "sorrow and sympathy in any one.  - Letter from Mary Wollstonecraft to her sister Elizabeth, 1797  ## Step 1:  Identify the main topic of the passage The passage appears to be a personal and emotional letter from"
+      },
+      {
+        "turn_index": 4,
+        "text": "not more difficult than the other and yet they still seemed more like what they were that is an unpleasant dream of the past that is not pleasant to see.  ## Step 2:  Understand the tone of the passage The tone of the letter seems melanch"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I think there are a lot of young ones in the family He said this for his mothers sake\n[Teacher]: . It seems to me that his mother was trying to get him to talk about his family, or perhaps his love for pets. He's trying to be helpful and encouraging, but he's also trying to show that he's a caring person. This\n[Student]: is his chance to teach others to read books and do everything they can to help their families when they want them to be better than them at school by giving their children lessons or anything they can learn from reading well enough to take care of themselves as teachers\n[Teacher]: at school and get good grades. He thinks he can help them become better people and get the grades they need. He's saying that if he helps them learn how to read and write well, then they can become better and get more than their parents",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I think there are a lot of young ones in the family He said this for his mothers sake"
+      },
+      {
+        "turn_index": 3,
+        "text": "is his chance to teach others to read books and do everything they can to help their families when they want them to be better than them at school by giving their children lessons or anything they can learn from reading well enough to take care of themselves as teachers"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". It seems to me that his mother was trying to get him to talk about his family, or perhaps his love for pets. He's trying to be helpful and encouraging, but he's also trying to show that he's a caring person. This"
+      },
+      {
+        "turn_index": 4,
+        "text": "at school and get good grades. He thinks he can help them become better people and get the grades they need. He's saying that if he helps them learn how to read and write well, then they can become better and get more than their parents"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Theyre pretty good to eat as they are hungry in the woods And he got out of his cage when all was ready for bedhe didnt seem so sure about that\n[Teacher]: whole cage thinghe just sort of flopped onto the floor and thats how hes been sleeping ever since. I love him dearly, but I feel like hes not taking things as seriously as I do. I think you may be confusing two different things here\n[Student]: in your book club who do things you cant imagine_The Times_Id like to tell the story again by telling you why this is a little bit strangeMr Potato Head made me ask you which way to begin my\n[Teacher]: story if you cant imagine it. Mr. Potato Head made me think of a character I would like to introduce in my book club who is also a bit of a weirdo_When it comes to describing a character, what do you think are some",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Theyre pretty good to eat as they are hungry in the woods And he got out of his cage when all was ready for bedhe didnt seem so sure about that"
+      },
+      {
+        "turn_index": 3,
+        "text": "in your book club who do things you cant imagine_The Times_Id like to tell the story again by telling you why this is a little bit strangeMr Potato Head made me ask you which way to begin my"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "whole cage thinghe just sort of flopped onto the floor and thats how hes been sleeping ever since. I love him dearly, but I feel like hes not taking things as seriously as I do. I think you may be confusing two different things here"
+      },
+      {
+        "turn_index": 4,
+        "text": "story if you cant imagine it. Mr. Potato Head made me think of a character I would like to introduce in my book club who is also a bit of a weirdo_When it comes to describing a character, what do you think are some"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: I like roasting\n[Teacher]: vegetables with herbs. Roasting brings out the natural sweetness in vegetables, and it's a great way to cook a variety of vegetables in a simple and healthy way.  ## Step 1:  To answer this question, I first need to provide a\n[Student]: substitute for Mr Clare McCarthy called The Dustbox This is because he has been in so many plays lately that he thinks the same person will be the most popular actor ever born today Hes very good at acting but\n[Teacher]: he needs to work on his humility in front of the other actors  ## Step 2:  The question then asks me what I do for entertainment in my free time Do I like to read write act play or cook I'm not sure what I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I like roasting"
+      },
+      {
+        "turn_index": 3,
+        "text": "substitute for Mr Clare McCarthy called The Dustbox This is because he has been in so many plays lately that he thinks the same person will be the most popular actor ever born today Hes very good at acting but"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "vegetables with herbs. Roasting brings out the natural sweetness in vegetables, and it's a great way to cook a variety of vegetables in a simple and healthy way.  ## Step 1:  To answer this question, I first need to provide a"
+      },
+      {
+        "turn_index": 4,
+        "text": "he needs to work on his humility in front of the other actors  ## Step 2:  The question then asks me what I do for entertainment in my free time Do I like to read write act play or cook I'm not sure what I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: How can I help with my own experiences and things like that He told how he had made his last acquaintance on the stage just after college summer started in 1948 because there were so many different things happening about him and it was one of those years before\n[Teacher]: he even knew what he was doing with his life so that he told me that he had met that person in that year.  ## Step 1: Identify the type of music the person usually listens to. The person doesn't specify the type of music\n[Student]: they are supposed to play every time is a song thats not really good Together we should be able to learn the same types of songs as well If someone has said that she didnt love anyone that makes her feel\n[Teacher]: alive.  Then she has listened to her music in the 90s when she had been to a club and listened to that.  I'm not sure if that is her favorite type of music that she likes.  Then they told her how",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "How can I help with my own experiences and things like that He told how he had made his last acquaintance on the stage just after college summer started in 1948 because there were so many different things happening about him and it was one of those years before"
+      },
+      {
+        "turn_index": 3,
+        "text": "they are supposed to play every time is a song thats not really good Together we should be able to learn the same types of songs as well If someone has said that she didnt love anyone that makes her feel"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "he even knew what he was doing with his life so that he told me that he had met that person in that year.  ## Step 1: Identify the type of music the person usually listens to. The person doesn't specify the type of music"
+      },
+      {
+        "turn_index": 4,
+        "text": "alive.  Then she has listened to her music in the 90s when she had been to a club and listened to that.  I'm not sure if that is her favorite type of music that she likes.  Then they told her how"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: Did your mother let her talk of the thing He was a great singer in this melodramatic language that he is always looking for when he goes out to school on his rounds after school at the moment\n[Teacher]: . I think I'm going to join the school choir. I have always wanted to sing, but I never really had the chance to do it until now. My friend, who is in the choir, has been encouraging me to join and has told\n[Student]: me about all my hopes and wishes to become an opera singer as soon as possible and try hard not to forget them forever\n[Teacher]: . That will take some time, but I hope to be in a position to pursue my dreams one day. I have always been interested in music and have spent many hours listening to different genres and styles of music. I have even tried singing along with",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Did your mother let her talk of the thing He was a great singer in this melodramatic language that he is always looking for when he goes out to school on his rounds after school at the moment"
+      },
+      {
+        "turn_index": 3,
+        "text": "me about all my hopes and wishes to become an opera singer as soon as possible and try hard not to forget them forever"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". I think I'm going to join the school choir. I have always wanted to sing, but I never really had the chance to do it until now. My friend, who is in the choir, has been encouraging me to join and has told"
+      },
+      {
+        "turn_index": 4,
+        "text": ". That will take some time, but I hope to be in a position to pursue my dreams one day. I have always been interested in music and have spent many hours listening to different genres and styles of music. I have even tried singing along with"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: You can read your lifes story about the country and how it goes on in nature as if there were no more romantic things happening than what we had at first sight from the movies in America Often when Im reading this book it was difficult\n[Teacher]: to keep my attention and focus on the story because there was not much exciting or romantic things happening in the story. But Im still willing to read and finish the book because Im interested in reading about the country and its history. Sometimes when I'm reading\n[Student]: another one I feel like I want to be part of this opera business the theatre crew that helps me so much It is good for listening with people who are not interested in what they see in movies but never bothering with what their opinions\n[Teacher]: say I had a great experience at the concert it was like I was part of a magic world. It was as if the stage was a mirror reflecting my soul, and the music was the language that spoke directly to my heart. This is the experience",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "You can read your lifes story about the country and how it goes on in nature as if there were no more romantic things happening than what we had at first sight from the movies in America Often when Im reading this book it was difficult"
+      },
+      {
+        "turn_index": 3,
+        "text": "another one I feel like I want to be part of this opera business the theatre crew that helps me so much It is good for listening with people who are not interested in what they see in movies but never bothering with what their opinions"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "to keep my attention and focus on the story because there was not much exciting or romantic things happening in the story. But Im still willing to read and finish the book because Im interested in reading about the country and its history. Sometimes when I'm reading"
+      },
+      {
+        "turn_index": 4,
+        "text": "say I had a great experience at the concert it was like I was part of a magic world. It was as if the stage was a mirror reflecting my soul, and the music was the language that spoke directly to my heart. This is the experience"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration3",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: They are all about the adventures of my life He glanced through the open door and at last he exclaimedIm not quite sure what they are for and turning to his sister she said suddenlyI have some good news for\n[Teacher]: you!You are going to be a father!You have been selected for a special mission, to travel to a distant planet and collect a valuable mineral from the planet’s core. This is not a drill!You are going to save the Earth from\n[Student]: destruction As she spoke her eyes filled with tears as she made this announcement that it was time for her to leave for the next day in New York Citynot until late summer when she had left me on an exploring trip to Salem\n[Teacher]: and come back. She had been to Salem many times with her family and was looking forward to the summer trip with her best friend, her sister’s daughter.I saidI don’t want to go on the trip!I don’t want to go to",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "They are all about the adventures of my life He glanced through the open door and at last he exclaimedIm not quite sure what they are for and turning to his sister she said suddenlyI have some good news for"
+      },
+      {
+        "turn_index": 3,
+        "text": "destruction As she spoke her eyes filled with tears as she made this announcement that it was time for her to leave for the next day in New York Citynot until late summer when she had left me on an exploring trip to Salem"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "you!You are going to be a father!You have been selected for a special mission, to travel to a distant planet and collect a valuable mineral from the planet’s core. This is not a drill!You are going to save the Earth from"
+      },
+      {
+        "turn_index": 4,
+        "text": "and come back. She had been to Salem many times with her family and was looking forward to the summer trip with her best friend, her sister’s daughter.I saidI don’t want to go on the trip!I don’t want to go to"
+      }
+    ]
+  }
+]

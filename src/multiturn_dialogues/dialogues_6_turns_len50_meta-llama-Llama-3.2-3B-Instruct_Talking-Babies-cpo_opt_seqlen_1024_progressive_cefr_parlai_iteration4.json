@@ -1,0 +1,362 @@
+[
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "1",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: It is so much more interesting than some of the ones I used to sing there when I was young and had great ideas about how to make music and play that way The children called it Bonjour\n[Teacher]: and they wanted to be friends with me because of it. What was that music you used to sing? (Translation: What kind of music do you usually listen to? What artist or concert experience do you remember the most?)  **Note:** The translation\n[Student]: I like it so much I would say\n[Teacher]: that music has played a significant role in our lives, and it has the power to bring people together. Let's cherish it and appreciate the different genres and artists out there.  The best way to answer this question is to share your personal music preferences\n[Student]: and go through many other kinds of interviews and stuff like that which means Im glad I had not mentioned my work at home as well as having to come back for it again after we got married and Ive been doing very well on time so\n[Teacher]: far.  **Note:** The original text starts with a personal and nostalgic tone, introducing the topic of music and sharing a personal experience. The response provided seems to be a reflection of the original text, rather than a new answer. To provide a",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "It is so much more interesting than some of the ones I used to sing there when I was young and had great ideas about how to make music and play that way The children called it Bonjour"
+      },
+      {
+        "turn_index": 3,
+        "text": "I like it so much I would say"
+      },
+      {
+        "turn_index": 5,
+        "text": "and go through many other kinds of interviews and stuff like that which means Im glad I had not mentioned my work at home as well as having to come back for it again after we got married and Ive been doing very well on time so"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "and they wanted to be friends with me because of it. What was that music you used to sing? (Translation: What kind of music do you usually listen to? What artist or concert experience do you remember the most?)  **Note:** The translation"
+      },
+      {
+        "turn_index": 4,
+        "text": "that music has played a significant role in our lives, and it has the power to bring people together. Let's cherish it and appreciate the different genres and artists out there.  The best way to answer this question is to share your personal music preferences"
+      },
+      {
+        "turn_index": 6,
+        "text": "far.  **Note:** The original text starts with a personal and nostalgic tone, introducing the topic of music and sharing a personal experience. The response provided seems to be a reflection of the original text, rather than a new answer. To provide a"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "2",
+    "STARTER": "Have you been on any trips recently? Where did you go, and did anything interesting happen there?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Have you been on any trips recently? Where did you go, and did anything interesting happen there?\n[Student]: YesIm glad I didnt tell you about it beforeGood eveninggood night And she smiled as she kissed her mothers hand over the door and shook hands silently at a pleasant little chat while Mr Huntingdon went\n[Teacher]: back to his usual evening routine. The evening hadnt been a particularly happy one but they had still managed to have a pleasant little chat. She had told him about her trip to the beach and the interesting things she had seen. He had listened attent\n[Student]: ively for some time in the next few days when he was not able to answer or if he could keep silent and talk over the whole of things that were important during their travels and the times were so hard for him that he felt quite discouraged when\n[Teacher]: he was unable to do so much more than he was able to do. She had asked him if he wasnt feeling any better but he had just smiled and said it wasnt like that and that it had been a pleasure. She knew that he\n[Student]: would be going to spend two years with her mother and then her father will give her permission occasionally to make this visit to his old school place and find out how very different from what they are from all other friends who do not know them by heart and\n[Teacher]: then they had come back home and he had said she was beautiful. But now she smiled and held up her hand to him as he tried to kiss her. She said she would not kiss him and she would not hold hands or any other kind of",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "YesIm glad I didnt tell you about it beforeGood eveninggood night And she smiled as she kissed her mothers hand over the door and shook hands silently at a pleasant little chat while Mr Huntingdon went"
+      },
+      {
+        "turn_index": 3,
+        "text": "ively for some time in the next few days when he was not able to answer or if he could keep silent and talk over the whole of things that were important during their travels and the times were so hard for him that he felt quite discouraged when"
+      },
+      {
+        "turn_index": 5,
+        "text": "would be going to spend two years with her mother and then her father will give her permission occasionally to make this visit to his old school place and find out how very different from what they are from all other friends who do not know them by heart and"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "back to his usual evening routine. The evening hadnt been a particularly happy one but they had still managed to have a pleasant little chat. She had told him about her trip to the beach and the interesting things she had seen. He had listened attent"
+      },
+      {
+        "turn_index": 4,
+        "text": "he was unable to do so much more than he was able to do. She had asked him if he wasnt feeling any better but he had just smiled and said it wasnt like that and that it had been a pleasure. She knew that he"
+      },
+      {
+        "turn_index": 6,
+        "text": "then they had come back home and he had said she was beautiful. But now she smiled and held up her hand to him as he tried to kiss her. She said she would not kiss him and she would not hold hands or any other kind of"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "3",
+    "STARTER": "Do you play any sports or keep active? Have you joined any teams or tried something new lately?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you play any sports or keep active? Have you joined any teams or tried something new lately?\n[Student]: Nono except school and college I am in now\n[Teacher]: . I think the most common physical activity in my school is running. Every student runs to the school every day. I am a student now, so I am just following the school rules and guidelines. I am not much active, I do not have\n[Student]: time to be like that around here but I would rather run for president than live on campus by myself\n[Teacher]: . I think I can imagine the situation of your school. It seems like the school has a strong emphasis on physical activity, especially running. It's great that you're following the school rules and guidelines, even if you're not very active. Running\n[Student]: through schools means being able to win every grade and inexperienced people are really good at it too often because you get to have them as well and can easily lose every year more quickly than when they meet with their friends or other students who\n[Teacher]: have to run with them. However, I think it's also good that you're aware of your limitations and that you have your own priorities. Running through schools does not only make the kids and adults alike but also affects other students who are forced to",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Nono except school and college I am in now"
+      },
+      {
+        "turn_index": 3,
+        "text": "time to be like that around here but I would rather run for president than live on campus by myself"
+      },
+      {
+        "turn_index": 5,
+        "text": "through schools means being able to win every grade and inexperienced people are really good at it too often because you get to have them as well and can easily lose every year more quickly than when they meet with their friends or other students who"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". I think the most common physical activity in my school is running. Every student runs to the school every day. I am a student now, so I am just following the school rules and guidelines. I am not much active, I do not have"
+      },
+      {
+        "turn_index": 4,
+        "text": ". I think I can imagine the situation of your school. It seems like the school has a strong emphasis on physical activity, especially running. It's great that you're following the school rules and guidelines, even if you're not very active. Running"
+      },
+      {
+        "turn_index": 6,
+        "text": "have to run with them. However, I think it's also good that you're aware of your limitations and that you have your own priorities. Running through schools does not only make the kids and adults alike but also affects other students who are forced to"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "4",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: I should think they would be so happy to see us\n[Teacher]: when we return after a long day of work. They are probably just sitting around looking at us, waiting for us to come home. - Author Unknown  ## Step 1: Identify the prompt and the question being asked The prompt is about sharing\n[Student]: with another group member of their We Are Seven A person who has two brothers named Brian who was born in Sept September 16 is well known as an author who writes many books about people and business ideas on social media and other\n[Teacher]: platforms Brian has two other siblings as well  The question is asking the author to write about their pets, including how long they have had them, what they like most about them, and how their pets react to the author's return home after a long\n[Student]: trip by themselves and not only the publicity but also the way its ways of life take it away from them and make it seem fun\n[Teacher]: .  ## Step 2: Create a personal and introspective response The author begins by sharing that they have two brothers and that their sibling is also a renowned author Brian has two other siblings as well.  ## Step 3: Describe the author's relationship",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "I should think they would be so happy to see us"
+      },
+      {
+        "turn_index": 3,
+        "text": "with another group member of their We Are Seven A person who has two brothers named Brian who was born in Sept September 16 is well known as an author who writes many books about people and business ideas on social media and other"
+      },
+      {
+        "turn_index": 5,
+        "text": "trip by themselves and not only the publicity but also the way its ways of life take it away from them and make it seem fun"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "when we return after a long day of work. They are probably just sitting around looking at us, waiting for us to come home. - Author Unknown  ## Step 1: Identify the prompt and the question being asked The prompt is about sharing"
+      },
+      {
+        "turn_index": 4,
+        "text": "platforms Brian has two other siblings as well  The question is asking the author to write about their pets, including how long they have had them, what they like most about them, and how their pets react to the author's return home after a long"
+      },
+      {
+        "turn_index": 6,
+        "text": ".  ## Step 2: Create a personal and introspective response The author begins by sharing that they have two brothers and that their sibling is also a renowned author Brian has two other siblings as well.  ## Step 3: Describe the author's relationship"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "5",
+    "STARTER": "Do you have any pets? How long have you had them, and what do you like most about them?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any pets? How long have you had them, and what do you like most about them?\n[Student]: Why do you not come to see them when they are asleep asked Roxy anxiously as she made her toilet paper in the sitting room drawer of one of the shelves where a great deal of furniture was being put on the floor beside their bedding during\n[Teacher]: a messy cleaning.  ## Step 1: Understand the context of the conversation Roxy is asking someone about their pets, showing interest in learning more about their pets. However, the person's response indicates they are more focused on the cleaning process than\n[Student]: anyone else can be at that time\n[Teacher]: .  ## Step 2: Identify the humorous aspect of the question \"Why do you not come to see them when they are asleep?\" The question seems to be a non-sequitur in the context of the conversation, implying the person's response is\n[Student]: only too well expressed by the criticisms that appear to be present for those who are tired or unable to reply to it without having to tell them something which is difficult and appropriate to understand or understand what their situation is\n[Teacher]: with no clear answers.  ## Step 3: Analyze the possible meanings behind the question \"Why do you not come to see them when they are asleep?\" The question could be interpreted as a request for the person to visit Roxy's pets",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Why do you not come to see them when they are asleep asked Roxy anxiously as she made her toilet paper in the sitting room drawer of one of the shelves where a great deal of furniture was being put on the floor beside their bedding during"
+      },
+      {
+        "turn_index": 3,
+        "text": "anyone else can be at that time"
+      },
+      {
+        "turn_index": 5,
+        "text": "only too well expressed by the criticisms that appear to be present for those who are tired or unable to reply to it without having to tell them something which is difficult and appropriate to understand or understand what their situation is"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "a messy cleaning.  ## Step 1: Understand the context of the conversation Roxy is asking someone about their pets, showing interest in learning more about their pets. However, the person's response indicates they are more focused on the cleaning process than"
+      },
+      {
+        "turn_index": 4,
+        "text": ".  ## Step 2: Identify the humorous aspect of the question \"Why do you not come to see them when they are asleep?\" The question seems to be a non-sequitur in the context of the conversation, implying the person's response is"
+      },
+      {
+        "turn_index": 6,
+        "text": "with no clear answers.  ## Step 3: Analyze the possible meanings behind the question \"Why do you not come to see them when they are asleep?\" The question could be interpreted as a request for the person to visit Roxy's pets"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "6",
+    "STARTER": "Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you enjoy cooking at home? What's the best meal you've made recently, or do you prefer eating out?\n[Student]: It is one of my favorite dishes I have ever enjoyed in my life He opened a drawer and handed it to his daughter who was looking for him as he passed by on his way through the forest trailing the snowflakes from their windows over the\n[Teacher]: mountain peaks. When she was finished cooking, she put the plate down on the table. The table was set with white linens, fine china, and silverware. The room was well lit by a table lamp, but the door was still slightly\n[Student]: open when they entered the kitchen where Mrs Carew lived so long after she had left her husband and son buried beneath some tree tops\n[Teacher]: at the bottom of a frozen lake in a place called. Mrs Carew was a bit of a recluse, and her daughter was in her late teens, so they didn't often have dinner together, and it was clear that the young woman was\n[Student]: in no hurry at all to leave this lonely spot without supper while she ate alone during such hardships as the other two girls were having\n[Teacher]: at school the winter before last. The girl who was the older sister had been the one to do most of the cooking. She had always loved her cooking and was in her element in the kitchen, whipping up dishes that were both delicious and comforting.",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "It is one of my favorite dishes I have ever enjoyed in my life He opened a drawer and handed it to his daughter who was looking for him as he passed by on his way through the forest trailing the snowflakes from their windows over the"
+      },
+      {
+        "turn_index": 3,
+        "text": "open when they entered the kitchen where Mrs Carew lived so long after she had left her husband and son buried beneath some tree tops"
+      },
+      {
+        "turn_index": 5,
+        "text": "in no hurry at all to leave this lonely spot without supper while she ate alone during such hardships as the other two girls were having"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "mountain peaks. When she was finished cooking, she put the plate down on the table. The table was set with white linens, fine china, and silverware. The room was well lit by a table lamp, but the door was still slightly"
+      },
+      {
+        "turn_index": 4,
+        "text": "at the bottom of a frozen lake in a place called. Mrs Carew was a bit of a recluse, and her daughter was in her late teens, so they didn't often have dinner together, and it was clear that the young woman was"
+      },
+      {
+        "turn_index": 6,
+        "text": "at school the winter before last. The girl who was the older sister had been the one to do most of the cooking. She had always loved her cooking and was in her element in the kitchen, whipping up dishes that were both delicious and comforting."
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "7",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: If I hear it in the evening somewhere or other we will give you one of our plays on the Piano Concerto for each season and I cant say how old he is now\n[Teacher]: . In the music of Richard Wagner, the piano repertoire is particularly rich. It is only natural to think of the composer and his works, which are full of contrasts and nuances, that you would like to hear performed by a master. This is where\n[Student]: they tell you what a wonderful performance they were playing together with each other And when Richard Wagner was first born they had their own ideas about musicianship and the work they did at home began to be interesting ones like John Curtis\n[Teacher]: and his wife's music to get a little interesting. They had some famous musicians in the neighborhood, like John Coltrane who was a master of improvisation. The idea of a composer such as John Coltrane is that it was created together\n[Student]: into an early life such as The Singer The name was later changed to play by Carl Jungie Hernandez who wrote a ballet He wrote a lot of love poems in his operas including Metal Delux\n[Teacher]: which is not only a great song but also a great concept. The idea was that love is not just something that is expressed through words but also through music, dance, and visual arts. Richard Wagner's piano works, such as his Piano Concerto",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "If I hear it in the evening somewhere or other we will give you one of our plays on the Piano Concerto for each season and I cant say how old he is now"
+      },
+      {
+        "turn_index": 3,
+        "text": "they tell you what a wonderful performance they were playing together with each other And when Richard Wagner was first born they had their own ideas about musicianship and the work they did at home began to be interesting ones like John Curtis"
+      },
+      {
+        "turn_index": 5,
+        "text": "into an early life such as The Singer The name was later changed to play by Carl Jungie Hernandez who wrote a ballet He wrote a lot of love poems in his operas including Metal Delux"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". In the music of Richard Wagner, the piano repertoire is particularly rich. It is only natural to think of the composer and his works, which are full of contrasts and nuances, that you would like to hear performed by a master. This is where"
+      },
+      {
+        "turn_index": 4,
+        "text": "and his wife's music to get a little interesting. They had some famous musicians in the neighborhood, like John Coltrane who was a master of improvisation. The idea of a composer such as John Coltrane is that it was created together"
+      },
+      {
+        "turn_index": 6,
+        "text": "which is not only a great song but also a great concept. The idea was that love is not just something that is expressed through words but also through music, dance, and visual arts. Richard Wagner's piano works, such as his Piano Concerto"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "8",
+    "STARTER": "Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you have any hobbies you like to spend time on? How did you get into them, and what keeps you interested?\n[Student]: Did you manage to run the ranch for a year or two ago asked Florence in a breath of excitement as she remembered her first visit with Mrs Lee Hunts family at school that morning\n[Teacher]: . So I thought we could spend the time running over to Mrs Lee’s to see her, and the family. It was going to be a day trip for the kids. I had a little bit of time for myself, but I wanted to make\n[Student]: up my mind about it all Her voice sounded very sweet and sweet to me and I laughed nervously when this last question came back from Mrs Lee Hunts who answered quite correctly but was evidently not having much of a talk with either one or two\n[Teacher]: of the children who seemed to be wandering around the school in search of the other but kept looking for each other again but their little voices kept asking for each other. So I took my little girl along with me and we went to Mrs Lee’s house\n[Student]: where they lived together a number of years ago She paused long enough to say You shall come and then sat down by the window saying softly after the manner of Evelyn and Lila sobered up and laid hands on her lap before her eyes\n[Teacher]: got the rest of the way open and she asked for permission to come with us for a day trip It was a beautiful day and we set off and Mrs Lee and her husband had been living on a ranch not far from our home. I said I",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Did you manage to run the ranch for a year or two ago asked Florence in a breath of excitement as she remembered her first visit with Mrs Lee Hunts family at school that morning"
+      },
+      {
+        "turn_index": 3,
+        "text": "up my mind about it all Her voice sounded very sweet and sweet to me and I laughed nervously when this last question came back from Mrs Lee Hunts who answered quite correctly but was evidently not having much of a talk with either one or two"
+      },
+      {
+        "turn_index": 5,
+        "text": "where they lived together a number of years ago She paused long enough to say You shall come and then sat down by the window saying softly after the manner of Evelyn and Lila sobered up and laid hands on her lap before her eyes"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ". So I thought we could spend the time running over to Mrs Lee’s to see her, and the family. It was going to be a day trip for the kids. I had a little bit of time for myself, but I wanted to make"
+      },
+      {
+        "turn_index": 4,
+        "text": "of the children who seemed to be wandering around the school in search of the other but kept looking for each other again but their little voices kept asking for each other. So I took my little girl along with me and we went to Mrs Lee’s house"
+      },
+      {
+        "turn_index": 6,
+        "text": "got the rest of the way open and she asked for permission to come with us for a day trip It was a beautiful day and we set off and Mrs Lee and her husband had been living on a ranch not far from our home. I said I"
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "9",
+    "STARTER": "What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: What kind of music do you usually listen to? Do you have a favorite artist or concert experience you remember?\n[Student]: Its not really much fun to play with kids and be happy here in the city And then he laughed at his teachers praise for the boys on this campus which was more than just a great one\n[Teacher]: he had given them. His mother had been a kind soul, always ready to lend a helping hand, and she had been very proud of her children when they were young. In his current state, he had lost his desire to live. He had\n[Student]: never learned anything before that day was a new thing in him\n[Teacher]: , and he had learned everything by accident. He had gotten the news of his accident and the news of the death of his father in the same day, and he had been left feeling empty and alone. His eyes had lost their sparkle, and he\n[Student]: seemed so different from everyone else around him as he felt older now than anyone he ever knew before him except himself except ourselves Oh my God\n[Teacher]: what a great day. The sun was shining, the birds were singing, and he was happy to be alive. But he was not happy to be living here in the city where the air was thick with pollution and the streets were crowded and noisy.",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Its not really much fun to play with kids and be happy here in the city And then he laughed at his teachers praise for the boys on this campus which was more than just a great one"
+      },
+      {
+        "turn_index": 3,
+        "text": "never learned anything before that day was a new thing in him"
+      },
+      {
+        "turn_index": 5,
+        "text": "seemed so different from everyone else around him as he felt older now than anyone he ever knew before him except himself except ourselves Oh my God"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": "he had given them. His mother had been a kind soul, always ready to lend a helping hand, and she had been very proud of her children when they were young. In his current state, he had lost his desire to live. He had"
+      },
+      {
+        "turn_index": 4,
+        "text": ", and he had learned everything by accident. He had gotten the news of his accident and the news of the death of his father in the same day, and he had been left feeling empty and alone. His eyes had lost their sparkle, and he"
+      },
+      {
+        "turn_index": 6,
+        "text": "what a great day. The sun was shining, the birds were singing, and he was happy to be alive. But he was not happy to be living here in the city where the air was thick with pollution and the streets were crowded and noisy."
+      }
+    ]
+  },
+  {
+    "teacher_model": "meta-llama/Llama-3.2-3B-Instruct",
+    "student_model": "Talking-Babies/cpo_opt_seqlen_1024_progressive_cefr_parlai_iteration4",
+    "id": "10",
+    "STARTER": "Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?",
+    "level": "Default (No Age Meta-Prompt)",
+    "text": "[Starter]: Do you celebrate any holidays with your family? Are there any special traditions or funny stories from past celebrations?\n[Student]: Do you ever play games in the summertime The answer was a thrill of contentment and the girls words were full of a wish to hear Mrs Hayden tell her good news about it and how she would love to take care of herself\n[Teacher]: , but how difficult it would be for her, I heard that her heart was still heavy with the news from the war and her son was still missing. As we walked further, the silence was only broken by the sound of my mother's footsteps,\n[Student]: as if one had been reading some book and had told her all sorts of things which are almost like books in general but this is why most of us go back to New York where she has lived since 1862 Well it was not long\n[Teacher]: before we heard that she was very ill. She was in a state of deep depression and would not see anyone. My mother would also go to visit her but she was also in the same condition and we could not enter the Mrs Hayden's house for\n[Student]: anything else that happened to him at the time he died while she was young So our friends thought the little girls troubles must have been so small they could scarcely speak their own mind They said she will never live through her life again after being\n[Teacher]: so sick for so long. I heard my mother say that I was a child when she was in New York and she had a friend who would tell her about her life and her family but the friend was never there and they would only talk about her",
+    "student_turns": [
+      {
+        "turn_index": 1,
+        "text": "Do you ever play games in the summertime The answer was a thrill of contentment and the girls words were full of a wish to hear Mrs Hayden tell her good news about it and how she would love to take care of herself"
+      },
+      {
+        "turn_index": 3,
+        "text": "as if one had been reading some book and had told her all sorts of things which are almost like books in general but this is why most of us go back to New York where she has lived since 1862 Well it was not long"
+      },
+      {
+        "turn_index": 5,
+        "text": "anything else that happened to him at the time he died while she was young So our friends thought the little girls troubles must have been so small they could scarcely speak their own mind They said she will never live through her life again after being"
+      }
+    ],
+    "teacher_turns": [
+      {
+        "turn_index": 2,
+        "text": ", but how difficult it would be for her, I heard that her heart was still heavy with the news from the war and her son was still missing. As we walked further, the silence was only broken by the sound of my mother's footsteps,"
+      },
+      {
+        "turn_index": 4,
+        "text": "before we heard that she was very ill. She was in a state of deep depression and would not see anyone. My mother would also go to visit her but she was also in the same condition and we could not enter the Mrs Hayden's house for"
+      },
+      {
+        "turn_index": 6,
+        "text": "so sick for so long. I heard my mother say that I was a child when she was in New York and she had a friend who would tell her about her life and her family but the friend was never there and they would only talk about her"
+      }
+    ]
+  }
+]
